@@ -123,6 +123,18 @@ a:focus {
 a img {
     border: none;
 }
+.img_right  { 
+    float:right; 
+    text-align:center; 
+    padding:0; 
+    margin:2px 0 18px 40px; 
+}
+.img_left { 
+    float:left; 
+    text-align:center; 
+    padding:0; 
+    margin:2px 0 18px 40px; 
+}
 
 a.section:link, a.section:visited {
     color: var(--header-link-color);
