@@ -1,0 +1,35 @@
+.wrapper2{
+    display: inline-grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left:auto;
+}
+.img-sample{
+    background-color: rgba(255, 0, 0, 0);
+    height: 200px;
+    width: 200px;
+}
+.logo {
+    height:100px;
+}
+img {
+    width: auto; 
+    max-height: 100%; 
+}
+.brand-title {
+    font-weight: bold;
+    font-size: 30px;
+    color : rgb(0, 0, 0);
+}
+grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    width: 50vw;
+    height: 50vh;
+}
+grid > div{
+    border: 1px solid black
+}
+grid > div:first-child{
+    margin-right: 30px
+}
