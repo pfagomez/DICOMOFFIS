@@ -1,7 +1,7 @@
 .wrapper2{
-    display: inline-grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin-left:auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 0px;
 }
 .img-sample{
     background-color: rgba(255, 0, 0, 0);
@@ -17,19 +17,225 @@ img {
 }
 .brand-title {
     font-weight: bold;
-    font-size: 30px;
+    font-size: 1.6em;
     color : rgb(0, 0, 0);
 }
-grid{
+.container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 10px;
-    width: 50vw;
-    height: 50vh;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 150px;
+    gap: 1rem;
+    width: 100%;
+    max-width: 37.5rem;
+    padding: 0.5rem;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+
+.wrapper3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 0px;
 }
-grid > div{
-    border: 1px solid black
+
+.wrapper4 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 0px;
 }
-grid > div:first-child{
-    margin-right: 30px
+
+.styled-button1 {
+    border: solid;
+    border-color: white black black black;
+    border-width: 1px;
+}
+
+.styled-button2 {
+  border: solid;
+  border-color: black black white black;
+  border-width: 1px;
+}
+
+.styled-button3 {
+  border: solid;
+  border-color: white black white black;
+  border-width: 1px;
+}
+
+.styled-button4 {
+  border: solid;
+  border-color: white white gainsboro white;
+  border-width: 1px;
+}
+
+.u-white-0,
+.u-body.u-white-0,
+.u-container-style.u-white-0:before,
+.u-container-layout.u-white-0:before,
+.u-table-alt-white-0 tr:nth-child(even) {
+  color: #111111;
+  background-color: #ffffff;
+
+}
+.u-button-style.u-white-0,
+.u-button-style.u-white-0[class*="u-border-"] {
+  color: #111111 !important;
+  background-color: #ffffff !important;
+
+}
+.u-button-style.u-white-0:hover,
+.u-button-style.u-white-0[class*="u-border-"]:hover,
+.u-button-style.u-white-0:focus,
+.u-button-style.u-white-0[class*="u-border-"]:focus,
+.u-button-style.u-button-style.u-white-0:active,
+.u-button-style.u-button-style.u-white-0[class*="u-border-"]:active,
+.u-button-style.u-button-style.u-white-0.active,
+.u-button-style.u-button-style.u-white-0[class*="u-border-"].active,
+li.active > .u-button-style.u-button-style.u-white-0,
+li.active > .u-button-style.u-button-style.u-white-0[class*="u-border-"] {
+  color: #111111 !important;
+  background-color: #dadada !important;
+
+}
+.u-hover-white-0:hover,
+.u-hover-white-0[class*="u-border-"]:hover,
+.u-hover-white-0:focus,
+.u-hover-white-0[class*="u-border-"]:focus,
+.u-active-white-0.u-active.u-active,
+.u-active-white-0[class*="u-border-"].u-active.u-active,
+a.u-button-style.u-hover-white-0:hover,
+a.u-button-style.u-hover-white-0[class*="u-border-"]:hover,
+a.u-button-style:hover > .u-hover-white-0,
+a.u-button-style:hover > .u-hover-white-0[class*="u-border-"],
+a.u-button-style.u-hover-white-0:focus,
+a.u-button-style.u-hover-white-0[class*="u-border-"]:focus,
+a.u-button-style.u-button-style.u-active-white-0:active,
+a.u-button-style.u-button-style.u-active-white-0[class*="u-border-"]:active,
+a.u-button-style.u-button-style.u-active-white-0.active,
+a.u-button-style.u-button-style.u-active-white-0[class*="u-border-"].active,
+a.u-button-style.u-button-style.active > .u-active-white-0,
+a.u-button-style.u-button-style.active > .u-active-white-0[class*="u-border-"],
+li.active > a.u-button-style.u-button-style.u-active-white-0,
+li.active > a.u-button-style.u-button-style.u-active-white-0[class*="u-border-"] {
+  color: #111111 !important;
+  background-color: #ffffff !important;
+
+}
+a.u-link.u-hover-white-0:hover {
+  color: #ffffff !important;
+
+}
+
+/* Textfarbe */
+.u-button-style.textcolor{
+  color: white;
+}
+
+/*background color OFFIS */
+.u-blue-0,
+.u-body.u-blue-0,
+.u-container-style.u-blue-0:before,
+.u-container-layout.u-blue-0:before,
+.u-table-alt-blue-0 tr:nth-child(even) {
+  color: #111111;
+  background-color: rgb(27,161,218);
+}
+.u-button-style.u-blue-0,
+.u-button-style.u-blue-0[class*="u-border-"] {
+  color: #111111 !important;
+  background-color: rgb(27,161,218) !important;
+}
+.u-button-style.u-blue-0:hover,
+.u-button-style.u-blue-0[class*="u-border-"]:hover,
+.u-button-style.u-blue-0:focus,
+.u-button-style.u-blue-0[class*="u-border-"]:focus,
+.u-button-style.u-button-style.u-blue-0:active,
+.u-button-style.u-button-style.u-blue-0[class*="u-border-"]:active,
+.u-button-style.u-button-style.u-blue-0.active,
+.u-button-style.u-button-style.u-blue-0[class*="u-border-"].active,
+li.active > .u-button-style.u-button-style.blue-0,
+li.active > .u-button-style.u-button-style.blue-0[class*="u-border-"] {
+  color: #111111 !important;
+  background-color: #dadada !important;
+}
+.u-hover-blue-0:hover,
+.u-hover-blue-0[class*="u-border-"]:hover,
+.u-hover-blue-0:focus,
+.u-hover-blue-0[class*="u-border-"]:focus,
+.u-active-blue-0.u-active.u-active,
+.u-active-blue-0[class*="u-border-"].u-active.u-active,
+a.u-button-style.u-hover-blue-0:hover,
+a.u-button-style.u-hover-blue-0[class*="u-border-"]:hover,
+a.u-button-style:hover > .u-hover-blue-0,
+a.u-button-style:hover > .u-hover-blue-0[class*="u-border-"],
+a.u-button-style.u-hover-blue-0:focus,
+a.u-button-style.u-hover-blue-0[class*="u-border-"]:focus,
+a.u-button-style.u-button-style.u-active-blue-0:active,
+a.u-button-style.u-button-style.u-active-blue-0[class*="u-border-"]:active,
+a.u-button-style.u-button-style.u-active-blue-0.active,
+a.u-button-style.u-button-style.u-active-blue-0[class*="u-border-"].active,
+a.u-button-style.u-button-style.active > .u-active-blue-0,
+a.u-button-style.u-button-style.active > .u-active-blue-0[class*="u-border-"],
+li.active > a.u-button-style.u-button-style.u-active-blue-0,
+li.active > a.u-button-style.u-button-style.u-active-blue-0[class*="u-border-"] {
+  color: #111111 !important;
+  background-color: rgb(27,161,218) !important;
+}
+a.u-link.u-hover-blue:hover {
+  color: rgb(27,161,218) !important;
+}
+
+
+
+.u-blue-1,
+.u-body.u-blue-1,
+.u-container-style.u-blue-1:before,
+.u-container-layout.u-blue-1:before,
+.u-table-alt-blue-1 tr:nth-child(even) {
+  color: #111111;
+  background-color: rgb(31, 144, 192);
+}
+.u-button-style.u-blue-1,
+.u-button-style.u-blue-1[class*="u-border-"] {
+  color: #111111 !important;
+  background-color: rgb(31, 144, 192) !important;
+}
+.u-button-style.u-blue-1:hover,
+.u-button-style.u-blue-1[class*="u-border-"]:hover,
+.u-button-style.u-blue-1:focus,
+.u-button-style.u-blue-1[class*="u-border-"]:focus,
+.u-button-style.u-button-style.u-blue-1:active,
+.u-button-style.u-button-style.u-blue-1[class*="u-border-"]:active,
+.u-button-style.u-button-style.u-blue-1.active,
+.u-button-style.u-button-style.u-blue-1[class*="u-border-"].active,
+li.active > .u-button-style.u-button-style.blue-1,
+li.active > .u-button-style.u-button-style.blue-1[class*="u-border-"] {
+  color: #111111 !important;
+  background-color: #dadada !important;
+}
+.u-hover-blue-1:hover,
+.u-hover-blue-1[class*="u-border-"]:hover,
+.u-hover-blue-1:focus,
+.u-hover-blue-1[class*="u-border-"]:focus,
+.u-active-blue-1.u-active.u-active,
+.u-active-blue-1[class*="u-border-"].u-active.u-active,
+a.u-button-style.u-hover-blue-1:hover,
+a.u-button-style.u-hover-blue-1[class*="u-border-"]:hover,
+a.u-button-style:hover > .u-hover-blue-1,
+a.u-button-style:hover > .u-hover-blue-1[class*="u-border-"],
+a.u-button-style.u-hover-blue-1:focus,
+a.u-button-style.u-hover-blue-1[class*="u-border-"]:focus,
+a.u-button-style.u-button-style.u-active-blue-1:active,
+a.u-button-style.u-button-style.u-active-blue-1[class*="u-border-"]:active,
+a.u-button-style.u-button-style.u-active-blue-1.active,
+a.u-button-style.u-button-style.u-active-blue-1[class*="u-border-"].active,
+a.u-button-style.u-button-style.active > .u-active-blue-1,
+a.u-button-style.u-button-style.active > .u-active-blue-1[class*="u-border-"],
+li.active > a.u-button-style.u-button-style.u-active-blue-1,
+li.active > a.u-button-style.u-button-style.u-active-blue-1[class*="u-border-"] {
+  color: #111111 !important;
+  background-color: rgb(31, 144, 192) !important;
+}
+a.u-link.u-hover-blue-1:hover {
+  color: rgb(31, 144, 192) !important;
 }
