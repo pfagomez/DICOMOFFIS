@@ -1,0 +1,287 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html style="font-size: 16px;">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="DCMTK - OFFIS DICOM Toolkit">
+    <meta name="description" content="">
+    <meta name="page_type" content="np-template-header-footer-from-plugin">
+    <title>DCMTK</title>
+    <link rel="stylesheet" href="{% static 'Website/static/css/nicepage.css' %}" media="screen">
+      <link rel="stylesheet" href="{% static 'Website/static/css/DCMTK.css' %}" media="screen">
+      <link rel="stylesheet" href="{% static 'Website/static/css/style.css' %}"" media="screen">
+    <script class="u-script" type="text/javascript" src="{% static 'Website/static/js/vendor/jquery/jquery.js' %}" defer=""></script>
+    <script class="u-script" type="text/javascript" src="{% static 'Website/static/js/nicepage.js' %}" defer=""></script>
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
+    
+    <script type="application/ld+json">{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"name": "",
+		"logo": "images/DICOMLogo.jpg"
+    }</script>
+    <meta name="theme-color" content="#478ac9">
+    <meta property="og:title" content="Home">
+    <meta property="og:type" content="website">
+  </head>
+    <header class="u-clearfix u-header u-header" id="sec-0efc" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="">
+      <div class="wrapper3">
+        <div class="wrapper32" >
+          <img src="{% static 'images/OFFISLogoTextEnglisch.jpg' %}" height="100px" >
+          <img src="{% static 'images/DICOMLogo2.jpg' %}" height="100px">
+        </div>
+        <div class="wrapper3">
+        <div></div>
+          <span class="brand-title">DCMTK - OFFIS DICOM Toolkit</span>
+        </div>
+      </div>  
+        <!--  </a><h1 class="u-text u-text-default u-text-1">DCMTK - OFFIS DICOM Toolkit</h1></div>-->
+      <nav class=" u-menu u-menu-dropdown u-offcanvas u-menu-1" data-position=""> 
+      <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px;">
+        <a class="u-button-style u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#">
+          <svg viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use></svg>
+          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><symbol id="menu-hamburger" viewBox="0 0 16 16" style="width: 16px; height: 16px;"><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect>
+          </symbol>
+        </defs></svg>
+        </a>
+        </div>
+      <div class="u-align-center">        
+              <div class="u-custom-menu u-nav-container">
+                <ul class="u-nav u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="/Home" style="padding: 10px 44px;">Home</a>
+      </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="/"Allgemeines" style="padding: 10px 44px;">Allgemeines</a>
+      <div class="u-nav-popup"><ul class="u-h-spacing-45 u-nav u-unstyled u-v-spacing-12 u-nav-2"><li class="u-nav-item"><div class="styled-button2"><a class="u-button-style u-white-0 u-nav-link u-text-black">Standardisierung</a></div>
+      </li><li class="u-nav-item"><div class="styled-button1"><a class="u-button-style u-white-0 u-nav-link u-text-black">DICOM-Einführung</a></div>
+      </li></ul>
+      </div>
+      </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="/"DCMTK" style="padding: 10px 44px;">DCMTK</a><div class="u-nav-popup"><ul class="u-h-spacing-45 u-nav u-unstyled u-v-spacing-12 u-nav-3"><li class="u-nav-item"><div class="styled-button4"><a class="u-button-style u-white-0 u-nav-link u-text-black">DCMTK-Einführung</a></div>
+      </li><li class="u-nav-item"><div class="styled-button4"><a class="u-button-style u-white-0 u-nav-link u-text-black">DCMTK-Tools</a></div>
+      </li><li class="u-nav-item"><div class="styled-button4"><a class="u-button-style u-white-0 u-nav-link u-text-black">Softwareentwicklung mit DCMTK</a></div>
+      </li><li class="u-nav-item"><div class="styled-button4"><a class="u-button-style u-white-0 u-nav-link u-text-black">Support</a></div>
+      </li><li class="u-nav-item"><div class="styled-button4"><a class="u-button-style u-white-0 u-nav-link u-text-black">Spenden</a></div>
+      </li></ul>
+      </div>
+      </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" style="padding: 10px 44px;">DCMTK-Erweiterungsmodule</a><div class="u-nav-popup"><ul class="u-h-spacing-45 u-nav u-unstyled u-v-spacing-12 u-nav-4"><li class="u-nav-item"><a class="u-button-style u-white-0 u-nav-link u-text-black">DCMPRINT</a>
+      </li><li class="u-nav-item"><a class="u-button-style u-white-0 u-nav-link u-text-black">DCMJP2K</a>
+      </li><li class="u-nav-item"><a class="u-button-style u-white-0 u-nav-link u-text-black">DCMPPS</a>
+      </li><li class="u-nav-item"><a class="u-button-style u-white-0 u-nav-link u-text-black">DCMPPSCU</a>
+      </li><li class="u-nav-item"><a class="u-button-style u-white-0 u-nav-link u-text-black">PPSMGR</a>
+      </li><li class="u-nav-item"><a class="u-button-style u-white-0 u-nav-link u-text-black">DCMSTCOM</a>
+      </li><li class="u-nav-item"><a class="u-button-style u-white-0 u-nav-link u-text-black">Testversionen</a>
+      </li></ul>
+      </div>
+      </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" style="padding: 10px 44px;">DICOMscope</a>
+      </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" style="padding: 10px 44px;">Dienstleistungen</a><div class="u-nav-popup"><ul class="u-h-spacing-45 u-nav u-unstyled u-v-spacing-12 u-nav-5"><li class="u-nav-item"><a class="u-button-style u-white-0 u-nav-link u-text-black">DICOM-Beratung</a>
+      </li><li class="u-nav-item"><a class="u-button-style u-white-0 u-nav-link u-text-black">DICOM-Schulung</a>
+      </li><li class="u-nav-item"><a class="u-button-style u-white-0 u-nav-link u-text-black">IHE-Schulung</a>
+      </li><li class="u-nav-item"><a class="u-button-style u-white-0 u-nav-link u-text-black">HL7-Schulung</a>
+      </li></ul>
+      </div>
+      </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" style="padding: 10px 44px;">Kontakt</a><div class="u-nav-popup"><ul class="u-h-spacing-45 u-nav u-unstyled u-v-spacing-12 u-nav-6">
+      </li><li class="u-nav-item"><a class="u-button-style u-white-0 u-nav-link u-text-black">Ansprechpartner</a>
+      </li></ul>
+      </div>
+      </li></ul>
+              </div>
+              <div class="u-custom-menu u-nav-container-collapse">
+                <div class="u-blue-0 u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
+                  <div class="u-inner-container-layout u-sidenav-overflow">
+                    <div class="u-menu-close"></div>
+                    <ul class="u-align-left u-nav u-popupmenu-itemsc u-nav-7"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-white" href="/Home" <p style="text-indent: 30px;">Home</a></p>
+      </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-white" href="/Allgemeines" <p style="text-indent: 30px;">Allgemeines</a></p><div class="u-nav-popup"><ul class="u-h-spacing-45 u-nav  u-v-spacing-12 u-nav-8">
+        <li class="u-nav-item"><a class="u-button-style u-nav-link u-text-white">Standardisierung</a>
+      </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-white">DICOM-Einführung</a></p>
+      </li></ul>
+      </div>
+      </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-white" href="/DCMTK" <p style="text-indent: 30px;">DCMTK</a></p><div class="u-nav-popup"><ul class="u-h-spacing-45 u-nav u-v-spacing-12 u-nav-9">
+        <li class="u-nav-item"><a class="u-button-style u-nav-link u-text-white">DCMTK-Einführung</a>
+      </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-white">DCMTK-Tools</a>
+      </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-white">Softwareentwicklung mit DCMTK</a>
+      </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-white">Support</a>
+      </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-white">Spenden</a>
+      </li></ul>
+      </div>
+      </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-white" <p style="text-indent: 30px;">DCMTK-Erweiterungsmodule</a></p><div class="u-nav-popup"><ul class="u-h-spacing-45 u-nav u-v-spacing-12 u-nav-10">
+        <li class="u-nav-item"><a class="u-button-style u-nav-link u-text-white">DCMPRINT</a>
+      </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-white">DCMJP2K</a>
+      </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-white">DCMPPS</a>
+      </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-white">DCMPPSCU</a>
+      </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-white">PPSMGR</a>
+      </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-white">DCMSTCOM</a>
+      </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-white">Testversionen</a>
+      </li></ul>
+      </div>
+      </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-white" <p style="text-indent: 30px;">DICOMscope</a></p>
+      </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-white" <p style="text-indent: 30px;">Dienstleistungen</a></p><div class="u-nav-popup"><ul class="u-h-spacing-45 u-nav u-v-spacing-12 u-nav-11">
+        <li class="u-nav-item"><a class="u-button-style u-nav-link u-text-white">DICOM-Beratung</a>
+      </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-white">DICOM-Schulung</a>
+      </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-white">IHE-Schulung</a>
+      </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-white">HL7-Schulung</a>
+      </li></ul>
+      </div>
+      </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-white" <p style="text-indent: 30px;">Kontakt</a></p><div class="u-nav-popup"><ul class="u-h-spacing-45 u-nav u-v-spacing-12 u-nav-12"><li class="u-nav-item"> 
+      </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-white">Ansprechpartner</a>
+      </li></ul>
+      </div>
+      </li></ul>
+              </div>
+            </div>
+            <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
+          </div>
+      </nav>
+      <section class="u-clearfix u-blue-0 u-section-1" id="sec-b8cd">
+        <div class="u-clearfix u-sheet u-sheet-1"></div>
+      </section>
+    </header> 
+<body data-DCMTK-page="DCMTK.html" data-home-page-title="DCMTK" class="u-body">
+  <!-- Begin of Old static html -->
+    <!-- <table width="945" border="0" cellspacing="25" cellpadding="5">
+      <colgroup>
+        <col width="200">
+        <col width="650">
+      </colgroup> -->
+      <!-- <tr>
+        <td class="logo">
+          <?php include("logo.html.de")?>
+        </td> -->
+        <!-- <td class="title"> -->
+          <h1>dicom.offis.de - Home</h1>
+          <div class="language">Version in <a href="index.php.en"><img src="{% static 'images/en.gif' %}" alt="English" width="16" height="10" border="0"></a>&nbsp;&nbsp;&nbsp;</div>
+        <!-- </td> -->
+      <!-- </tr> -->
+      <!-- <tr>
+        <td class="navigation">
+          <?php include("navbar.html.de")?>
+        </td> -->
+        <!-- <td class="text"> -->
+          <h2>Willkommen auf den Webseiten von dicom.offis.de</h2>
+          <p>Auf diesen Webseiten stehen Ihnen sämtliche Informationen zu DICOM-Aktivitäten im Informatikinstitut OFFIS zur Verfügung. Wir haben uns bemüht, die Seiten möglichst übersichtlich zu gestalten. Anmerkungen zu diesen Seiten bitte per E-Mail an&nbsp;<img src="{% static 'images/email.gif' %}" alt="email" border="0" width="89" height="13" align="middle">&nbsp;senden.</p>
+          <table border="0" cellspacing="10" cellpadding="0">
+            <colgroup>
+              <col width="120">
+              <col width="530">
+            </colgroup>
+            <tr><td valign="top"><a class="textlink" href="general.php.de">Allgemeines</a></td><td valign="top">Informationen zu Standardisierung in der Medizin und Grundlagen des DICOM-Standards</td></tr>
+            <tr><td valign="top"><a class="textlink" href="demos.php.de">DICOM-Demos</a></td><td valign="top">Informationen zu DICOM-Demonstrationen auf Konferenzen und Tagungen</td></tr>
+            <tr><td valign="top"><a class="textlink" href="software.php.de">DICOM-Software</a></td><td valign="top">Informationen zu DICOM-Software made by OFFIS</td></tr>
+            <tr><td valign="top"><a class="textlink" href="service.php.de">Dienstleistungen</a></td><td valign="top">Informationen zu DICOM-spezifischen Dienstleistungen durch OFFIS</td></tr>
+            <tr><td valign="top"><a class="textlink" href="links.php.de">Links</a></td><td valign="top">Informationen zum Thema DICOM im World Wide Web</td></tr>
+            <tr><td valign="top"><a class="textlink" href="contact.php.de">Kontakt</a></td><td valign="top">Ansprechpartner im OFFIS zum Thema DICOM</td></tr>
+            <tr><td valign="top"><a class="textlink" href="donation.php.de">Spenden</a></td><td valign="top">Spenden per PayPal an das OFFIS DICOM-Team</td></tr>
+          </table>
+          <div class="newsbox">
+    
+            <h2 class="lowerh2"><a name="news">Aktuelles</a></h2>
+            <p style="margin-top:25px;">Neue Version 3.6.6 des DICOM-Toolkits <a class="textlink" href="dcmtk.php.de">DCMTK</a> verfügbar.  Siehe <a class="textlink" href="http://dicom.offis.de/download/dcmtk/dcmtk366/ANNOUNCE">Ankündigung</a> für weitere Details.</p>
+         <!-- Termine DICOM Schulungen -->
+            <p style="margin-top:25px;">Nächste <a class="textlink" href="training.php.de">DICOM-Schulungen</a>:</p>
+               <!-- <ul><li>DICOM-Intensivkurs 14.-15. Februar 2022, <b>online</b></li></ul>
+                <ul><li>DICOM-Tools and -Troubleshooting 16.-17. Februar 2022, <b>online</b></li></ul>
+                <ul><li>DICOM-Intensivkurs 09.-10. Mai 2022, je nach Pandemielage online oder in Präsenz</li></ul>
+                <ul><li>DICOM-Intensivkurs 19.-20. September 2022, je nach Pandemielage online oder in Präsenz</li></ul>
+                <ul><li>DICOM-Advanced 21.-22. September 2022, je nach Pandemielage online oder in Präsenz</li></ul>
+          <ul><li>DICOM-Intensivkurs 14.-15. November 2022, je nach Pandemielage online oder in Präsenz</li></ul>-->
+    
+        <table border="0" cellpadding="0" cellspacing="10">
+              <tbody>
+                <tr>
+                  <td width="150">14.-15. Februar 2022</td>
+                  <td>
+                  <img src="{% static 'images/de.gif' %}" alt="Deutsch" border="0" height="10" width="16" />
+                  DICOM-Intensivkurs, <b>online</b></td>
+                </tr>
+                <tr>
+                  <td width="150">16.-17. Februar 2022</td>
+                  <td>
+                  <img src="{% static 'images/de.gif' %}" alt="Deutsch" border="0" height="10" width="16" />
+                  DICOM-Tools und -Troubleshooting</a>, <b>online</b></td>
+                </tr>
+                <tr>
+                  <td width="150">09.-10. Mai 2022</td>
+                  <td>
+                  <img src="{% static 'images/de.gif' %}" alt="Deutsch" border="0" height="10" width="16" />
+                  DICOM-Intensivkurs, je nach Pandemielage online oder in Präsenz</td>
+                </tr>
+                <tr>
+                  <td width="150">19.-20. September 2022</td>
+                  <td>
+                  <img src="{% static 'images/de.gif' %}" alt="Deutsch" border="0" height="10" width="16" />
+                  DICOM-Intensivkurs, je nach Pandemielage online oder in Präsenz</td>
+                </tr>
+                <tr>
+                  <td width="150">21.-22. September 2022</td>
+                  <td>
+                  <img src="{% static 'images/de.gif' %}" alt="Deutsch" border="0" height="10" width="16" />
+                  DICOM-Advanced, je nach Pandemielage online oder in Präsenz</td>
+                </tr>
+                <tr>
+                  <td width="150">14.-15. November 2022</td>
+                  <td>
+                  <img src="{% static 'images/de.gif' %}" alt="Deutsch" border="0" height="10" width="16" />
+                  DICOM-Intensivkurs, je nach Pandemielage online oder in Präsenz</td>
+                </tr>
+              </tbody>
+            </table>
+    
+            <p style="margin-top:25px;">Nächste <a class="textlink" href="hl7train.php.de">HL7-Schulung</a>:</p>
+                <!--<ul><li>HL7v2-Intensivkurs und -Troubleshooting 23.-24. Mai 2022, je nach Pandemielage online oder in Präsenz</li></ul>
+          <ul><li>HL7v2-Intensivkurs und -Troubleshooting 16.-17. November 2022, je nach Pandemielage online oder in Präsenz</li></ul>-->
+              <table border="0" cellpadding="0" cellspacing="10">
+              <tbody>
+                <tr>
+                  <td width="150">23.-24. Mai 2022</td>
+                  <td>
+                  <img src="{% static 'images/de.gif' %}" alt="Deutsch" border="0" height="10" width="16" />
+                  HL7v2-Intensivkurs und -Troubleshooting, je nach Pandemielage online oder in Präsenz </td>
+                </tr>
+                <tr>
+                  <td width="150">16.-17. November 2022</td>
+                  <td>
+                  <img src="{% static 'images/de.gif' %}" alt="Deutsch" border="0" height="10" width="16" />
+                  HL7v2-Intensivkurs und -Troubleshooting, je nach Pandemielage online oder in Präsenz </td>
+                </tr>
+              </tbody>
+            </table>
+    
+            <p style="margin-top:25px;">Nächste <a class="textlink" href="ihetrain.php.de">IHE-Schulung</a>:</p>
+            <table border="0" cellpadding="0" cellspacing="10">
+              <tbody>
+                <tr>
+                  <td width="150">11.-12. Mai 2022</td>
+                  <td>
+                  <img src="{% static 'images/de.gif' %}" alt="Deutsch" border="0" height="10" width="16" />
+                  Patientenakten mit IHE, je nach Pandemielage online oder in Präsenz</td>
+                </tr>
+              </tbody>
+            </table>
+    
+    
+            <p style="margin-top:25px;">Bei allen Schulungskursen: Frühbucherrabatt bei Anmeldung bis 4 Wochen vor dem Schulungstermin!</p>
+            <!--
+            <p style="margin-top:25px;">Nächste <a class="textlink" href="ihetrain.php.de">IHE-Schulung</a>:</p>
+            <ul><li>IHE XDS-Schulung am 26. und 27. Mai 2010 in Thun (Schweiz)</li></ul>
+            <p>Die Schulung wird in Kooperation mit der <a href="http://www.medshare.ch/"><b></b>medshare GmbH</a> (Schweiz) durchgeführt.</p>
+            <p style="margin-top:25px;"><img src="{% static 'images/new.gif' %}" alt="new" border="0" width="28" height="11">&nbsp;&nbsp;Aktueller <a class="textlink" href="dcmtk.php.de#snapshot">Snapshot</a> des DCMTK im Quelltext verfügbar</p>
+            -->
+          </div>
+          <div class="dicomlogo">
+            <img src="{% static 'images/dicomlogo.gif' %}" alt="DICOM logo" border="0" width="330" height="88">
+          </div>
+        <!-- </td> -->
+      <!-- </tr> -->
+      <!-- <tr> -->
+        <!-- <td> -->
+        <!-- </td> -->
+        <!-- <td class="foot"> -->
+          <!-- <?php include("footer.html.de")?> -->
+        <!-- </td> -->
+      <!-- </tr> -->
+    <!-- </table> -->
+    <!-- End of Old static html -->
+</body>
+  <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-6419"><div class="u-clearfix u-sheet u-sheet-1">
+        <p class="u-small-text u-text u-text-variant u-text-1">Beispiel normaler Text. Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices.</p>
+      </div>
+  </footer>
+</html>
