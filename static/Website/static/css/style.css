@@ -1,7 +1,7 @@
 .wrapper2{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 4px;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 2px;
 }
 .img-sample{
     background-color: rgba(255, 0, 0, 0);
@@ -238,4 +238,16 @@ li.active > a.u-button-style.u-button-style.u-active-blue-1[class*="u-border-"] 
 }
 a.u-link.u-hover-blue-1:hover {
   color: rgb(31, 144, 192) !important;
+}
+
+
+.u-nav-container-collapse2 {
+  display: none;
+  z-index: 1001;
+  left: 1px !important;
+  top: 0 !important;
+  bottom: 0 !important;
+  position: fixed !important;
+  overflow: hidden;
+  width: 0;
 }
