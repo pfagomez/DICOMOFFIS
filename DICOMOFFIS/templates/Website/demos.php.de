@@ -1,0 +1,52 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<meta name="description" content="Informationen zu durchgef&uuml;hrten DICOM Demos.">
+<meta name="author" content="Thomas Wilkens">
+<meta name="keywords" content="Demonstration, DICOM">
+<meta name="date" content="2003-03-03">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>dicom.offis.de - DICOM-Demonstrationen</title>
+</head>
+
+<body>
+<table width="945" border="0" cellspacing="25" cellpadding="5">
+  <colgroup>
+    <col width="200">
+    <col width="650">
+  </colgroup>
+  <tr>
+    <td class="logo">
+      <?php include("logo.html.de")?>
+    </td>
+    <td class="title">
+      <h1>DICOM-Demonstrationen</h1>
+      <div class="language">Version in <a href="demos.php.en"><img src="images/en.gif" alt="English" width="16" height="10" border="0"></a>&nbsp;&nbsp;&nbsp;</div>
+    </td>
+  </tr>
+  <tr>
+    <td class="navigation">
+      <?php include("navbar.html.de")?>
+    </td>
+    <td class="text">
+      <h2>Demonstration der Funktionalit&auml;t von DICOM</h2>
+      <p>In den letzten Jahren hat sich OFFIS in Zusammenarbeit mit anderen Organisationen an einer Reihe von DICOM-Demonstrationen auf fachspezifischen Konferenzen und Tagungen beteiligt. In der Vorbereitung auf diese Demonstrationen lieferte OFFIS neben organisatorischer Unterst&uuml;tzung vor allem auch weltweit prototypische Implementierungen von DICOM-Diensten und anderen Funktionalit&auml;ten im DICOM-Umfeld. Die Produktion und Evaluation von DICOM-konformen Bild-CDs war ein weiterer Aspekt, der bei den durchgef&uuml;hrten Demonstrationen in der Verantwortung von OFFIS lag.</p>
+      <p><a class="textlink" href="networks.php.de">Demonstration von DICOM-Netzwerken</a></p>
+      <p><a class="textlink" href="mediaxch.php.de">Austausch von DICOM-Bildern auf Datentr&auml;gern</a></p>
+      <p><a class="textlink" href="dispcons.php.de">Konsistenz der Bilddarstellung</a></p>
+      <p><a class="textlink" href="imgconf.php.de">Konformit&auml;t von DICOM-Bildern</a></p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+    </td>
+    <td class="foot">
+      <?php include("footer.html.de")?>
+    </td>
+  </tr>
+</table>
+</body>
+
+</html>

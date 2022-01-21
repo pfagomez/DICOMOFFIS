@@ -1,0 +1,59 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<meta name="description" content="Informationen concerning DICOM related services provided by OFFIS.">
+<meta name="author" content="Thomas Wilkens">
+<meta name="keywords" content="DICOM, OFFIS, service">
+<meta name="date" content="2010-01-08">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>dicom.offis.de - Service</title>
+</head>
+
+<body>
+<table width="945" border="0" cellspacing="25" cellpadding="5">
+  <colgroup>
+    <col width="200">
+    <col width="650">
+  </colgroup>
+  <tr>
+    <td class="logo">
+      <?php include("logo.html.en")?>
+    </td>
+    <td class="title">
+      <h1>Service</h1>
+      <div class="language">Version in <a href="service.php.de"><img src="images/de.gif" alt="Deutsch" width="16" height="10" border="0"></a>&nbsp;&nbsp;&nbsp;</div>
+    </td>
+  </tr>
+  <tr>
+    <td class="navigation">
+      <?php include("navbar.html.en")?>
+    </td>
+    <td class="text">
+      <h2>DICOM related services provided by OFFIS</h2>
+      <p>Understanding and employing standards within the health informatics domain is often very sophisticated and challenging. In order to gain insights into such standards, to make their contents more comprehensible and to facilitate their employment, OFFIS provides services which can be made use of by anyone.</p>
+      <table border="0" cellspacing="10" cellpadding="0">
+        <colgroup>
+          <col width="150">
+          <col width="500">
+        </colgroup>
+        <tr><td valign="top"><a class="textlink" href="consult.php.en">DICOM Consulting</a></td><td valign="top">Consulting concerning the DICOM standard and the OFFIS DICOM software</td></tr>
+        <tr><td valign="top"><a class="textlink" href="training.php.en">DICOM Training</a></td><td valign="top">Training in the domain of the DICOM standard and the OFFIS DICOM software</td></tr>
+        <tr><td valign="top"><a class="textlink" href="ihetrain.php.en">IHE Training</a></td><td valign="top">Training in the domain of the IHE initiative</td></tr>        
+        <tr><td valign="top"><a class="textlink" href="hl7train.php.de">HL7 Training</a></td><td valign="top">Training in the domain of the HL7 standard (German only)</td></tr>                
+      </table>
+      <p>These services are offered in cooperation with <a href="http://www.icsmed.de/en/"><b>ICS</b>MED AG</a>,  <a href="http://www.jriesmeier.com/">J. Riesmeier</a> and  <a href="http://www.open-connections.de/">Open Connections GmbH </a> .</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+    </td>
+    <td class="foot">
+      <?php include("footer.html.en")?>
+    </td>
+  </tr>
+</table>
+</body>
+
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<meta name="description" content="About the evaluation licence.">
+<meta name="author" content="Thomas Wilkens">
+<meta name="keywords" content="DICOM, Software, evaluation licence, OFFIS">
+<meta name="date" content="2011-11-29">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>dicom.offis.de - DICOM Software made by OFFIS - Evaluation Licence</title>
+</head>
+
+<body>
+<table width="945" border="0" cellspacing="25" cellpadding="5">
+  <colgroup>
+    <col width="200">
+    <col width="650">
+  </colgroup>
+  <tr>
+    <td class="logo">
+      <?php include("logo.html.en")?>
+    </td>
+    <td class="title">
+      <h1>Evaluation Licence</h1>
+      <div class="language">Version in <a href="evaluation.php.de"><img src="images/de.gif" alt="Deutsch" width="16" height="10" border="0"></a>&nbsp;&nbsp;&nbsp;</div>
+    </td>
+  </tr>
+  <tr>
+    <td class="navigation">
+      <?php include("navbar.html.en")?>
+    </td>
+    <td class="text">
+      <h2>Evaluation of software packages</h2>
+      <p>A free evaluation licence is available for the OFFIS DICOM software packages DCMPPS, DCMPPSCU, PPSMGR, DCMPRINT SCU, DCMPRINT SCP, DCM2AVI, DCMJP2K and DCMSTCOM. The evaluation licence allows to download the software from the internet and to evaluate it for a period of four months. Any further use of the software requires a full licence agreement.</p>
+      <p>If you are interested in evaluating one or more of these software packages, please follow the step-by-step instructions below.</p>
+      <h2 class="lowerh2">Step 1: download the licence agreement</h2>
+      <p>The document is available in German and English.</p>
+      <table border="0" cellspacing="10" cellpadding="0">
+        <colgroup>
+          <col width="50">
+          <col width="250">
+          <col width="350">
+        </colgroup>
+        <tr><td><img src="images/acrobat.gif" alt="pdf file" border="0" width="29" height="32"></td><td><a class="textlink" href="lic_ger.pdf">lic_ger.pdf</a><br>144K</td><td>Evaluation Licence Agreement (German)</td></tr>
+        <tr><td><img src="images/acrobat.gif" alt="pdf file" border="0" width="29" height="32"></td><td><a class="textlink" href="lic_eng.pdf">lic_eng.pdf</a><br>128K</td><td>Evaluation Licence Agreement (English)</td></tr>
+      </table>
+      <h2 class="lowerh2">Step 2: read, fill in, and print the agreement</h2>
+      <p>For this purpose, you will need the <a class="textlink" href="http://www.adobe.com/prodindex/acrobat/readstep.html">Adobe Acrobat Reader</a>, which is freely available for most systems. A link to the Adobe webserver can be found at the end of this page.</p>
+      <ul type="disc">
+        <li>On page 1 please fill in the complete name and address of your company/organization. Furthermore, fill in the name and the position of the signatory.</li>
+        <li>On page 4 please fill in the place and date of the signature.</li>
+        <li>On page 5 please select the software packages and options.</li>
+        <li>On page 6 please fill in your e-mail address and double-check this information because we will only reply to this e-mail address. Finally, repeat place and date of the signature.</li>
+      </ul>
+      <p>Save an electronic version of the filled out form as a PDF (on the print menu, instead of selecting your default printer, select SAVE/PRINT AS PDF) and send it to us. In most cases the entered data in the original form will be deleted after you close the document. </p>
+      <p>Please send us this filled out document <b>ADDITIONALLY</b> to the scan of the signed last page (A proof of a handwritten signature on the original document is a legal requirement in Germany and therefore we need a scan of the last page with a handwritten signature before we can deliver the software).</p>
+      <h2 class="lowerh2">Step 3: sign the agreement</h2>
+      <p>Please make sure that the contract is signed on page 4 (contract) and page 6 (appendix) by the signatory.</p>
+      <h2 class="lowerh2">Step 4: send the agreement to us</h2>
+      <p>Send us the filled out PDF form and the scan of the signed last page per email to<img src="images/email.gif" alt="email" border="0" width="89" height="13" align="top" />.</p>
+      <p> Write "[Eval-Lizenz]" at the begining of the subject.</p>
+      <h2 class="lowerh2">How you are going to receive the software</h2>
+      <p>The software will be made available to you via FTP. You are going to receive an e-mail containing host, login and password of your individual FTP account. This will usually take a few days after we have received the signed contract.</p>
+      <p>OFFIS reserves the right to refuse submitted licence contracts if there is a reason to believe that the information about the contract partner is incomplete or incorrect or that the licence material would not be used in accordance with the conditions laid out in the licence agreement.</p>
+      <h2 class="lowerh2">Adobe Acrobat Reader</h2>
+      <p>The latest version of the Acrobat Reader can be downloaded from the Adobe webserver.</p>
+      <p><a href="http://www.adobe.com/prodindex/acrobat/readstep.html"><img src="images/getacrobat.gif" alt="Acrobat Reader" border="0" height="31" width="88"></a></p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+    </td>
+    <td class="foot">
+      <?php include("footer.html.en")?>
+    </td>
+  </tr>
+</table>
+</body>
+
+</html>

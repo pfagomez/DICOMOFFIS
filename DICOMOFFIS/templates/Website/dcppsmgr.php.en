@@ -1,0 +1,63 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<meta name="description" content="Information about PPSMGR">
+<meta name="author" content="Michael Onken">
+<meta name="keywords" content="DICOM, IHE, Software, DCMTK, MPPS, PPS Manager, OFFIS">
+<meta name="date" content="2011-03-11">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>dicom.offis.de - DICOM Software made by OFFIS - IHE compliant Performed Procedure Step (PPS) Manager</title>
+</head>
+
+<body>
+<table width="945" border="0" cellspacing="25" cellpadding="5">
+  <colgroup>
+    <col width="200">
+    <col width="650">
+  </colgroup>
+  <tr>
+    <td class="logo">
+      <?php include("logo.html.de")?>
+    </td>
+    <td class="title">
+      <h1>PPSMGR- IHE compliant Performed Procedure Step (PPS) Manager</h1>
+      <div class="language">Version in <a href="dcppsmgr.php.de"><img src="images/de.gif" alt="German" width="16" height="10" border="0"></a>&nbsp;&nbsp;&nbsp;</div>
+    </td>
+  </tr>
+  <tr>
+    <td class="navigation">
+      <?php include("navbar.html.en")?>
+    </td>
+    <td class="text">
+      <h2>Description</h2>
+      <p>PPSMGR implements an IHE Performed Procedure Step (PPS) Manager, i. e. an DICOM Modality Performed Procedure Step (MPPS) SCU and an MPPS SCP. The received MPPS messages are first stored in a specific file system directory and then forwarded to one or more configurable receivers (MPPS SCP). If an error occurs during forwarding, e. g. in case the receiver cannot be reached, the messages are resend after a particular waiting period. This process is repeated until all MPPS message could be delivered successfully.</p>
+      <h2 class="lowerh2">Features in detail</h2>
+      <p>PPSMGR provides the following features: </p>
+      <ul type="disc">
+        <li>List of receivers of the MPPS messages configurable in a separate text file</li>
+        <li>Queue management for pending MPPS messages</li>
+        <li>If desired, forwarding of MPPS messages can be disabled</li>
+        <li>Selective shutdown of the server processes by a separate command line application</li>
+        <li>Single and multi process mode (multiple simultanous connections)</li>
+        <li>Options for tweaking DICOM network communication parameters</li>
+      </ul>
+      Further details can be found in the <a href="http://support.dcmtk.org/docs-products/ppsmgr.html">documentation</a> of the program PPSMGR.
+      <p>PPSMGR is based on the OFFIS DICOM Toolkit <a class="textlink" href="dcmtk.php.en">DCMTK</a> and is available
+         in different versions: There is a binary version as well as a source code variant. PPSMGR supports several Unix dialects (e. g. Linux, Solaris and Mac OS X) as well as Windows.
+      </p>
+      <p>This module is not freely available and must be licensed separately.</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+    </td>
+    <td class="foot">
+      <?php include("footer.html.de")?>
+    </td>
+  </tr>
+</table>
+</body>
+
+</html>

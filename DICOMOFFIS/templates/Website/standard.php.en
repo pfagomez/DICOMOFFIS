@@ -1,0 +1,55 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<meta name="description" content="Information concerning medical image communication standardization.">
+<meta name="author" content="Thomas Wilkens">
+<meta name="keywords" content="standardization, communication, imaging, medicine">
+<meta name="date" content="2003-03-03">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>dicom.offis.de - General Information - Medical Image Communication Standardization</title>
+</head>
+
+<body>
+<table width="945" border="0" cellspacing="25" cellpadding="5">
+  <colgroup>
+    <col width="200">
+    <col width="650">
+  </colgroup>
+  <tr>
+    <td class="logo">
+      <?php include("logo.html.en")?>
+    </td>
+    <td class="title">
+      <h1>Medical Image Communication Standardization</h1>
+      <div class="language">Version in <a href="standard.php.de"><img src="images/de.gif" alt="Deutsch" width="16" height="10" border="0"></a>&nbsp;&nbsp;&nbsp;</div>
+    </td>
+  </tr>
+  <tr>
+    <td class="navigation">
+      <?php include("navbar.html.en")?>
+    </td>
+    <td class="text">
+      <h2>Developing standards for health informatics</h2>
+      <p>Information and communication technologies will increasingly become ubiquitous in the inpatient, outpatient and administrative areas of healthcare. The speed of technological advances stands in contrast to the requirement for a reliable long-term availability of medical data. Securing investments for an appropriate number of years is also an essential requirement given the increasing costs of the healthcare sector.</p>
+      <p>These requirements can only be met with standards. Since the healthcare sector is distributed and structured, the standardization of interfaces from the conceptional level down to technical levels is of prime importance, also for the development of new services, e.&nbsp;g. tele-medicine.</p>
+      <p>The following international committees are engaged in the development of standards for health informatics:</p>
+      <ol>
+        <li>DICOM Committee<br>The DICOM Committee is the publisher of the DICOM standard ("Digital Imaging and Communications in Medicine") which has become the most important standard for medical image management since its first publication in 1993.</li>
+        <li>Comit&eacute; Europ&eacute;en de Normalisation<br>The Technical Committee CEN/TC251 "Health Informatics" at the European Committee for Standardisation develops information models for medical information systems, standards for knowledge representation and terminology, for security and safety as well as for image and signal processing in medicine.</li>
+        <li>International Organisation for Standardization<br>The ISO Committee ISO/TC215 "Health Informatics" has been founded in 1998 with a scope similar to that of CEN/TC251, but not limited to Europe. In this committee, models for medical information systems as well as standards for knowledge representation, terminology, security and safety in medicine will be developed, partly based on CEN standards.</li>
+      </ol>
+    </td>
+  </tr>
+  <tr>
+    <td>
+    </td>
+    <td class="foot">
+      <?php include("footer.html.en")?>
+    </td>
+  </tr>
+</table>
+</body>
+
+</html>

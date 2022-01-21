@@ -1,0 +1,56 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<meta name="description" content="Informationen zu DICOM im WWW.">
+<meta name="author" content="Thomas Wilkens">
+<meta name="keywords" content="DICOM, OFFIS">
+<meta name="date" content="2003-03-03">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>dicom.offis.de - Links zum Thema DICOM</title>
+</head>
+
+<body>
+<table width="945" border="0" cellspacing="25" cellpadding="5">
+  <colgroup>
+    <col width="200">
+    <col width="650">
+  </colgroup>
+  <tr>
+    <td class="logo">
+      <?php include("logo.html.de")?>
+    </td>
+    <td class="title">
+      <h1>Links zum Thema DICOM</h1>
+      <div class="language">Version in <a href="links.php.en"><img src="images/en.gif" alt="English" width="16" height="10" border="0"></a>&nbsp;&nbsp;&nbsp;</div>
+    </td>
+  </tr>
+  <tr>
+    <td class="navigation">
+      <?php include("navbar.html.de")?>
+    </td>
+    <td class="text">
+      <h2>DICOM im World Wide Web</h2>
+      <p>DICOM ist ein Standard im Bereich der medizinischen Informatik, der Mechanismen f&uuml;r den digitalen Informationsaustausch zwischen bilderzeugenden und bildverarbeitenden Ger&auml;ten definiert. Im World Wide Web finden sich zahlreiche Webseiten zum Thema DICOM.</p>
+      <table border="0" cellspacing="10" cellpadding="0">
+        <colgroup>
+          <col width="150">
+          <col width="500">
+        </colgroup>
+        <tr><td valign="top"><a class="textlink" href="dcmres.php.de">DICOM-Ressourcen</a></td><td valign="top">Dokumente des Standards und Software-Tools im DICOM-Umfeld</td></tr>
+        <tr><td valign="top"><a class="textlink" href="dcmweb.php.de">DICOM-Webseiten</a></td><td valign="top">Informationen bez&uuml;glich des DICOM-Standards selbst</td></tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td>
+    </td>
+    <td class="foot">
+      <?php include("footer.html.de")?>
+    </td>
+  </tr>
+</table>
+</body>
+
+</html>

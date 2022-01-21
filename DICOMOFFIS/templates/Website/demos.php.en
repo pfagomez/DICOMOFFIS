@@ -1,0 +1,52 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<meta name="description" content="Information concerning DICOM Demos.">
+<meta name="author" content="Thomas Wilkens">
+<meta name="keywords" content="demonstration, DICOM">
+<meta name="date" content="2003-03-03">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>dicom.offis.de - DICOM Demonstrations</title>
+</head>
+
+<body>
+<table width="945" border="0" cellspacing="25" cellpadding="5">
+  <colgroup>
+    <col width="200">
+    <col width="650">
+  </colgroup>
+  <tr>
+    <td class="logo">
+      <?php include("logo.html.en")?>
+    </td>
+    <td class="title">
+      <h1>DICOM Demonstrations</h1>
+      <div class="language">Version in <a href="demos.php.de"><img src="images/de.gif" alt="Deutsch" width="16" height="10" border="0"></a>&nbsp;&nbsp;&nbsp;</div>
+    </td>
+  </tr>
+  <tr>
+    <td class="navigation">
+      <?php include("navbar.html.en")?>
+    </td>
+    <td class="text">
+      <h2>Demonstrating DICOM's functionality</h2>
+      <p>In the past years, OFFIS - in contribution with other organizations - took part in many DICOM demonstrations on conferences and meetings. Within the preparatory phases of these demonstrations, OFFIS provided organizational support as well as many prototypical implementations of DICOM services and other DICOM related functionalities. The production and evaluation of DICOM compliant image CDs was another responsibility that was assigned to OFFIS at several demonstrations.</p>
+      <p><a class="textlink" href="networks.php.en">Demonstration of DICOM Networks</a></p>
+      <p><a class="textlink" href="mediaxch.php.en">DICOM Storage Media Exchange Demonstrations</a></p>
+      <p><a class="textlink" href="dispcons.php.en">Display Consistency Demonstrations</a></p>
+      <p><a class="textlink" href="imgconf.php.en">Conformance of DICOM Images</a></p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+    </td>
+    <td class="foot">
+      <?php include("footer.html.en")?>
+    </td>
+  </tr>
+</table>
+</body>
+
+</html>

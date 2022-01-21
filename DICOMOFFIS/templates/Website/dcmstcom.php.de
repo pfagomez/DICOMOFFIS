@@ -1,0 +1,68 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<meta name="description" content="Informationen zu DCMSTCOM">
+<meta name="author" content="Michael Onken">
+<meta name="keywords" content="DICOM, Software, DCMTK, Storage Commitment SCU, OFFIS">
+<meta name="date" content="2010-09-22">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>dicom.offis.de - DICOM-Software made by OFFIS - DCMSTCOM - DICOM Storage Commitment-Klassenbibliothek und SCU</title>
+</head>
+
+<body>
+<table width="945" border="0" cellspacing="25" cellpadding="5">
+  <colgroup>
+    <col width="200">
+    <col width="650">
+  </colgroup>
+  <tr>
+    <td class="logo">
+      <?php include("logo.html.de")?>
+    </td>
+    <td class="title">
+      <h1>DCMSTCOM - DICOM Storage Commitment-Klassenbibliothek und SCU</h1>
+      <div class="language">Version in <a href="dcmstcom.php.en"><img src="images/en.gif" alt="English" width="16" height="10" border="0"></a>&nbsp;&nbsp;&nbsp;</div>
+    </td>
+  </tr>
+  <tr>
+    <td class="navigation">
+      <?php include("navbar.html.de")?>
+    </td>
+    <td class="text">
+      <h2>Beschreibung</h2>
+      <p>DCMSTCOM implementiert einen DICOM Storage Commitment SCU basierend auf einer C++-Klassenbibliothek. Das in diesem Modul enthaltene 
+         Programm STCOMSCU unterstützt den Empfang der entsprechenden Antworten eines Storage Commitment SCP sowohl über die gleiche Verbindung, 
+         über die auch die Anfrage verschickt worden ist, als auch über eine separate Verbindung. Die DICOM-Datensätze, die mit den entsprechenden 
+         Nachrichten verschickt bzw. empfangen wurden, können für weitere Auswertungen als DICOM-Dateien gespeichert werden. 
+      </p>
+      <h2 class="lowerh2">Leistungsmerkmale im Detail</h2>
+      <p>DCMSTCOM / STCOMSCU bietet unter anderem die folgenden Leistungsmerkmale:</p>
+      <ul type="disc">
+        <li>Unterstützung für Storage Commitment Push Model SOP Class als Service Class User (SCU)</li>
+        <li>Empfang von Storage Commitment-Antwort (N-EVENT-REPORT) auf gleicher oder separater Verbindung</li>
+        <li>Erstellung des Storage Commitment Request auf der Basis von vorgegebenen DICOM-Dateien</li>
+        <li>Alternativ direkte Festlegung der SOP Class UID und SOP Instance UID (nur Klassenbibliothek)</li>
+        <li>Speicherung der DICOM-Datensätze der Anfrage und Antwort als DICOM-Datei (inklusive Status)</li>
+        <li>Bei Bedarf detaillierte Prüfung und Bericht jeder Transaktion in Form einer Textdatei</li>        
+        <li>Umfangreiche Einstellmöglichkeiten für die DICOM-Netzwerkkommunikation</li>        
+      </ul>
+      Weitere Details können der <a href="http://support.dcmtk.org/docs-products/stcomscu.html">Dokumentation</a> des Programms STCOMSCU (in englischer Sprache)
+      entnommen werden.
+      <p>DCMSTCOM unterstützt verschiedene Unix-Dialekte (u. a. Linux, Solaris und Mac OS X) sowie Windows. Neben dem ausführbaren Binärprogramm ist auch der vollständige Quelltext erhältlich.
+      </p>
+      <p>Dieses Modul ist nicht frei verfügbar und muß separat lizenziert werden.</p>            
+    </td>
+  </tr>
+  <tr>
+    <td>
+    </td>
+    <td class="foot">
+      <?php include("footer.html.de")?>
+    </td>
+  </tr>
+</table>
+</body>
+
+</html>

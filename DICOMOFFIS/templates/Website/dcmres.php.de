@@ -1,0 +1,66 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<meta name="description" content="Links zu weiteren DICOM Ressourcen.">
+<meta name="author" content="Thomas Wilkens">
+<meta name="keywords" content="DICOM, OFFIS">
+<meta name="date" content="2021-06-04">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>dicom.offis.de - Links zum Thema DICOM - DICOM-Ressourcen</title>
+</head>
+
+<body>
+<table width="945" border="0" cellspacing="25" cellpadding="5">
+  <colgroup>
+    <col width="200">
+    <col width="650">
+  </colgroup>
+  <tr>
+    <td class="logo">
+      <?php include("logo.html.de")?>
+    </td>
+    <td class="title">
+      <h1>DICOM-Ressourcen</h1>
+      <div class="language">Version in <a href="dcmres.php.en"><img src="images/en.gif" alt="English" width="16" height="10" border="0"></a>&nbsp;&nbsp;&nbsp;</div>
+    </td>
+  </tr>
+  <tr>
+    <td class="navigation">
+      <?php include("navbar.html.de")?>
+    </td>
+    <td class="text">
+      <h2>DICOM-Standard und Supplements</h2>
+      <p>Auf dem Webserver des DICOM-Komitees stehen der <a class="textlink" href="http://medical.nema.org/dicom/2008/">Final Text</a> der aktuellen Ausgabe des DICOM-Standards sowie neuere Supplements zum Download bereit.</p>
+      <p><a class="textlink" href="http://dicom.nema.org/">Der NEMA-Webserver</a></p>
+      <h2 class="lowerh2">DICOM Cookbook</h2>
+      <p>Das "DICOM-Kochbuch" von Philips Medical Systems ist eine verst&auml;ndliche technische Einf&uuml;hrung in den DICOM-Standard und als solche sehr empfehlenswert. Das Dokument liegt im PDF-Format vor, das mit dem frei verf&uuml;gbaren <a class="textlink" href="http://www.adobe.com/prodindex/acrobat/readstep.html">Adobe Acrobat Reader</a> gelesen werden kann.</p>
+      <p><a class="textlink" href="http://incenter.medical.philips.com/doclib/enc/8916819/DICOM_CookBook.pdf%3Ffunc%3Ddoc.Fetch%26nodeid%3D8916819">DICOM Cookbook</a></p>
+      <h2 class="lowerh2">DICOM-Software</h2>
+      <p>Neben dem OFFIS DICOM-Toolkit <a class="textlink" href="dcmtk.php.de">DCMTK</a> gibt es eine Reihe weiterer frei verf&uuml;gbarer DICOM-Softwarepakete. Soweit es m&ouml;glich ist, werden diese Pakete in gzip-komprimierter Form auf dem DICOM-FTP-Server bei OFFIS gespiegelt.</p>
+      <h3>Die Mallinckrodt CTN-Software</h3>
+      <p>Das Mallinckrodt Institute of Radiology, St. Louis,USA, hat im Auftrag der <a class="textlink" href="http://www.rsna.org">RSNA</a> eine DICOM-Implementierung entwickelt, die seit 1992 bei DICOM-Demonstrationen der RSNA verwendet wird.</p>
+      <p><a class="textlink" href="ftp://dicom.offis.uni-oldenburg.de/pub/dicom/mirrors/mir/software/ctn/">Gespiegelter Bereich bei OFFIS</a><br><a class="textlink" href="ftp://wuerlim.wustl.edu/pub/dicom/software/ctn/">Mallinckrodt-FTP-Server</a></p>
+      <h3 class="lowerh3">David Clunie's dicom3tools</h3>
+      <p>Dieses Toolkit konvertiert eine Vielzahl propriet&auml;rer Formate nach DICOM und beinhaltet auch Werkzeuge zur Verarbeitung von DICOM-Dateien.</p>
+      <p><a class="textlink" href="http://www.dclunie.com/dicom3tools.html">David Clunie's dicom3tools (HTTP)</a></p>
+      <h3 class="lowerh3">UCDAVIS DICOM-Implementierung</h3>
+      <p>Eine DICOM-Implementierung der University of California at Davis, USA. Diese Software kann unter Windows und MacOS kompiliert werden.</p>
+      <p><a class="textlink" href="ftp://dicom.offis.uni-oldenburg.de/pub/dicom/mirrors/ucdavis/">Gespiegelter Bereich bei OFFIS</a><br><i>UCDAVIS FTP-Server (offline)</i></p>
+      <h3 class="lowerh3">DICOM-Implementierung der Brown University</h3>
+      <p>Eine Implementierung f&uuml;r den DICOM-Datentr&auml;geraustausch verlustfrei komprimierter Bilder. Diese Software wurde von der Brown University, USA, f&uuml;r die DISC '95-Demonstration des <a class="textlink" href="http://www.acc.org">American College of Cardiology</a> entwickelt.</p>
+      <p><a class="textlink" href="ftp://dicom.offis.uni-oldenburg.de/pub/dicom/mirrors/psu/dicom_software/Brown/">Gespiegelter Bereich bei OFFIS</a><br><i>FTP-Server der Penn State University (offline)</i></p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+    </td>
+    <td class="foot">
+      <?php include("footer.html.de")?>
+    </td>
+  </tr>
+</table>
+</body>
+
+</html>

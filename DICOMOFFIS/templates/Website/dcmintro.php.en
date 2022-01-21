@@ -1,0 +1,96 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<meta name="description" content="Introduction to the DICOM standard.">
+<meta name="author" content="Thomas Wilkens">
+<meta name="keywords" content="DICOM, introduction, standard">
+<meta name="date" content="2003-02-27">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>dicom.offis.de - General Information - Introduction to the DICOM Standard</title>
+</head>
+
+<body>
+<table width="945" border="0" cellspacing="25" cellpadding="5">
+  <colgroup>
+    <col width="200">
+    <col width="650">
+  </colgroup>
+  <tr>
+    <td class="logo">
+      <?php include("logo.html.en")?>
+    </td>
+    <td class="title">
+      <h1>Introduction to the DICOM Standard</h1>
+      <div class="language">Version in <a href="dcmintro.php.de"><img src="images/de.gif" alt="Deutsch" width="16" height="10" border="0"></a>&nbsp;&nbsp;&nbsp;</div>
+    </td>
+  </tr>
+  <tr>
+    <td class="navigation">
+      <?php include("navbar.html.en")?>
+    </td>
+    <td class="text">
+      <h2>The beginnings of the standard</h2>
+      <p>Since the 1970s, when computed tomography was introduced as the first digital modality, the importance of digital medical image processing has increased permanently. The emerging idea of a digital image archive (PACS) and electronic image distribution in a hospital created the need to exchange digital images between medical devices of different manufacturers. In 1983, the <a class="textlink" href="http://www.acr.org">American College of Radiology (ACR)</a> and the <a class="textlink" href="http://www.nema.org">National Electrical Manufacturers Association (NEMA)</a> formed a working group in order to develop an image exchange standard. The collective work resulted in the ACR-NEMA standard which was published in 1985 and revised several times until 1988. Due to certain conceptual weaknesses (no network support, different proprietary "dialects"), the ACR-NEMA standard was, however, no success. As a consequence, the DICOM standard ("Digital Imaging and Communications in Medicine") was developed on the basis of the experiences with the ACR-NEMA standard. The main objective of this new standard was to create an open (vendor independent) platform for the communication of medical images and related data. Moreover, the new standard should support PACS networks and guarantee interoperability of arbitrary DICOM devices and programs. DICOM was published in 1993 and is continuously being extended ever since. In 1995, DICOM was accepted as a formal standard in Europe (MEDICOM, ENV 12052).</p>
+      <h2 class="lowerh2">Overview of DICOM</h2>
+      <p>The contents of the DICOM standard go far beyond a definition of an exchange format for medical image data. DICOM defines</p>
+      <ul type="disc">
+        <li>data structures (formats) for medical images and related data,</li>
+        <li>network oriented services, e.&nbsp;g.
+        <ul type="circle">
+          <li>image transmission,</li>
+          <li>query of an image archive (PACS),</li>
+          <li>print (hardcopy), and</li>
+          <li>RIS - PACS - modality integration</li>
+        </ul></li>
+        <li>formats for storage media exchange, and</li>
+        <li>requirements for conforming devices and programs.</li>
+      </ul>
+      <h2 class="lowerh2">DICOM data structures</h2>
+      <p>A DICOM image consists of a list of data elements (so-called attributes) which contain a multitude of image related information:</p>
+      <ul type="disc">
+        <li>patient information (name, sex, identification number),</li>
+        <li>modality and imaging procedure information (device parameters, calibration, radiation dose, contrast media), and</li>
+        <li>image information (resolution, windowing).</li>
+      </ul>
+      <p>For each modality, DICOM precisely defines the data elements that are required, optional (i.&nbsp;e. may be omitted) or required under certain circumstances (i.&nbsp;e. only if contrast media was used). This powerful flexibility is at the same time, however, one crucial weakness of the DICOM standard because practical experience shows that image objects are frequently incomplete. In such objects, required fields are missing or contain incorrect values. These problems can lead to subsequent problems when exchanging data.</p>
+      <h2 class="lowerh2">DICOM network sevices</h2>
+      <p>The DICOM network services are based on the client/server concept. In case two DICOM applications want to exchange information, they must establish a connection and agree on the following parameters:</p>
+      <ul type="disc">
+        <li>who is client and who is server,</li>
+        <li>which DICOM services are to be used, and</li>
+        <li>in which format data is transmitted (e.&nbsp;g. compressed or uncompressed).</li>
+      </ul>
+      <p>Only if both applications agree on a common set of parameters, the connection can and will be established. In addition to the most basic DICOM service "image transmission" (or in DICOM terminology: "Storage Service Class") there are number of advanced services, e.&nbsp;g.:</p>
+      <ul type="disc">
+        <li>The DICOM image archive service ("Query/ Retrieve Service Class") allows to search images in a PACS archive by certain criteria (patient, time of creation of the images, modality etc.) and to selectively download images from this archive.</li>
+        <li>The DICOM print service ("Print Management Service Class") allows to access laser cameras or printers over a network, so that multiple modalities and workstations can share one printer.</li>
+        <li>The DICOM modality worklist service allows to automatically download up-to-date worklists including a patient's demographic data from an information system (HIS/RIS) to the modality.</li>
+      </ul>
+      <h2 class="lowerh2">Media exchange</h2>
+      <p>In addition to the exchange of medical images over a network, media exchange has become another focus which has been integrated into the DICOM standard in 1996. Fields of application are for example the storage or cardiac angiography films in cardiology or the storage of ultrasound images. In order to make sure that DICOM storage media are really interchangeable, the standard defines so-called "application profiles" which explicitly define</p>
+      <ul type="disc">
+        <li>images from which modalities may be present on the medium (e.&nbsp;g. 'only X-Ray Angiography images'),</li>
+        <li>which encoding formats and compression schemes may be used (e.&nbsp;g. only uncompressed or loss-less JPEG),</li>
+        <li>which storage medium is to be used (e.&nbsp;g. 'CD-R with ISO file system').</li>
+      </ul>
+      <p>Aside from the image files, each DICOM medium contains a so-called "DICOM directory". This directory contains the most important information (patient name, modality, unique identifiers etc.) for all images which are captured on the medium. With the necessary help of this directory, it is possible to quickly browse or search through all images on the medium without having to read the complete image files - which would for instance take a couple of minutes when reading from a CD.</p>
+      <h2 class="lowerh2">Conformance Statement</h2>
+      <p>DICOM requires that a Conformance Statement must be written for each device or program claiming to be DICOM conformant. The format and content of a Conformance Statement is defined in the standard itself. In general, the statement shall explain which DICOM services and options are supported, which extensions and peculiarities have been implemented by the vendor, and how the device communicates with other DICOM systems. In theory, comparing two conformance statements allows to determine whether two DICOM compliant devices are able to communicate with each other or not.</p>
+      <p>In practice, however, conformance statements are only comprehensible by experts and they are frequently inadequate since often only a minimum set of features is documented. Interoperability problems, however, typically tend to occur because some "inconspicuous details" do not go together.</p>
+      <h2 class="lowerh2">Conclusion</h2>
+      <p>DICOM has become an indispensable component for the integration of digital imaging systems in medicine. DICOM offers solutions for many communication related applications - in a network as well as off-line. The keyword "DICOM" by itself, however, is no guarantee for a "plug and play" integration of all information systems in a hospital. Such a scenario requires a careful combination of all the partial solutions offered by DICOM.</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+    </td>
+    <td class="foot">
+      <?php include("footer.html.en")?>
+    </td>
+  </tr>
+</table>
+</body>
+
+</html>

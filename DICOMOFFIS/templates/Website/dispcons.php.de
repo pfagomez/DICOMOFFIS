@@ -1,0 +1,64 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<meta name="description" content="Konsistenz der Bilddarstellung.">
+<meta name="author" content="Thomas Wilkens">
+<meta name="keywords" content="Demonstration, DICOM, Konsistenz, Bilddarstellung">
+<meta name="date" content="2003-03-03">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>dicom.offis.de - DICOM-Demonstrationen - Konsistenz der Bilddarstellung</title>
+</head>
+
+<body>
+<table width="945" border="0" cellspacing="25" cellpadding="5">
+  <colgroup>
+    <col width="200">
+    <col width="650">
+  </colgroup>
+  <tr>
+    <td class="logo">
+      <?php include("logo.html.de")?>
+    </td>
+    <td class="title">
+      <h1>Konsistenz der Bilddarstellung</h1>
+      <div class="language">Version in <a href="dispcons.php.en"><img src="images/en.gif" alt="English" width="16" height="10" border="0"></a>&nbsp;&nbsp;&nbsp;</div>
+    </td>
+  </tr>
+  <tr>
+    <td class="navigation">
+      <?php include("navbar.html.de")?>
+    </td>
+    <td class="text">
+      <h2>Zwei neue DICOM-Dienste</h2>
+      <p>Im Rahmen einer vom "Committee for the Advancement of DICOM" ausgeschriebenen Demonstration wurden zwei neue DICOM-Dienste als Prototyp implementiert und auf dem Europ&auml;ischen Radiologiekongress ECR&nbsp;1999 pr&auml;sentiert. Der f&uuml;r diese Demonstration entwickelte DICOM-Viewer <a class="textlink" href="dscope.php.de">DICOMscope</a> wurde anschlie&szlig;end als "Freeware" ver&ouml;ffentlicht.</p>
+      <h2 class="lowerh2">Grayscale Standard Display Function</h2>
+      <p>Basierend auf dem Barten-Modell der menschlichen visuellen Perzeption definiert DICOM eine Luminanzfunktion f&uuml;r ein theoretisches ideales Display (Bildschirm oder Leuchtkasten), bei dem ein durchschnittlicher Betrachter die Verteilung der Helligkeitswerte als linear, d.&nbsp;h. gleichm&auml;&szlig;ig empfinden w&uuml;rde. Die Idee besteht darin, die Charakteristik eines konkreten Displays mittels eines Luminanz-Me&szlig;ger&auml;tes zu vermessen und auf der Basis dieser Me&szlig;kurve eine Korrekturfunktion zu berechnen, welche die Bildausgabe dem "idealen Display" soweit wie m&ouml;glich ann&auml;hert. Auf diese Weise l&auml;&szlig;t sich eine konsistente Bilddarstellung auf sehr unterschiedlichen Displays erreichen. Viele hochwertige Monitore und Grafikkarten f&uuml;r den Einsatz in der Medizin unterst&uuml;tzen eine solche Korrekturfunktion bereits "in Hardware". Der f&uuml;r diese Demonstration implementierte Prototyp erlaubt es aber auch, konventionelle Farbmonitore und Grafikkarten einzumessen und die Korrektur der Bilddarstellung in Software durchzuf&uuml;hren.</p>
+      <h2 class="lowerh2">Grayscale Softcopy Presentation State Storage</h2>
+      <p>Dieser neue DICOM-Dienst erlaubt es, alle Parameter, welche die Darstellung eines Bildes beeinflussen, zu speichern und zwischen verschiedenen Workstations zu &uuml;bertragen. Dies sind zum einen die f&uuml;r die Darstellung notwendigen Bildverarbeitungsschritte wie Rotieren, Spiegeln, Zoom sowie Ver&auml;nderungen des Grauwert-Kontrasts ("Fensterung"), zum anderen grafische Annotationen wie Texte, Linien, Kreise oder andere grafische Symbole, die auf bestimmte Bereiche im Bild hinweisen. Damit erlaubt es dieser DICOM-Dienst, pr&auml;zise zu dokumentieren, auf der Basis welcher Bildeinstellungen ein Arzt seine Diagnose gestellt hat. Au&szlig;erdem ist es m&ouml;glich, das Bild automatisch mit "vern&uuml;nftigen" Voreinstellungen anzuzeigen, wenn es sp&auml;ter noch einmal ge&ouml;ffnet wird, etwa im OP.</p>
+      <h2 class="lowerh2">Projektteam</h2>
+      <p>Die ECR 1999 DICOM-Demonstration wurde von einem Projektteam umgesetzt, dem au&szlig;er OFFIS folgende Institute und Firmen angeh&ouml;rten:</p>
+      <table border="0" cellspacing="10" cellpadding="0">
+        <colgroup>
+          <col width="100">
+          <col width="550">
+        </colgroup>
+        <tr><td><img src="images/otech.gif" alt="OTech Logo" border="0" width="64" height="25"></td><td>OTech Inc.<br>Crossroads TX 76227, USA<br><a class="textlink" href="http://www.otechimg.com">http://www.otechimg.com</a></td></tr>
+        <tr><td><img src="images/uniwh.gif" alt="IM Logo" border="0" width="64" height="26"></td><td>Institut f&uuml;r Mikrotherapie<br>D-44799 Bochum<br><a class="textlink" href="http://www.microtherapy.de">http://www.microtherapy.de</a></td></tr>
+        <tr><td><img src="images/lakegrif.gif" alt="Griffin Logo" border="0" width="64" height="11"></td><td>Lake Griffin Ltd.<br>CH-8308 Illnau<br><a class="textlink" href="http://www.lakegriffin.ch">http://www.lakegriffin.ch</a></td></tr>
+      </table>
+      <p>Die Demonstration wurde von General Electric Company, Imation/CEMAX-ICON, ISG Technologies, Philips Medical Systems, Siemens AG, Dome und Image Smiths unterst&uuml;tzt.</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+    </td>
+    <td class="foot">
+      <?php include("footer.html.de")?>
+    </td>
+  </tr>
+</table>
+</body>
+
+</html>

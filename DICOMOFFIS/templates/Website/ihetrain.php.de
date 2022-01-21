@@ -1,0 +1,190 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1" />
+    <meta name="description" content="Informationen zu IHE-Schulungen." />
+    <meta name="author" content="DICOM Team" />
+    <meta name="keywords" content="IHE, OFFIS, Schulung" />
+    <meta name="date" content="2021-12-14" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>dicom.offis.de - Dienstleistungen - IHE-Schulung</title>
+  </head>
+  <body>
+    <table border="0" cellpadding="5" cellspacing="25" width="945">
+      <colgroup>
+        <col width="200" />
+        <col width="650" />
+      </colgroup>
+      <tr>
+        <td class="logo">
+          <?php include("logo.html.de")?>
+          <br />
+        </td>
+        <td class="title">
+          <h1>IHE-Schulung</h1>
+          <div class="language">Version in
+          <a href="ihetrain.php.en">
+            <img src="images/en.gif" alt="English" border="0" height="10" width="16" />
+          </a></div>
+        </td>
+      </tr>
+      <tr>
+        <td class="navigation">
+          <?php include("navbar.html.de")?>
+          <br />
+        </td>
+        <td class="text">
+        <h2>IHE-Schulungen durch OFFIS</h2>
+        <p>Die Kurse richten sich inhaltlich vornehmlich an Mitarbeiter*innen der Bereiche Softwareentwicklung, Systemintegration,
+	Systemadministration und Service sowie technisch interessierte Anwender*innen aus der medizinischen IT.
+	In der Regel finden die Kurse bei OFFIS in Oldenburg statt; Schulungen vor
+        Ort in Ihrem Unternehmen oder in Ihrer Organisation sind nach Absprache jedoch ebenfalls möglich. Das aktuelle
+        Schulungsangebot kann der unten stehenden Tabelle entnommen werden.</p>
+        <p>Bei Interesse wenden Sie sich bitte an einen der genannten
+        <a class="textlink" href="people.php.de">Ansprechpartner</a> oder teilen Sie uns unter der E-Mail Adresse
+        <img src="images/email.gif" alt="email" align="middle" border="0" height="13" width="89" /> Ihr Anliegen mit. Es gelten
+        unsere allgemeinen
+        <a class="textlink" href="#terms">Teilnahmebedingungen</a>.</p>
+        <p>Die Schulungen werden zusammen mit
+        <a href="http://www.jriesmeier.de/">J. Riesmeier</a> und
+        <a href="http://www.open-connections.de/">Open Connections GmbH</a> angeboten und durchgeführt.</p>
+
+
+
+    
+        <h2>Schulungsangebote auf einen Blick
+        <a name="Termine" id="Termine"></a></h2>
+        <table border="0" cellpadding="0" cellspacing="10">
+          <tbody>
+            <tr>
+              <td width="150">11.-12. Mai 2022</td>
+              <td>
+              <img src="images/de.gif" alt="Deutsch" border="0" height="10" width="16" />
+              <a href="#pat_akten_mit_ihe">Patientenakten mit IHE</a>, je nach Pandemielage online oder in Präsenz</td>
+            </tr>
+            <tr>
+              Die Schulungen starten jeweils um 9.00 Uhr und enden gegen 17.00 Uhr.</td>
+            </tr>
+          </tbody>
+        </table>
+
+
+
+        <br/><br/>
+        <h2>Schulungsinhalte</h2>
+        <p>Das aktuelle Schulungsangebot umfasst die folgenden Kurse:</p>
+
+
+        <hr />
+        <a name="Patientenakten mit IHE" id="pat_akten_mit_ihe"></a>
+        <table border="0" cellpadding="0" cellspacing="10">
+          <colgroup>
+            <col width="140" />
+            <col width="510" />
+          </colgroup>
+          <tbody>
+            <tr>
+              <td valign="top">
+                <b>Kurs:</b>
+              </td>
+              <td>
+                <b>Patientenakten mit IHE</b>
+              </td>
+            </tr>
+            <tr>
+              <td valign="top">
+                <b>Ziel:</b>
+              </td>
+              <td>Sie erhalten eine Einführung in die Arbeit der IHE-Initiative (&bdquo;Integrating the Healthcare Enterprise&ldquo;) sowie einen Überblick über die
+		  wichtigsten IHE-Integrationsprofile, die im Zusammenspiel den Aufbau von elektronischen Patientenakten erlauben. Sie lernen, wie Dokumente
+		  in eine IHE-Patientenakte eingestellt werden, wie Suche und Zugriff funktionieren, wie ein Abgleich von Patienten-IDs realisiert wird,
+		  welche Sicherheitsfunktionen IHE vorsieht und wie mehrere Aktensysteme vernetzt werden können. Sie erhalten einen Einblick, wie die
+		  IHE-Spezifikationen im deutschen ePA-Projekt genutzt werden. Ihr Nutzen ist ein effizienter Einstieg und Know-how-Transfer durch
+		  kompetente Referenten, die sich seit vielen Jahren mit der Materie beschäftigen.<td>
+            </tr>
+            <tr>
+              <td valign="top">
+                <b>Inhalte:</b>
+              </td>
+              <td>IHE-Einführung; Navigation in IHE-Dokumenten; Connect-a-thon und Integration Statements;
+		  Cross-enterprise Document Sharing: Motivation und Profile; XDS: Basisprofil für Patientenakten; PIX: Master Patient Index und Co;
+		  PDQ: Suche nach demographischen Daten; CT: Zeitsynchronisierung; ATNA: Sicherheit für XDS; XUA: Benutzerauthentisierung;
+		  APPC: Autorisierung; XDM, XDR: Punkt-zu-Punkt-Kommunikation mit XDS; XDS-I: Integration von DICOM-Bildarchiven in XDS;
+		  XCA: Vernetzung mehrerer XDS Affinity Domains; XCDR: Dokumente einstellen in XCA-Szenarien;
+		  Ausblick: Die elektronische Patientenakte (ePA) in Deutschland<td>
+            </tr>
+            <tr>
+              <td valign="top">
+                <b>Voraussetzungen:</b>
+              </td>
+              <td>keine</td>
+            </tr>
+            <tr>
+              <td valign="top">
+                <b>Zielgruppe:</b>
+              </td>
+              <td>Mitarbeiter*innen der Bereiche Softwareentwicklung, Systemintegration, Systemadministration und Service sowie technisch 
+	      interessierte Anwender*innen aus der medizinischen IT</td>
+            </tr>
+            <tr>
+              <td valign="top">
+                <b>Sprache:</b>
+              </td>
+              <td>deutsch</td>
+            </tr>
+            <tr>
+              <td valign="top">
+                <b>Dauer:</b>
+              </td>
+              <td>2 Tage</td>
+            </tr>
+            <tr>
+              <td valign="top">
+                <b>Nächste Termine:</b>
+              </td>
+              <td>Siehe
+              <a href="#Termine">Übersicht der Schulungstermine</a> oben</td>
+            </tr>
+          </tbody>
+        </table>
+  
+        <hr />
+        <h3>
+          <a id="terms" name="terms">Teilnahmebedingungen</a>
+        </h3>
+        <p>Stornierungen von Anmeldungen müssen schriftlich erfolgen.</p>
+        <p>Für Schulungen bei OFFIS in Oldenburg sowie für Online-Schulungen gilt: Bei Stornierungen, die mehr als 14 Tage vor Beginn der Schulung
+        eingehen, wird der Teilnehmerbeitrag vollständig erstattet. Bei Stornierungen, die uns bis zu 8 Tage vor Beginn der
+        Schulung vorliegen, stellen wir 50% des Teilnehmerbeitrags in Rechnung. Bei späteren Stornierungen oder bei
+        Nichterscheinen des Teilnehmers ist der volle Teilnehmerbeitrag zu zahlen.</p>
+        <p>Für Schulungen außerhalb von Oldenburg gilt: Bei Stornierungen, die mehr als 6 Wochen vor Beginn der Schulung
+        eingehen, wird der Teilnehmerbeitrag vollständig erstattet. Bei Stornierungen, die uns bis zu 3 Wochen vor Beginn der
+        Schulung vorliegen, stellen wir 50% des Teilnehmerbeitrags in Rechnung. Bei späteren Stornierungen oder bei
+        Nichterscheinen des Teilnehmers ist der volle Teilnehmerbeitrag zu zahlen.</p>
+        <p>Die Benennung eines Ersatz-Teilnehmers ist jederzeit möglich.</p>
+        <p>OFFIS hat das Recht, eine Schulung abzusagen, wenn die Mindestteilnehmerzahl von 8 Personen nicht erreicht wird. In
+        diesem Fall wird der Teilnehmerbeitrag in voller Höhe erstattet.</p>
+        <hr />
+        <p>Alle DICOM-Schulungen werden in Kooperation mit
+        <a href="http://www.jriesmeier.de/">J. Riesmeier</a> und
+        <a href="http://www.open-connections.de/">Open Connections GmbH</a> angeboten.</p>
+      </td>
+      </tr>
+      <tr>
+        <td>
+          <br />
+        </td>
+        <td class="foot">
+          <?php include("footer.html.de")?>
+          <br />
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
+
+
+      
+   
+     

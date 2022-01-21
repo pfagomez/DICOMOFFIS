@@ -1,0 +1,50 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<meta name="description" content="DICOM-Beratung durch OFFIS.">
+<meta name="author" content="Thomas Wilkens">
+<meta name="keywords" content="DICOM, OFFIS, Beratung">
+<meta name="date" content="2007-02-12">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>dicom.offis.de - Dienstleistungen - DICOM-Beratung</title>
+</head>
+
+<body>
+<table width="945" border="0" cellspacing="25" cellpadding="5">
+  <colgroup>
+    <col width="200">
+    <col width="650">
+  </colgroup>
+  <tr>
+    <td class="logo">
+      <?php include("logo.html.de")?>
+    </td>
+    <td class="title">
+      <h1>DICOM-Beratung</h1>
+      <div class="language">Version in <a href="consult.php.en"><img src="images/en.gif" alt="English" width="16" height="10" border="0"></a>&nbsp;&nbsp;&nbsp;</div>
+    </td>
+  </tr>
+  <tr>
+    <td class="navigation">
+      <?php include("navbar.html.de")?>
+    </td>
+    <td class="text">
+      <h2>DICOM-Beratung durch OFFIS</h2>
+      <p>OFFIS besch&auml;ftigt sich seit fast 20 Jahren mit Standards in der medizinischen Bildkommunikation und bietet Unternehmen Beratung im DICOM- und IHE-Umfeld an, etwa bei der Entwicklung von DICOM-Schnittstellen oder der Analyse von Interoperabilit&auml;tsproblemen. Auch f&uuml;r den Einsatz der von OFFIS entwickelten <a class="textlink" href="software.php.de">DICOM-Software</a> wird Unterst&uuml;tzung angeboten.</p>
+      <p>Eine Beratung kann bei OFFIS, beim Kunden oder elektronisch (über Telefon, E-Mail oder auch online) stattfinden.<p>
+      <p>Bei Interesse wenden Sie sich bitte an einen der genannten <a class="textlink" href="people.php.de">Ansprechpartner</a> oder teilen Sie uns unter der E-Mail Adresse&nbsp;<img src="images/email.gif" alt="email" border="0" width="89" height="13" align="middle">&nbsp;Ihr Anliegen mit.</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+    </td>
+    <td class="foot">
+      <?php include("footer.html.de")?>
+    </td>
+  </tr>
+</table>
+</body>
+
+</html>

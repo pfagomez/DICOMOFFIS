@@ -1,0 +1,77 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<meta name="description" content="About DCMPRINT.">
+<meta name="author" content="Thomas Wilkens">
+<meta name="keywords" content="DICOM, software, DCMPRINT, OFFIS">
+<meta name="date" content="2007-03-16">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>dicom.offis.de - DICOM Software made by OFFIS - DCMPRINT - Print Management</title>
+</head>
+
+<body>
+<table width="945" border="0" cellspacing="25" cellpadding="5">
+  <colgroup>
+    <col width="200">
+    <col width="650">
+  </colgroup>
+  <tr>
+    <td class="logo">
+      <?php include("logo.html.en")?>
+    </td>
+    <td class="title">
+      <h1>DCMPRINT - Print Management</h1>
+      <div class="language">Version in <a href="dcmprint.php.de"><img src="images/de.gif" alt="Deutsch" width="16" height="10" border="0"></a>&nbsp;&nbsp;&nbsp;</div>
+    </td>
+  </tr>
+  <tr>
+    <td class="navigation">
+      <?php include("navbar.html.en")?>
+    </td>
+    <td class="text">
+      <h2>Description</h2>
+      <p>The DICOM Print Management Toolkit DCMPRINT consists of three components:</p>
+      <ul type="disc">
+        <li>a C++ class library implementing the DICOM print management communication protocol,</li>
+        <li>a print server (Print Management SCP) which creates PostScript code that can be printed on inexpensive PostScript laser printers, and</li>
+        <li>a simple print client (Print Management SCU) allowing to load DICOM images and to print them on the print server.</li>
+      </ul>
+      <p>The print server implements the DICOM Print Management Service Class and a couple of optional extensions (Annotation Box, Print Job and Presentation LUT). The "Basic Print Management" services are supported in their monochrome and colour variants.</p>
+      <p>The print client allows to control all options and features of the print server. The client is a very simple command line application demonstrating the underlying libraries and is not intended as a ready-to-use product.</p>
+      <h2 class="lowerh2">Scientific papers on DCMPRINT</h2>
+      <p>The following scientific papers describe the research work on which DCMPRINT is based:</p>
+      <ol>
+        <li>Eichelberg M, Hewett AJ, Jensch P: <b>A Prototype Implementation of the DICOM Print Management Service Class</b>, in: Proceedings EuroPACS 1994, Geneve, Sept. 1994</li>
+        <li>Eichelberg M, Hewett AJ, Jensch P: <b>Remote Printing of Medical and Secondary Capture Images for Distributed Hospitals in Rural Environments via the DICOM Print Management Service Class</b>, in: Medical Imaging 1995, Proceedings SPIE</li>
+      </ol>
+      <p>Reprints of these publications are available on request.</p>
+      <h2 class="lowerh2">Features in detail</h2>
+      <p>Both server and client component of DCMPRINT support the following DICOM services:</p>
+      <ul type="disc">
+        <li>Basic Grayscale Print Management</li>
+        <li>Basic Color Print Management</li>
+        <li>Print Jobs</li>
+        <li>Annotations</li>
+        <li>Presentation LUT</li>
+      </ul>
+      <p>Under Unix-like systems, the server can be started in a multi-process mode. That means, that for every incoming association a new process is started which permits multiple clients to connect and print at the same time. Under Windows, the multi-process mode is not available. However, more than one server process can be started at the same time, serving different clients on different TCP/IP ports.
+      </p>
+      Further details can be found in the online documentation for the tools <a href="http://support.dcmtk.org/docs-products/tcpsrv.html">TCPSRV</a> and <a href="http://support.dcmtk.org/docs-products/tcpprt.html">TCPPRT</a>.
+      <p>All three uncompressed transfer syntaxes are supported.</p>
+      <p>DCMPRINT is based on the DICOM toolkit DCMTK and is usually delivered in source code. DCMPRINT supports several Unix dialects, e. g. Linux, Solaris and Mac OS X. Most Windows platforms are also supported. </p>
+      <p>This module is not freely available and must be licensed separately.</p>      
+    </td>
+  </tr>
+  <tr>
+    <td>
+    </td>
+    <td class="foot">
+      <?php include("footer.html.en")?>
+    </td>
+  </tr>
+</table>
+</body>
+
+</html>

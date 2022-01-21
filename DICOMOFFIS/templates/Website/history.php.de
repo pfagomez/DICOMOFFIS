@@ -1,0 +1,62 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<meta name="description" content="Informationen zur Entwicklungsgeschichte von DCMTK.">
+<meta name="author" content="Thomas Wilkens">
+<meta name="keywords" content="DCMTK, DICOM, Toolkit, Entwicklung">
+<meta name="date" content="2003-03-03">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>dicom.offis.de - DICOM-Software - DCMTK - DICOM-Toolkit - Entwicklungsgeschichte des DICOM-Toolkits</title>
+</head>
+
+<body>
+<table width="945" border="0" cellspacing="25" cellpadding="5">
+  <colgroup>
+    <col width="200">
+    <col width="650">
+  </colgroup>
+  <tr>
+    <td class="logo">
+      <?php include("logo.html.de")?>
+    </td>
+    <td class="title">
+      <h1>Entwicklungsgeschichte des DICOM-Toolkits</h1>
+      <div class="language">Version in <a href="history.php.en"><img src="images/en.gif" alt="English" width="16" height="10" border="0"></a>&nbsp;&nbsp;&nbsp;</div>
+    </td>
+  </tr>
+  <tr>
+    <td class="navigation">
+      <?php include("navbar.html.de")?>
+    </td>
+    <td class="text">
+      <h2>Die Anf&auml;nge des DICOM-Toolkits</h2>
+      <p>Bereits im Jahre 1993 - noch vor der Verabschiedung des DICOM-Standards - wurde von OFFIS, der Universit&auml;t Oldenburg sowie dem Forschungsinstitut CERIUM in Rennes (Frankreich) im Auftrag des Europ&auml;ischen Komitees f&uuml;r Normung (CEN/TC251/WG4) eine prototypische DICOM-Implementierung geschaffen und auf der <a class="textlink" href="http://www.rsna.org">RSNA 1993</a> vorgestellt, wo die Interoperabilit&auml;t dieser Software mit etwa 20 Implementierungen von Herstellern bildgebender Ger&auml;te erfolgreich demonstriert werden konnte. Diese Software wurde unter dem Begriff "European CTN" (Central Test Node) bekannt. Die Softwareentwicklung basierte auf einer fr&uuml;hen Implementierung des "DICOM Upper Layer"-Protokolls vom Mallinckrodt Institute of Radiology in St. Louis (USA), wurde aber davon unabh&auml;ngig vervollst&auml;ndigt, weiterentwickelt und auf einer Reihe <a class="textlink" href="networks.php.de">weiterer Demonstrationen</a> 1994 und 1995 gezeigt.</p>
+      <h2 class="lowerh2">Das DICOM-Toolkit DCMTK von 1996</h2>
+      <p>Die gesamte Software wurde 1996 von OFFIS &uuml;berarbeitet und in DCMTK ("DICOM Toolkit") umbenannt. Eine neue C++-Basisbibliothek f&uuml;r die Codierung und Decodierung von DICOM-Daten wurde eingearbeitet und ein Testserver f&uuml;r den neuen DICOM-Dienst "Modality Worklist" implementiert. Dieser Dienst wurde weltweit erstmalig auf der CAR 1996 in Paris der &Ouml;ffentlichkeit vorgestellt. Weitere Verbesserungen von DCMTK gegen&uuml;ber dem &auml;lteren "European CTN" sind:</p>
+      <ul type="disc">
+        <li>automatische Konfiguration auf Unix-Systemen mit GNU-Configure,</li>
+        <li>Unterst&uuml;tzung f&uuml;r Speichermedien,</li>
+        <li>Unterst&uuml;tzung f&uuml;r "Explicit VR"-Transfersyntaxen,</li>
+        <li>ein erweiterbares Verzeichnis der DICOM-Datenelemente ("Data Dictionary") und</li>
+        <li>Unterst&uuml;tzung von Windows 9x/NT, sp&auml;ter auch Windows Me/2000/XP.</li>
+      </ul>
+      <h2 class="lowerh2">Neue Bildverarbeitungsfunktionen (1999)</h2>
+      <p>F&uuml;r die <a class="textlink" href="dispcons.php.de">Demonstration</a> zweier neuer DICOM-Dienste f&uuml;r die Konsistenz der Bilddarstellung, "Grayscale Standard Display Function" und "Grayscale Softcopy Presentation State Storage" auf dem ECR 1999 in Wien wurde das Toolkit um eine Bibliothek zur Verarbeitung monochromer DICOM-Bilddaten inklusive der verschiedenen linearen und nichtlinearen Bildverarbeitungsschritte erweitert, die der DICOM-Standard verlangt. Zus&auml;tzlich wurden Funktionen zum Erzeugen und Bearbeiten von "Presentation State"-Objekten eingef&uuml;hrt. Auf der Basis dieser DCMTK-Fassung wurde der DICOM-Viewer <a class="textlink" href="dscope.php.de">DICOMscope</a> implementiert.</p>
+      <h2 class="lowerh2">Weitere OFFIS-DICOM-Software</h2>
+      <p>DCMTK dient als Basis f&uuml;r eine Vielzahl interner Forschungsarbeiten, aus denen zum Teil separate Erweiterungen des Toolkits um neue Dienste entstanden sind.</p>
+      <p>Diese Softwarepakete sind nicht als "Open Source"-Software frei verf&uuml;gbar, k&ouml;nnen aber bei OFFIS lizenziert werden.</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+    </td>
+    <td class="foot">
+      <?php include("footer.html.de")?>
+    </td>
+  </tr>
+</table>
+</body>
+
+</html>

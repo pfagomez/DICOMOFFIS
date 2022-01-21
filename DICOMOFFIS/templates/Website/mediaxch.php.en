@@ -1,0 +1,56 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<meta name="description" content="DICOM Storage Media Exchange Demonstrations.">
+<meta name="author" content="Thomas Wilkens">
+<meta name="keywords" content="demonstration, DICOM, exchange, storage media">
+<meta name="date" content="2003-03-03">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>dicom.offis.de - DICOM Demonstrations - DICOM Storage Media Exchange Demonstrations</title>
+</head>
+
+<body>
+<table width="945" border="0" cellspacing="25" cellpadding="5">
+  <colgroup>
+    <col width="200">
+    <col width="650">
+  </colgroup>
+  <tr>
+    <td class="logo">
+      <?php include("logo.html.en")?>
+    </td>
+    <td class="title">
+      <h1>DICOM Storage Media Exchange Demonstrations</h1>
+      <div class="language">Version in <a href="mediaxch.php.de"><img src="images/de.gif" alt="Deutsch" width="16" height="10" border="0"></a>&nbsp;&nbsp;&nbsp;</div>
+    </td>
+  </tr>
+  <tr>
+    <td class="navigation">
+      <?php include("navbar.html.en")?>
+    </td>
+    <td class="text">
+      <h2>Storage media vs. networks</h2>
+      <p>In certain medical fields like cardiology, the exchange of images on storage media plays an important role because large data volumes (e.&nbsp;g. up to 600 MByte for one cardiac cathererisation study) make a network transmission too slow or too expensive. For network communication, the participating devices can negotiate certain transmission parameters on-line, e.&nbsp;g. whether images should be transmitted in compressed form or not. For storage media exchange, however, both sides need to know in advance which data formats are to be used. Concerning this problem, DICOM supports the so-called "application profiles" which precisely define (for different fields of application) how and on which media data can be exchanged. A profile of particular importance is the "DICOM General Purpose CD-R Image Interchange Profile" which allows to exchange all types of DICOM images in uncompressed form on a CD-R.</p>
+      <h2 class="lowerh2">ECR 1997 media demonstration</h2>
+      <p>The European Congress of Radiology <a class="textlink" href="http://www.ecr.org" >ECR&nbsp;1997</a> hosted a demonstration of the "DICOM General Purpose CD-R Image Interchange Profile" involving General Electric Medical Systems, Philips Medical Systems and Picker Medical Systems. Each company produced one CD-R with a variety of DICOM images and demonstrated its ability to read the other companies' CD-Rs. OFFIS helped to organize the pre-show testing of the produced CD-Rs. In the end, the demonstration was an important step in verifying the practicality of the "DICOM General Purpose CD-R Image Interchange Profile".</p>
+      <h2 class="lowerh2">CAR 1997 DICOM demonstration CD</h2>
+      <p>As part of the Industrial Exhibition at the <a class="textlink" href="http://www.cars-int.de">CAR&nbsp;1997</a> conference (Computer Assisted Radiology and Surgery, June 25-28, 1997, Berlin, Germany), a CD containing DICOM images from multiple vendors was created (according to the "DICOM General Purpose CD-R Image Interchange Profile") and distributed among conference participants. As a neutral organization, OFFIS organized the production of the CD, used the DCMCHECK testing tool to validate the DICOM images, and created the master CD for the CD pressing procedure. The documentation of the CAR 1997 DICOM Demonstration CD can be viewed online here:</p>
+      <p><a class="textlink" href="car97cd/index.htm">CAR 1997 DICOM Demonstration CD - Documentation</a></p>
+      <h2 class="lowerh2">NEMA DICOM CD 1997</h2>
+      <p>Another demonstration CD for the "DICOM General Purpose CD-R Image Interchange Profile" was commissioned to OFFIS by the "Committee for the Advancement of DICOM" and the <a class="textlink" href="http://medical.nema.org">NEMA Medical Imaging Informatics Section</a> (the publishers of DICOM). The resulting CD was first made available at the industry exhibition of the 1997 annual meeting of the <a class="textlink" href="http://www.rsna.org">Radiological Society of North America</a> (RSNA). The documentation of the NEMA DICOM CD 1997 can be viewed online here: 
+      <p><a class="textlink" href="nema97cd/index.htm">NEMA DICOM CD 1997 - Documentation</a></p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+    </td>
+    <td class="foot">
+      <?php include("footer.html.en")?>
+    </td>
+  </tr>
+</table>
+</body>
+
+</html>

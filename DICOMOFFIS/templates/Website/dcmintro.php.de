@@ -1,0 +1,96 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<meta name="description" content="Einf&uuml;hrung in den DICOM Standard.">
+<meta name="author" content="Thomas Wilkens">
+<meta name="keywords" content="DICOM, Einf&uuml;hrung, Standard">
+<meta name="date" content="2003-02-27">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>dicom.offis.de - Allgemeine Informationen - Einf&uuml;hrung in den DICOM-Standard</title>
+</head>
+
+<body>
+<table width="945" border="0" cellspacing="25" cellpadding="5">
+  <colgroup>
+    <col width="200">
+    <col width="650">
+  </colgroup>
+  <tr>
+    <td class="logo">
+      <?php include("logo.html.de")?>
+    </td>
+    <td class="title">
+      <h1>Einf&uuml;hrung in den DICOM-Standard</h1>
+      <div class="language">Version in <a href="dcmintro.php.en"><img src="images/en.gif" alt="English" width="16" height="10" border="0"></a>&nbsp;&nbsp;&nbsp;</div>
+    </td>
+  </tr>
+  <tr>
+    <td class="navigation">
+      <?php include("navbar.html.de")?>
+    </td>
+    <td class="text">
+      <h2>Die Anf&auml;nge des Standards</h2>
+      <p>Seit der Einf&uuml;hrung der Computertomographie als erstem digitalen bildgebenden Verfahren in der Medizin ist die Bedeutung der digitalen medizinischen Bildverarbeitung st&auml;ndig gestiegen. Sp&auml;testens mit dem Aufkommen der Idee einer digitalen Archivierung von Bildern (PACS) und einer elektronischen Bildverteilung im Krankenhaus entstand das Bed&uuml;rfnis, digitale Bilder zwischen Ger&auml;ten verschiedener Hersteller austauschen zu k&ouml;nnen. Bereits 1983 formierte sich eine gemeinsame Arbeitsgruppe des <a class="textlink" href="http://www.acr.org">American College of Radiology (ACR)</a> und der <a class="textlink" href="http://www.nema.org">National Electrical Manufacturers Association (NEMA)</a>, um einen solchen Austausch-Standard zu schaffen. Das Ergebnis dieser Bem&uuml;hungen war der 1985 ver&ouml;ffentlichte und bis 1988 mehrfach &uuml;berarbeitete ACR-NEMA-Standard, dem allerdings aufgrund einiger konzeptioneller Schw&auml;chen (keine Netzwerkunterst&uuml;tzung, Bildung von propriet&auml;ren "Dialekten") kein gro&szlig;er Erfolg beschieden war. Der DICOM-Standard ("Digital Imaging and Communications in Medicine") wurde auf der Basis der Erfahrungen mit ACR-NEMA entwickelt, um eine offene (herstellerunabh&auml;ngige) Kommunikationsplattform f&uuml;r medizinische Bilder und bildbezogene Informationen zu schaffen. Neben der Unterst&uuml;tzung f&uuml;r PACS-Netzwerke war dabei die Gew&auml;hrleistung der Interoperabilit&auml;t von DICOM-kompatiblen Ger&auml;ten und Programmen zentrales Entwicklungsziel. DICOM wurde 1993 verabschiedet und wird seitdem kontinuierlich erweitert. Seit 1995 ist DICOM auch in Europa als formaler Standard akzeptiert (MEDICOM, ENV 12052).</p>
+      <h2 class="lowerh2">&Uuml;berblick &uuml;ber DICOM</h2>
+      <p>Der Inhalt des DICOM-Standards geht weit &uuml;ber die Definition eines reinen Austauschformats f&uuml;r medizinische Bilddaten hinaus. DICOM beschreibt</p>
+      <ul type="disc">
+        <li>Datenstrukturen (Formate) f&uuml;r medizinische Bilder und bildbezogene Daten,</li>
+        <li>Netzwerkorientierte Dienste, z.&nbsp;B.
+        <ul type="circle">
+          <li>Bild&uuml;bertragung</li>
+          <li>Abfrage eines Bildarchivs (PACS)</li>
+          <li>Drucken (Hardcopy)</li>
+          <li>Integration RIS - PACS - Modalit&auml;t</li>
+        </ul></li>
+        <li>Formate f&uuml;r den Datentr&auml;geraustausch, und</li>
+        <li>Anforderungen an konforme Ger&auml;te und Programme.</li>
+      </ul>
+      <h2 class="lowerh2">DICOM-Datenstrukturen</h2>
+      <p>Ein DICOM-Bild besteht aus einer Liste von Datenelementen (sogenannten Attributen), die eine Vielzahl von bildbegleitenden Informationen enthalten:</p>
+      <ul type="disc">
+        <li>Informationen zum Patient, z.&nbsp;B. Name, Geburtsdatum und Identifikationsnummer,</li>
+        <li>Informationen zu Modalit&auml;t und Aufnahme, z.&nbsp;B. Ger&auml;teparameter, Kalibrierung, Strahlungsdosis und Kontrastmittelgabe, und</li>
+        <li>Bildinformationen, z.&nbsp;B. Aufl&ouml;sung und Fensterung.</li>
+      </ul>
+      <p>DICOM definiert f&uuml;r jede Modalit&auml;t exakt, welche Datenelemente vorgeschrieben sind, welche optional sind und welche unter bestimmten Bedingungen vorgeschrieben sind (z.&nbsp;B. nur bei Kontrastmittelgabe). In dieser Flexibilit&auml;t von DICOM liegt gleichzeitig aber auch eine Schw&auml;che des Standards, denn die praktische Erfahrung zeigt, da&szlig; Bilder h&auml;ufig unvollst&auml;ndig sind, weil vorgeschriebene Felder fehlen oder Felder falsche Werte enthalten, was Folgeprobleme beim Datenaustausch nach sich ziehen kann.</p>
+      <h2 class="lowerh2">DICOM-Netzwerkdienste</h2>
+      <p>Die DICOM-Netzwerkdienste entsprechen dem "Client/Server"-Konzept. Bevor zwei DICOM-Anwendungen Daten austauschen k&ouml;nnen, mu&szlig; eine Verbindung aufgebaut werden, bei der ausgehandelt wird,</p>
+      <ul type="disc">
+        <li>wer Client und wer Server ist,</li>
+        <li>welche DICOM-Dienste genutzt werden und</li>
+        <li>wie die Daten &uuml;bertragen werden (Zahlenformate, Kompression).</li>
+      </ul>
+      <p>Nur, wenn sich beide Anwendungen einigen k&ouml;nnen, kommt die Verbindung zustande. Neben dem grundlegenden DICOM-Dienst der Bild&uuml;bertragung (in DICOM-Terminologie die "Storage Service Class"), gibt es noch eine Reihe weitergehender Dienste, von denen hier nur einige genannt werden k&ouml;nnen:</p>
+      <ul type="disc">
+        <li>Der DICOM-Bildarchiv-Dienst ("Query/Retrieve Service Class") erlaubt es, in einem PACS Bilder nach bestimmten Kriterien zu suchen (Patient, Zeitpunkt der Aufnahme, Modalit&auml;t usw.) und selektiv vom Archiv anzufordern.</li>
+        <li>Der DICOM-Druckdienst ("Print Management Service Class") erm&ouml;glicht die Ansteuerung von Laserbelichtern oder Druckern &uuml;ber ein Netzwerk. Auf diese Weise kann ein Belichter von mehreren Modalit&auml;ten und Befundungsarbeitspl&auml;tzen aus genutzt werden.</li>
+        <li>Der DICOM-"Modality Worklist"-Dienst erlaubt es, Arbeitsauftr&auml;ge inklusive der zugeh&ouml;rigen Patientendaten automatisch vom Informationssystem (HIS/RIS) zu &uuml;bernehmen.</li>
+      </ul>
+      <h2 class="lowerh2">Datentr&auml;geraustausch</h2>
+      <p>Neben der &Uuml;bertragung medizinischer Bilder im Netzwerk ist mit dem Datentr&auml;geraustausch ein zweiter Schwerpunkt von DICOM entstanden, der erst relativ sp&auml;t Eingang in den Standard gefunden hat (1996er Ausgabe des Standards). Anwendungsgebiete sind etwa die Archivierung von Herzkatheterfilmen auf CD in der Kardiologie oder die Speicherung von Ultraschallbildern. Um sicherzustellen, da&szlig; DICOM-Datentr&auml;ger wirklich austauschbar sind, definiert der Standard sogenannte Anwendungsprofile ("Application Profiles"), die genau beschreiben,</p>
+      <ul type="disc">
+        <li>von welchen Modalit&auml;ten Bilder auf dem Datentr&auml;ger gespeichert sein d&uuml;rfen (z.&nbsp;B. "nur X-Ray Angiography"),</li>
+        <li>welche Zahlenformate und Kompression verwendet werden d&uuml;rfen (z.&nbsp;B. "unkomprimiert oder verlustfrei JPEG-komprimiert"),</li>
+        <li>welcher Datentr&auml;ger zu verwenden ist (z.&nbsp;B. "CD-R mit ISO-Dateisystem").</li>
+      </ul>
+      <p>Neben den eigentlichen DICOM-Bildern enth&auml;lt jeder DICOM-Datentr&auml;ger ein sogenanntes "DICOM-Directory". In dieser Datei sind die wichtigsten Informationen (Patientenname, Modalit&auml;t, eindeutige Identifikationsnummer des Bildes usw.) f&uuml;r alle Bilder des Datentr&auml;gers gespeichert. Auf diese Weise kann der Datentr&auml;ger schnell durchsucht werden, ohne da&szlig; er komplett eingelesen werden mu&szlig;, was etwa bei CDs einige Minuten dauern w&uuml;rde.</p>
+      <h2 class="lowerh2">Konformit&auml;tserkl&auml;rung</h2>
+      <p>DICOM schreibt vor, da&szlig; f&uuml;r jedes standard-konforme Ger&auml;t oder Programm eine Konformit&auml;tserkl&auml;rung ("Conformance Statement") erstellt werden mu&szlig;. Format und Inhalt dieser Erkl&auml;rung sind durch den DICOM-Standard vorgegeben. Das Conformance Statement erkl&auml;rt, welche DICOM-Dienste und Optionen unterst&uuml;tzt werden, welche Besonderheiten und Erweiterungen der Hersteller implementiert hat und wie das Ger&auml;t mit anderen Systemen kommuniziert. Theoretisch erm&ouml;glicht das Vergleichen zweier Conformance Statements, festzustellen, ob zwei DICOM-f&auml;hige Ger&auml;te miteinander kommunizieren k&ouml;nnen.</p>
+      <p>In der Praxis sind die Conformance Statements allerdings nur f&uuml;r Experten verst&auml;ndlich und auch f&uuml;r diese oft unzureichend, da h&auml;ufig nur das notwendige Minimum dokumentiert wird, die Praxisprobleme aber eher im "unscheinbaren Detail" liegen.</p>
+      <h2 class="lowerh2">Fazit</h2>
+      <p>DICOM hat sich zu einem unentbehrlichen Baustein f&uuml;r die Integration digitaler bildverarbeitender Systeme in der Medizin entwickelt. DICOM bietet L&ouml;sungen f&uuml;r eine Vielzahl von Kommunikationsanwendungen - im Netzwerk wie auch "off-line". Das Schlagwort "DICOM" alleine ist allerdings noch keine Garantie f&uuml;r eine funktionsf&auml;hige Integration aller Informationssysteme im Krankenhaus. Hierzu bedarf es einer sorgf&auml;ltigen Kombination der vielen Teill&ouml;sungen, die DICOM anbietet.</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+    </td>
+    <td class="foot">
+      <?php include("footer.html.de")?>
+    </td>
+  </tr>
+</table>
+</body>
+
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<meta name="description" content="Information concerning OFFIS DICOM software.">
+<meta name="author" content="Thomas Wilkens">
+<meta name="keywords" content="software, DICOM">
+<meta name="date" content="2008-11-13">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>dicom.offis.de - DICOM Software made by OFFIS</title>
+</head>
+
+<body>
+<table width="945" border="0" cellspacing="25" cellpadding="5">
+  <colgroup>
+    <col width="200">
+    <col width="650">
+  </colgroup>
+  <tr>
+    <td class="logo">
+      <?php include("logo.html.en")?>
+    </td>
+    <td class="title">
+      <h1>DICOM Software made by OFFIS</h1>
+      <div class="language">Version in <a href="software.php.de"><img src="images/de.gif" alt="Deutsch" width="16" height="10" border="0"></a>&nbsp;&nbsp;&nbsp;</div>
+    </td>
+  </tr>
+  <tr>
+    <td class="navigation">
+      <?php include("navbar.html.en")?>
+    </td>
+    <td class="text">
+      <h2>DCMTK - DICOM Toolkit</h2>
+      <p><a class="textlink" href="dcmtk.php.en">DCMTK</a> is a collection of libraries and applications implementing large parts of the DICOM standard. DCMTK includes software for examining, constructing and converting DICOM image files, handling offline media, sending and receiving images over a network connection, as well as demonstrative image storage and worklist servers. DCMTK comes in complete source code and is written in a mixture of ANSI C and C++.</p>
+
+      <h2 class="lowerh2">DICOMscope - DICOM Viewer</h2>
+      <p><a class="textlink" href="dscope.php.en">DICOMscope</a> is a freely available DICOM viewer. The application displays uncompressed monochrome DICOM images from all modalities and supports display system calibration according to part 14 of the DICOM standard. It also supports supplement 33: Grayscale Softcopy Presentation State Storage. The software has been implemented in a mixture of Java and C++. It is based on a specification from the DICOM committee's working group 11 (Display) and has been presented at the ECR 1999 for the first time.</p>
+
+      <h2 class="lowerh2">DCMPRINT - Print Management</h2>
+      <p><a class="textlink" href="dcmprint.php.en">DCMPRINT</a> is a DICOM print management toolkit. The most important component is a DICOM printserver (SCP) creating PostScript data as output. This allows an application containing a DICOM print client to print on inexpensive laser printers. The server implements a wide variety of DICOM print services including all monochrome/colour and basic/referenced combinations. The toolkit also contains a sample print client application.</p>
+      <p>This module is not freely available and must be licensed separately.</p>
+
+      <h2 class="lowerh2">DCMJP2K - DICOM JPEG 2000 Module</h2>
+      <p><a class="textlink" href="dcmjp2k.php.en">DCMJP2K</a> is a DICOM JPEG2000 toolkit which allows conversion of DICOM images into the DICOM JPEG2000 transfer syntaxes. Therefore, a class library is provided which offers decoding and encoding of DICOM JPEG2000 data. Additionally, two command line applications are included that demonstrate encoding and decoding of DICOM images using the DCMJP2K module.</p>
+      <p>This module is not freely available and must be licensed separately.</p>
+
+      <h2 class="lowerh2">DCMPPS - DICOM MPPS Class Library and SCP</h2>
+      <p><a class="textlink" href="dcmpps.php.en">DCMPPS</a> is a DICOM Modality Performed Procedure Step class library and an MPPS Service Class Provider (SCP) which is based on this library. The received MPPS objects are stored by the program PPSSCPFS in the file system, so that they can be evaluated by other applications.</p>
+      <p>This module is not freely available and must be licensed separately.</p>
+      
+      <h2 class="lowerh2">DCMPPSCU - DICOM MPPS Class Library and SCU</h2>
+      <p><a class="textlink" href="dcmppscu.php.en">DCMPPSCU</a> implements a DICOM Modality Performed Procedure Step (MPPS) SCU based on a C++ 
+      class library. For the program MPPSSCU being part of this module, MPPS messages are either read from DICOM files or composed from individual 
+      data elements. Both mechanisms can also be combined. For each program call, a single MPPS message (N-CREATE or N-SET) is sent. The current 
+      state of the MPPS object is documented in a DICOM file, which can be used for checking purposes. </p>
+      <p>This module is not freely available and must be licensed separately.</p>
+      
+      <h2 class="lowerh2">PPSMGR - IHE compliant PPS Manager</h2>
+      <p><a class="textlink" href="dcppsmgr.php.en">PPSMGR</a> implements an IHE Performed Procedure Step (PPS) Manager, i. e. an DICOM Modality Performed Procedure Step (MPPS) SCU and an MPPS SCP. The received MPPS messages are first stored in a specific file system directory and then forwarded to one or more configurable receivers (MPPS SCP). If an error occurs during forwarding, e. g. in case the receiver cannot be reached, the messages are resend after a particular waiting period. This process is repeated until all MPPS message could be delivered successfully.</p>
+      <p>This module is not freely available and must be licensed separately.</p>       
+      
+      <h2 class="lowerh2">DCMSTCOM - DICOM Storage Commitment Class Library and SCU</h2>
+      <p><a class="textlink" href="dcmstcom.php.en">DCMSTCOM</a> implements a DICOM Storage Commitment SCU based on a C++ class library. The 
+      program STCOMSCU being part of this module accepts the corresponding response messages of a Storage Commitment SCP either on the same 
+      association that was used for the request or on a separate association. The DICOM datasets that were sent or received over the network as 
+      part of the messages can be stored as DICOM files for further analysis.</p>
+      <p>This module is not freely available and must be licensed separately.</p>      
+
+
+      <h2 class="lowerh2">Evaluation Licence</h2>
+      <p>An <a class="textlink" href="evaluation.php.en">evaluation licence contract</a> for the software modules which are not freely available can be downloaded here.</p>
+
+      <h2 class="lowerh2">Discussion Forum</h2>
+      <p>Regarding the OFFIS DICOM software, an <a class="textlink" href="http://forum.dcmtk.org/faq">FAQ&nbsp;list</a> of frequently asked questions including the corresponding answers is available online here.  In addition, further questions and possible issues can be discussed in a <a class="textlink" href="http://forum.dcmtk.org/">forum</a>.</p>
+
+      <h2 class="lowerh2">Wiki</h2>
+      <p>In order to better support the OFFIS DICOM Software, a <a class="textlink" href="http://support.dcmtk.org/wiki/">Wiki</a> has been set up which contains links to the <a class="textlink" href="http://support.dcmtk.org/docs/">online documentation</a> and shall contain additional information on the individual DCMTK modules in the future. Also extended DCMTK examples and general background information on the DICOM standard shall be collected there.</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+    </td>
+    <td class="foot">
+      <?php include("footer.html.en")?>
+    </td>
+  </tr>
+</table>
+</body>
+
+</html>

@@ -1,0 +1,159 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<meta name="description" content="Home Seite von dicom.offis.de">
+<meta name="author" content="Thomas Wilkens">
+<meta name="keywords" content="DICOM, OFFIS">
+<meta name="date" content="2021-11-01">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>dicom.offis.de - Home</title>
+</head>
+
+<body>
+<table width="945" border="0" cellspacing="25" cellpadding="5">
+  <colgroup>
+    <col width="200">
+    <col width="650">
+  </colgroup>
+  <tr>
+    <td class="logo">
+      <?php include("logo.html.de")?>
+    </td>
+    <td class="title">
+      <h1>dicom.offis.de - Home</h1>
+      <div class="language">Version in <a href="index.php.en"><img src="images/en.gif" alt="English" width="16" height="10" border="0"></a>&nbsp;&nbsp;&nbsp;</div>
+    </td>
+  </tr>
+  <tr>
+    <td class="navigation">
+      <?php include("navbar.html.de")?>
+    </td>
+    <td class="text">
+      <h2>Willkommen auf den Webseiten von dicom.offis.de</h2>
+      <p>Auf diesen Webseiten stehen Ihnen sämtliche Informationen zu DICOM-Aktivitäten im Informatikinstitut OFFIS zur Verfügung. Wir haben uns bemüht, die Seiten möglichst übersichtlich zu gestalten. Anmerkungen zu diesen Seiten bitte per E-Mail an&nbsp;<img src="images/email.gif" alt="email" border="0" width="89" height="13" align="middle">&nbsp;senden.</p>
+      <table border="0" cellspacing="10" cellpadding="0">
+        <colgroup>
+          <col width="120">
+          <col width="530">
+        </colgroup>
+        <tr><td valign="top"><a class="textlink" href="general.php.de">Allgemeines</a></td><td valign="top">Informationen zu Standardisierung in der Medizin und Grundlagen des DICOM-Standards</td></tr>
+        <tr><td valign="top"><a class="textlink" href="demos.php.de">DICOM-Demos</a></td><td valign="top">Informationen zu DICOM-Demonstrationen auf Konferenzen und Tagungen</td></tr>
+        <tr><td valign="top"><a class="textlink" href="software.php.de">DICOM-Software</a></td><td valign="top">Informationen zu DICOM-Software made by OFFIS</td></tr>
+        <tr><td valign="top"><a class="textlink" href="service.php.de">Dienstleistungen</a></td><td valign="top">Informationen zu DICOM-spezifischen Dienstleistungen durch OFFIS</td></tr>
+        <tr><td valign="top"><a class="textlink" href="links.php.de">Links</a></td><td valign="top">Informationen zum Thema DICOM im World Wide Web</td></tr>
+        <tr><td valign="top"><a class="textlink" href="contact.php.de">Kontakt</a></td><td valign="top">Ansprechpartner im OFFIS zum Thema DICOM</td></tr>
+        <tr><td valign="top"><a class="textlink" href="donation.php.de">Spenden</a></td><td valign="top">Spenden per PayPal an das OFFIS DICOM-Team</td></tr>
+      </table>
+      <div class="newsbox">
+
+        <h2 class="lowerh2"><a name="news">Aktuelles</a></h2>
+        <p style="margin-top:25px;">Neue Version 3.6.6 des DICOM-Toolkits <a class="textlink" href="dcmtk.php.de">DCMTK</a> verfügbar.  Siehe <a class="textlink" href="http://dicom.offis.de/download/dcmtk/dcmtk366/ANNOUNCE">Ankündigung</a> für weitere Details.</p>
+     <!-- Termine DICOM Schulungen -->
+        <p style="margin-top:25px;">Nächste <a class="textlink" href="training.php.de">DICOM-Schulungen</a>:</p>
+           <!-- <ul><li>DICOM-Intensivkurs 14.-15. Februar 2022, <b>online</b></li></ul>
+            <ul><li>DICOM-Tools and -Troubleshooting 16.-17. Februar 2022, <b>online</b></li></ul>
+            <ul><li>DICOM-Intensivkurs 09.-10. Mai 2022, je nach Pandemielage online oder in Präsenz</li></ul>
+            <ul><li>DICOM-Intensivkurs 19.-20. September 2022, je nach Pandemielage online oder in Präsenz</li></ul>
+            <ul><li>DICOM-Advanced 21.-22. September 2022, je nach Pandemielage online oder in Präsenz</li></ul>
+	    <ul><li>DICOM-Intensivkurs 14.-15. November 2022, je nach Pandemielage online oder in Präsenz</li></ul>-->
+
+	  <table border="0" cellpadding="0" cellspacing="10">
+          <tbody>
+            <tr>
+              <td width="150">14.-15. Februar 2022</td>
+              <td>
+              <img src="images/de.gif" alt="Deutsch" border="0" height="10" width="16" />
+              DICOM-Intensivkurs, <b>online</b></td>
+            </tr>
+            <tr>
+              <td width="150">16.-17. Februar 2022</td>
+              <td>
+              <img src="images/de.gif" alt="Deutsch" border="0" height="10" width="16" />
+              DICOM-Tools und -Troubleshooting</a>, <b>online</b></td>
+            </tr>
+            <tr>
+              <td width="150">09.-10. Mai 2022</td>
+              <td>
+              <img src="images/de.gif" alt="Deutsch" border="0" height="10" width="16" />
+              DICOM-Intensivkurs, je nach Pandemielage online oder in Präsenz</td>
+            </tr>
+            <tr>
+              <td width="150">19.-20. September 2022</td>
+              <td>
+              <img src="images/de.gif" alt="Deutsch" border="0" height="10" width="16" />
+              DICOM-Intensivkurs, je nach Pandemielage online oder in Präsenz</td>
+            </tr>
+            <tr>
+              <td width="150">21.-22. September 2022</td>
+              <td>
+              <img src="images/de.gif" alt="Deutsch" border="0" height="10" width="16" />
+              DICOM-Advanced, je nach Pandemielage online oder in Präsenz</td>
+            </tr>
+            <tr>
+              <td width="150">14.-15. November 2022</td>
+              <td>
+              <img src="images/de.gif" alt="Deutsch" border="0" height="10" width="16" />
+              DICOM-Intensivkurs, je nach Pandemielage online oder in Präsenz</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <p style="margin-top:25px;">Nächste <a class="textlink" href="hl7train.php.de">HL7-Schulung</a>:</p>
+            <!--<ul><li>HL7v2-Intensivkurs und -Troubleshooting 23.-24. Mai 2022, je nach Pandemielage online oder in Präsenz</li></ul>
+	    <ul><li>HL7v2-Intensivkurs und -Troubleshooting 16.-17. November 2022, je nach Pandemielage online oder in Präsenz</li></ul>-->
+          <table border="0" cellpadding="0" cellspacing="10">
+          <tbody>
+            <tr>
+              <td width="150">23.-24. Mai 2022</td>
+              <td>
+              <img src="images/de.gif" alt="Deutsch" border="0" height="10" width="16" />
+              HL7v2-Intensivkurs und -Troubleshooting, je nach Pandemielage online oder in Präsenz </td>
+            </tr>
+            <tr>
+              <td width="150">16.-17. November 2022</td>
+              <td>
+              <img src="images/de.gif" alt="Deutsch" border="0" height="10" width="16" />
+              HL7v2-Intensivkurs und -Troubleshooting, je nach Pandemielage online oder in Präsenz </td>
+            </tr>
+	  </tbody>
+	</table>
+
+        <p style="margin-top:25px;">Nächste <a class="textlink" href="ihetrain.php.de">IHE-Schulung</a>:</p>
+        <table border="0" cellpadding="0" cellspacing="10">
+          <tbody>
+            <tr>
+              <td width="150">11.-12. Mai 2022</td>
+              <td>
+              <img src="images/de.gif" alt="Deutsch" border="0" height="10" width="16" />
+              Patientenakten mit IHE, je nach Pandemielage online oder in Präsenz</td>
+            </tr>
+          </tbody>
+        </table>
+
+
+        <p style="margin-top:25px;">Bei allen Schulungskursen: Frühbucherrabatt bei Anmeldung bis 4 Wochen vor dem Schulungstermin!</p>
+<!--
+        <p style="margin-top:25px;">Nächste <a class="textlink" href="ihetrain.php.de">IHE-Schulung</a>:</p>
+        <ul><li>IHE XDS-Schulung am 26. und 27. Mai 2010 in Thun (Schweiz)</li></ul>
+        <p>Die Schulung wird in Kooperation mit der <a href="http://www.medshare.ch/"><b></b>medshare GmbH</a> (Schweiz) durchgeführt.</p>
+        <p style="margin-top:25px;"><img src="images/new.gif" alt="new" border="0" width="28" height="11">&nbsp;&nbsp;Aktueller <a class="textlink" href="dcmtk.php.de#snapshot">Snapshot</a> des DCMTK im Quelltext verfügbar</p>
+-->
+      </div>
+      <div class="dicomlogo">
+        <img src="images/dicomlogo.gif" alt="DICOM logo" border="0" width="330" height="88">
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+    </td>
+    <td class="foot">
+      <?php include("footer.html.de")?>
+    </td>
+  </tr>
+</table>
+</body>
+
+</html>

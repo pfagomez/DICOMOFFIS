@@ -1,0 +1,102 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<meta name="description" content="Informationen zu HL7-Schulungen.">
+<meta name="author" content="Michael Onken">
+<meta name="keywords" content="HL7, DICOM, OFFIS, Schulung">
+<meta name="date" content="2012-04-10">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>dicom.offis.de - Dienstleistungen - HL7-Schulung</title>
+</head>
+
+<body>
+<table width="945" border="0" cellspacing="25" cellpadding="5">
+  <colgroup>
+    <col width="200">
+    <col width="650">
+  </colgroup>
+  <tr>
+    <td class="logo">
+      <?php include("logo.html.de")?>
+    </td>
+    <td class="title">
+      <h1>HL7-Schulung</h1>
+      <div class="language">So far, HL7 training is only offered in German language</div>
+    </td>
+  </tr>
+  <tr>
+    <td class="navigation">
+      <?php include("navbar.html.de")?>
+    </td>
+    <td class="text">
+      <h2>HL7-Schulungen durch OFFIS</h2>
+      <p>Der Nachrichtenstandard von HL7 (Health Level Seven) in der Version 2 ist die wichtigste Schnittstelle für die Vernetzung von Informationssystemen in Krankenhäusern - in Deutschland wie auch international. <img src="images/hl7teaser.jpg" align="right" hspace="7" vspace="5" alt="HL7 training image">HL7 ermöglicht den Austausch von Patienten-, Auftrags-, Befund- und Abrechnungsdaten zwischen Krankenhausinformationssystemen, Laborsystemen, Radiologie- und Kardiologie-Abteilungssystemen und vielen weiteren IT-Systemen im Krankenhaus. Kenntnisse dieses Standards sind nicht nur für Systementwickler und Systemintegratoren, sondern auch für Systemadministratoren in Krankenhäusern unverzichtbar.</p>
+      <h3>Voraussetzungen</h3>
+      <p>Es ist keinerlei Vorwissen im Bereich HL7 notwendig.</p>
+
+      <h3>Ziel der Schulung</h3>
+      <p>Sie erhalten in diesem Seminar einen grundlegenden Überblick über den HL7-Nachrichtenstandard in der Version 2. Sie erfahren, wie HL7-Nachrichten aufgebaut sind, wie die Kommunikation im Netzwerk funktioniert und wie die wichtigsten Anwendungsfälle von HL7 aussehen. Sie lernen gängige Abweichungen vom Standard und den Umgang damit kennen. Ihr Nutzen ist ein effizienter Einstieg in die Grundlagen des HL7-Standards durch kompetente Referenten, die sich seit vielen Jahren mit der Materie beschäftigen.
+      </p>
+
+      <h3>Programm </h3>
+      <p> Die Schulung behandelt unter anderem die folgenden Themen: </p>
+      <ul>
+      <li>IT-Unterstützung eines klinischen Arbeitsablaufs</li>
+      <li>HL7 im Überblick; Aufbau von HL7-Nachrichten</li>
+      <li>HL7-Kommunikationsprotokolle</li>
+      <li>Stammdatenverwaltung (ADT)</li>
+      <li>Auftragskommunikation (ORM)</li>
+      <li>Übermittlung von Labor- und Befunddaten (ORU)</li>
+      <li>Dokumentenmanagement (MDM)</li>
+      <li>Z-Segmente; Troubleshooting und gängige Abweichungen vom Standard</li>
+      </ul>
+
+
+      <h3>Zielgruppe</h3>
+      <p>Die Schulung richtet sich in erster Linie an:</p>
+      <ul>
+      <li>Software-Entwickler und Systemintegratoren</li>
+      <li>Systemadministratoren und Service-Mitarbeiter</li>
+      <li>Technisch interessierte Anwender aus dem HL7-Umfeld </li>
+      </ul>
+
+      <h3>Referenten</h3>
+      <p>Die Schulung wird durchgeführt durch:</p>
+      <ul>
+      <li><strong>Dr. Marco Eichelberg</strong>: Gruppenleiter Integrationstechnik im Bereich Gesundheit des OFFIS-Instituts für Informatik, Oldenburg. Langjähriger &quot;Technical Manager&quot; der IHE-Initiative in Deutschland.<li><strong>Dipl.-Inform. Heyo Spekker</strong>: Als Mitarbeiter der ICSMED AG für die Projektierung, Implementierung und Anpassung von HL7-Schnittstellen verantwortlich.</li>
+      </ul>
+
+      <h3>Schulungsort, Datum und Anmeldung</h3>
+      <p>Die nächsten Schulungstermine sind:</p>
+        <ul>
+	  <li>HL7v2 Intensivkurs und Troubleshooting 23.-24. Mai 2022, je nach Pandemielage online oder in Präsenz</li>
+	  <li>HL7v2 Intensivkurs und Troubleshooting 16.-17. November 2022, je nach Pandemielage online oder in Präsenz</li> 
+        </ul>
+      <p>
+         Für weitere Informationen zur Schulung und zur Anmeldung stehen wir gerne zur Verfügung, bitte wenden Sie sich  <a class="textlink" href="people.php.de"> an einen unserer Mitarbeiter</a>.
+      </p>
+
+      <h3><a id="terms">Teilnahmebedingungen</a></h3>
+      <p>Stornierungen von Anmeldungen müssen schriftlich erfolgen.</p>
+      <p>Für Schulungen bei OFFIS in Oldenburg gilt: Bei Stornierungen, die mehr als 14 Tage vor Beginn der Schulung eingehen, wird der Teilnehmerbeitrag vollständig erstattet. Bei Stornierungen, die uns bis zu 8 Tage vor Beginn der Schulung vorliegen, stellen wir 50% des Teilnehmerbeitrags in Rechnung. Bei späteren Stornierungen oder bei Nichterscheinen des Teilnehmers ist der volle Teilnehmerbeitrag zu zahlen.</p>
+      <!-- <p>Für Schulungen außerhalb von Oldenburg gilt: Bei Stornierungen, die mehr als 6 Wochen vor Beginn der Schulung eingehen, wird der Teilnehmerbeitrag vollständig erstattet. Bei Stornierungen, die uns bis zu 3 Wochen vor Beginn der Schulung vorliegen, stellen wir 50% des Teilnehmerbeitrags in Rechnung. Bei späteren Stornierungen oder bei Nichterscheinen des Teilnehmers ist der volle Teilnehmerbeitrag zu zahlen. </p> -->
+      <p>Die Benennung eines Ersatzteilnehmers ist jederzeit möglich.</p>
+      <p>OFFIS hat das Recht, eine Schulung abzusagen, wenn die Mindestteilnehmerzahl von 8 Personen nicht erreicht wird. In diesem Fall wird der Teilnehmerbeitrag in voller Höhe erstattet.</p>
+      <hr>
+      <p>Die HL7-Schulungen werden in Kooperation mit der <a href="http://www.icsmed.de/"><b>ICS</b>MED AG</a>, einem Spin-off des OFFIS-Instituts, angeboten.</p>      
+    </td>
+  </tr>
+  <tr>
+    <td>
+    </td>
+    <td class="foot">
+      <?php include("footer.html.de")?>
+    </td>
+  </tr>
+</table>
+</body>
+
+</html>
+

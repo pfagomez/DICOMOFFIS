@@ -1,0 +1,51 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<meta name="description" content="DICOM consulting provided by OFFIS.">
+<meta name="author" content="Thomas Wilkens">
+<meta name="keywords" content="DICOM, OFFIS, consulting">
+<meta name="date" content="2010-01-08">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>dicom.offis.de - Service - DICOM Consulting</title>
+</head>
+
+<body>
+<table width="945" border="0" cellspacing="25" cellpadding="5">
+  <colgroup>
+    <col width="200">
+    <col width="650">
+  </colgroup>
+  <tr>
+    <td class="logo">
+      <?php include("logo.html.en")?>
+    </td>
+    <td class="title">
+      <h1>DICOM Consulting</h1>
+      <div class="language">Version in <a href="consult.php.de"><img src="images/de.gif" alt="Deutsch" width="16" height="10" border="0"></a>&nbsp;&nbsp;&nbsp;</div>
+    </td>
+  </tr>
+  <tr>
+    <td class="navigation">
+      <?php include("navbar.html.en")?>
+    </td>
+    <td class="text">
+      <h2>DICOM consulting provided by OFFIS</h2>
+      <p> Consulting can take place at OFFIS, at the client's premises or electronically (phone, email, online). <p>
+      <p>For nearly 20 years now, OFFIS is dealing with standards in the health informatics domain and provides organizations and companies with consulting services in the DICOM and IHE fields. These consulting services may for example be directed towards developing DICOM interfaces or towards analyzing problems of interoperability. Furthermore, OFFIS provides support for the employment of <a class="textlink" href="software.php.en">DICOM&nbsp;software</a> which was developed at the OFFIS institute.</p>
+      <p> Consulting can take place at OFFIS, at the client's premises or electronically (phone, email, online). <p>
+      <p>In case you are interested in DICOM related consulting services, please contact one of the mentioned <a class="textlink" href="people.php.en">contacts at OFFIS</a> or write an email to&nbsp;<img src="images/email.gif" alt="email" border="0" width="89" height="13" align="middle">&nbsp;including details of your request.</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+    </td>
+    <td class="foot">
+      <?php include("footer.html.en")?>
+    </td>
+  </tr>
+</table>
+</body>
+
+</html>

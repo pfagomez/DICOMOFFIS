@@ -1,0 +1,71 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<meta name="description" content="Informationen zu DCMPPS.">
+<meta name="author" content="Michael Onken">
+<meta name="keywords" content="DICOM, Software, DCMTK, MPPS, Modality Performed Procedure Step SCP, OFFIS">
+<meta name="date" content="2008-11-13">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>dicom.offis.de - DICOM-Software made by OFFIS - DCMPPS - DICOM MPPS-Klassenbibliothek und SCP</title>
+</head>
+
+<body>
+<table width="945" border="0" cellspacing="25" cellpadding="5">
+  <colgroup>
+    <col width="200">
+    <col width="650">
+  </colgroup>
+  <tr>
+    <td class="logo">
+      <?php include("logo.html.de")?>
+    </td>
+    <td class="title">
+      <h1>DCMPPS - DICOM MPPS-Klassenbibliothek und SCP</h1>
+      <div class="language">Version in <a href="dcmpps.php.en"><img src="images/en.gif" alt="English" width="16" height="10" border="0"></a>&nbsp;&nbsp;&nbsp;</div>
+    </td>
+  </tr>
+  <tr>
+    <td class="navigation">
+      <?php include("navbar.html.de")?>
+    </td>
+    <td class="text">
+      <h2>Beschreibung</h2>
+      <p>DCMPPS implementiert einen DICOM Modality Performed Procedure Step (MPPS) SCP basierend auf
+         einer MPPS-Klassenbibliothek. Die empfangenen MPPS-Objekte werden bei dem in diesem Modul
+         enthaltenen Programm PPSSCPFS in Form von DICOM-Dateien in einem bestimmten Verzeichnis des
+         Dateisystems angelegt, ggf. aktualisiert und können anschließend von einer anderen Anwendung
+         ausgewertet werden.
+      </p>
+      <h2 class="lowerh2">Leistungsmerkmale im Detail</h2>
+      <p>DCMPPS/PPSSCPFS verfügt unter anderem über folgende Leistungsmerkmale:</p>
+      <ul type="disc">
+        <li>Empfang und Speicherung von beliebigen MPPS-Nachrichten im Dateisystem</li>
+        <li>Bei Bedarf werden nur Nachrichten von "bekannten" MPPS SCU angenommen</li>
+        <li>Umfangreiche Prüfung der MPPS-Nachrichten auf Vollständigkeit und Korrektheit</li>
+        <li>Optionen für erweiterte Kompatibilität zu bestimmten Modalitäten</li>
+        <li>Wahlweise Verwendung von Single oder Multi-process Mode (mehrere Anfragen gleichzeitig)</li>
+        <li>Umfangreiche Einstellmöglichkeiten für die DICOM-Netzwerkkommunikation</li>
+        <li>Optionale Archivierung finaler MPPS-Objekte durch PPSSCPFS in Form von XML-Dateien</li>        
+      </ul>
+      <p>Weitere Details können der Dokumentation der MPPS Servers <a href="http://support.dcmtk.org/docs-products/ppsscpfs.html">PPSSCPFS</a> entnommen werden.</p>      
+      <p>DCMPPS basiert auf dem OFFIS DICOM-Toolkit <a class="textlink" href="dcmtk.php.de">DCMTK</a> und unterstützt verschiedene Unix-Dialekte (u. a. Linux, Solaris und Mac OS X) sowie Windows. Neben dem ausführbaren Binärprogramm ist auch der vollständige Quelltext erhältlich.
+      </p>
+      <p>Die in der Quelltextvariante mitgelieferte Klassenbibliothek erlaubt es, auf einfache Weise das
+         Dateisystem als Speicherziel durch eine entsprechende Datenbankanbindung zu ersetzen.
+      </p>
+      <p>Dieses Modul ist nicht frei verfügbar und muß separat lizenziert werden.</p>            
+    </td>
+  </tr>
+  <tr>
+    <td>
+    </td>
+    <td class="foot">
+      <?php include("footer.html.de")?>
+    </td>
+  </tr>
+</table>
+</body>
+
+</html>

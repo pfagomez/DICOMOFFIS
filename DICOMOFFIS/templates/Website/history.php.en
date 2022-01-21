@@ -1,0 +1,62 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<meta name="description" content="History of DCMTK's development.">
+<meta name="author" content="Thomas Wilkens">
+<meta name="keywords" content="DCMTK, DICOM, toolkit, development">
+<meta name="date" content="2003-03-03">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>dicom.offis.de - DICOM Software - DCMTK - DICOM Toolkit - The History of DCMTK's Development</title>
+</head>
+
+<body>
+<table width="945" border="0" cellspacing="25" cellpadding="5">
+  <colgroup>
+    <col width="200">
+    <col width="650">
+  </colgroup>
+  <tr>
+    <td class="logo">
+      <?php include("logo.html.en")?>
+    </td>
+    <td class="title">
+      <h1>The History of DCMTK's Development</h1>
+      <div class="language">Version in <a href="history.php.de"><img src="images/de.gif" alt="Deutsch" width="16" height="10" border="0"></a>&nbsp;&nbsp;&nbsp;</div>
+    </td>
+  </tr>
+  <tr>
+    <td class="navigation">
+      <?php include("navbar.html.en")?>
+    </td>
+    <td class="text">
+      <h2>The beginnings of the DICOM toolkit</h2>
+      <p>In 1993, before the official release of the standard, a DICOM prototype implementation was created by OFFIS, the University of Oldenburg and the CERIUM research centre in Rennes (France) on behalf of the European Committee for Standardization (CEN/TC251/WG4). This software was presented at the <a class="textlink" href="http://www.rsna.org">RSNA 1993</a> conference where interoperability with about 20 implementations from medical imaging vendors could be successfully demonstrated. After the conference, the created software became known as "European CTN" (Central Test Node). Its development was based on an an early implementation of the "DICOM upper layer" protocol by the Mallinckrodt Institute of Radiology in St. Louis (USA), but was independently completed, enhanced and presented on a number of <a class="textlink" href="networks.php.en">further demonstrations</a> in 1994 and 1995.</p>
+      <h2 class="lowerh2">DICOM Toolkit DCMTK (1996)</h2>
+      <p>In 1996, the software was rewritten by OFFIS and renamed to DCMTK ("DICOM Toolkit"). A new base library for encoding and decoding DICOM data was included and a Modality Worklist demonstration server was implemented and demonstrated for the first time at the CAR 1996 conference in Paris. Further improvements of DCMTK in comparison to the earlier "European CTN" are:</p>
+      <ul type="disc">
+        <li>automatic configuration on Unix systems with GNU configure,</li>
+        <li>support for storage media,</li>
+        <li>support for "explicit VR" transfer syntaxes,</li>
+        <li>user-extendible dictionary of DICOM data elements, and</li>
+        <li>support for Windows 9x/NT, later also Windows Me/2000/XP.</li>
+      </ul>
+      <h2 class="lowerh2">New image processing functions (1999)</h2>
+      <p>For the <a class="textlink" href="dispcons.php.en">demonstration</a> of two new image display consistency related DICOM services, "Grayscale Standard Display Function" and "Grayscale Softcopy Presentation State Storage" at the ECR 1999 conference in Vienna, the toolkit was enhanced by a library processing monochrome image data. The library supports different linear and non-linear image processing steps defined in the DICOM standard and contains functions for creating and managing presentation state objects. Based on this DCMTK release the <a class="textlink" href="dscope.php.en">DICOMscope</a> DICOM viewer was implemented.</p>
+      <h2 class="lowerh2">Further OFFIS DICOM Software</h2>
+      <p>DCMTK is used for internal research at OFFIS. Within the scope of some our projects, extensions of the toolkit implementing new DICOM services have been created, for example:</p>
+      <p>These software packages are not available as "open source" software, but can be licensed through OFFIS.</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+    </td>
+    <td class="foot">
+      <?php include("footer.html.en")?>
+    </td>
+  </tr>
+</table>
+</body>
+
+</html>

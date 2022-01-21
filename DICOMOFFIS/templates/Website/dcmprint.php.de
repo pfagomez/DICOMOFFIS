@@ -1,0 +1,78 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<meta name="description" content="Informationen zu DCMPRINT.">
+<meta name="author" content="Thomas Wilkens">
+<meta name="keywords" content="DICOM, Software, DCMPRINT, OFFIS">
+<meta name="date" content="2007-03-16">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>dicom.offis.de - DICOM-Software made by OFFIS - DCMPRINT - Print Management</title>
+</head>
+
+<body>
+<table width="945" border="0" cellspacing="25" cellpadding="5">
+  <colgroup>
+    <col width="200">
+    <col width="650">
+  </colgroup>
+  <tr>
+    <td class="logo">
+      <?php include("logo.html.de")?>
+    </td>
+    <td class="title">
+      <h1>DCMPRINT - Print Management</h1>
+      <div class="language">Version in <a href="dcmprint.php.en"><img src="images/en.gif" alt="English" width="16" height="10" border="0"></a>&nbsp;&nbsp;&nbsp;</div>
+    </td>
+  </tr>
+  <tr>
+    <td class="navigation">
+      <?php include("navbar.html.de")?>
+    </td>
+    <td class="text">
+      <h2>Beschreibung</h2>
+      <p>Das DICOM-Print-Management-Toolkit DCMPRINT besteht aus drei Komponenten:</p>
+      <ul type="disc">
+        <li>einer C++ Klassenbibliothek, die das DICOM Print Management-Kommunikationsprotokoll implementiert,</li>
+        <li>einem Print-Server (Print Management SCP), der als Ausgabe PostScript-Code erzeugt, welcher auf einem konventionellen PostScript-Laserdrucker ausgegeben werden kann, und</li>
+        <li>einem einfachen Print-Client (Print Management SCU), der es erlaubt, DICOM-Bilder zu laden und sie mit dem Print-Server zu drucken.</li>
+      </ul>
+      <p>Der Print-Server implementiert die DICOM Print Management Service Class sowie einige optionale Erweiterungen (Annotation Box, Print Job und Presentation LUT). Es werden die "Basic Print Management"-Dienste unterst&uuml;tzt, und zwar sowohl in Farbe als auch Monochrom.</p>
+      <p>Der Print-Client erlaubt es, alle Optionen und Leistungsmerkmale des Print-Servers anzusteuern. Der Client ist eine sehr simple Kommandozeilen-Anwendung, die eher als Demonstration der zugrundeliegenden Bibliotheken zu verstehen ist, denn als fertig einsetzbares Produkt.</p>
+      <h2 class="lowerh2">Ver&ouml;ffentlichungen zu DCMPRINT</h2>
+      <p>In folgenden (englischsprachigen) Ver&ouml;ffentlichungen wird die Forschungsarbeit, auf der DCMPRINT basiert, beschrieben:</p>
+      <ol>
+        <li>Eichelberg M, Hewett AJ, Jensch P: <b>A Prototype Implementation of the DICOM Print Management Service Class</b>, in: Proceedings EuroPACS 1994, Geneve, Sept. 1994</li>
+        <li>Eichelberg M, Hewett AJ, Jensch P: <b>Remote Printing of Medical and Secondary Capture Images for Distributed Hospitals in Rural Environments via the DICOM Print Management Service Class</b>, in: Medical Imaging 1995, Proceedings SPIE</li>
+      </ol>
+      <p>Nachdrucke dieser Ver&ouml;ffentlichungen sind auf Anfrage verf&uuml;gbar.</p>
+      <h2 class="lowerh2">Leistungsmerkmale im Detail</h2>
+      <p>Die Server- und Client-Komponente von DCMPRINT unterst&uuml;tzen beide folgende DICOM-Dienste:</p>
+      <ul type="disc">
+        <li>Basic Grayscale Print Management</li>
+        <li>Basic Color Print Management</li>
+        <li>Print Jobs</li>
+        <li>Annotations</li>
+        <li>Presentation LUT</li>
+      </ul>
+      <p>
+      Unter Unix-artigen Betriebssystemen kann der Server in einem Mehrprozessmodus gestartet werden. In diesem Fall wird für jede eingehende DICOM-Verbindung eines Clients ein neuer Prozess gestartet. Dies ermöglicht es, mehrere Clients und damit Druckaufträge gleichzeitig zu bedienen. Auf Windows-Systemen steht dieser Modus nicht zur Verfügung. Der Server kann jedoch unter Windows mehrfach gestartet werden, um mehr als einen Client gleichzeitig auf unterschiedlichen TCP/IP-Ports zu bedienen.
+      </p>
+      Weitere Details können der Dokumentation der Programme <a href="http://support.dcmtk.org/docs-products/tcpsrv.html">TCPSRV</a> und <a href="http://support.dcmtk.org/docs-products/tcpprt.html">TCPPRT</a> (in englischer Sprache) entnommen werden.
+      <p>Es werden alle drei unkomprimierten Transfersyntaxen unterstützt.</p>
+      <p>DCMPRINT basiert auf dem OFFIS DICOM-Toolkit <a class="textlink" href="dcmtk.php.de">DCMTK</a> und wird üblicherweise im Quelltext ausgeliefert. DCMPRINT unterstützt verschiedene Unix-Dialekte, u. a. Linux, Solaris und Mac OS X sowie die meisten Windows-Plattformen.</p>
+      <p>Dieses Modul ist nicht frei verfügbar und muß separat lizenziert werden.</p>            
+    </td>
+  </tr>
+  <tr>
+    <td>
+    </td>
+    <td class="foot">
+      <?php include("footer.html.de")?>
+    </td>
+  </tr>
+</table>
+</body>
+
+</html>

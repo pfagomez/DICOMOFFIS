@@ -1,0 +1,82 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<meta name="description" content="Informationen zur Evaluationslizenz.">
+<meta name="author" content="Thomas Wilkens">
+<meta name="keywords" content="DICOM, Software, OFFIS, Evaluationslizenz">
+<meta name="date" content="2011-11-29">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>dicom.offis.de - DICOM-Software made by OFFIS - Software-Evaluationslizenz</title>
+</head>
+
+<body>
+<table width="945" border="0" cellspacing="25" cellpadding="5">
+  <colgroup>
+    <col width="200">
+    <col width="650">
+  </colgroup>
+  <tr>
+    <td class="logo">
+      <?php include("logo.html.de")?>
+    </td>
+    <td class="title">
+      <h1>Software-Evaluationslizenz</h1>
+      <div class="language">Version in <a href="evaluation.php.en"><img src="images/en.gif" alt="English" width="16" height="10" border="0"></a>&nbsp;&nbsp;&nbsp;</div>
+    </td>
+  </tr>
+  <tr>
+    <td class="navigation">
+      <?php include("navbar.html.de")?>
+    </td>
+    <td class="text">
+      <h2>Evaluation von Softwarepaketen</h2>
+      <p>Für die OFFIS DICOM-Softwarepakete DCMPPS, DCMPPSCU, PPSMGR, DCMPRINT SCU, DCMPRINT SCP, DCM2AVI, DCMJP2K und DCMSTCOM ist eine kostenlose Evaluationsversion verfügbar. Die Evaluationslizenz erlaubt es, die Software über das Internet zu beziehen und sie vier Monate lang zu testen. Ein darüber hinausgehender Einsatz der Software erfordert eine kostenpflichtige Lizenz.</p>
+      <p>Wenn Sie Interesse an der Evaluation dieser Softwarepakete haben, führen Sie bitte die folgenden Schritte durch.</p>
+      <h2 class="lowerh2">Erster Schritt: Übertragen des Lizenzvertrags</h2>
+      <p>Das Dokument ist in einer deutschen und einer englischen Fassung verfügbar.</p>
+      <table border="0" cellspacing="10" cellpadding="0">
+        <colgroup>
+          <col width="50">
+          <col width="250">
+          <col width="350">
+        </colgroup>
+        <tr><td><img src="images/acrobat.gif" alt="pdf-Datei" border="0" width="29" height="32"></td><td><a class="textlink" href="lic_ger.pdf">lic_ger.pdf</a><br>144K</td><td>Evaluations-Lizenzvertrag (deutsch)</td></tr>
+        <tr><td><img src="images/acrobat.gif" alt="pdf-Datei" border="0" width="29" height="32"></td><td><a class="textlink" href="lic_eng.pdf">lic_eng.pdf</a><br>128K</td><td>Evaluations-Lizenzvertrag (englisch)</td></tr>
+      </table>
+      <h2 class="lowerh2">Zweiter Schritt: Lesen, Ausfüllen und Drucken des Vertrags</h2>
+      <p>Sie benötigen dazu den <a class="textlink" href="http://www.adobe.com/prodindex/acrobat/readstep.html">Adobe Acrobat Reader</a>, der kostenlos für die meisten Systeme verfügbar ist. Ein Verweis auf den Adobe-Server findet sich am Ende dieser Seite.</p>
+      <ul type="disc">
+        <li>Auf Seite 1 tragen Sie bitte den vollständigen Namen und die Postanschrift Ihrer Firma/Organisation ein, außerdem Name und Position des Unterzeichners.</li>
+        <li>Auf Seite 4 tragen Sie bitte Ort und Datum für die Unterschrift ein.</li>
+        <li>Auf Seite 5 wählen Sie bitte die Softwarepakete und Optionen aus.</li>
+        <li>Auf Seite 6 tragen Sie bitte Ihre E-Mail Adresse ein und überprüfen Sie diese bitte noch einmal, denn wir versenden unsere Antwort ausschließlich an diese E-Mail-Adresse. Schließlich tragen Sie bitte auch hier Ort und Datum für die Unterschrift ein.</li>
+      </ul>
+      <p>Nun können Sie den Vertrag ausdrucken.</p>
+      <p>Sie sollen auch eine elektronische Version des ausgefüllten PDF-Formulars speichern (wählen Sie im Druckmenü, anstelle Ihres Standarddruckers, "SAVE AS PDF" oder "PRINT TO PDF") In den meisten Fällen werden die eingegebene Daten im Originalformular gelöscht, nachdem Sie das Dokument geschlossen haben.</p>
+      <p>Senden Sie uns diese vollständige Datei per E-Mail <b>ZUSÄTZLICH</b> zum Unterschriftscan (Eine handschriftliche Unterschrift ist in Deutschland gesetzlich vorgeschrieben und daher benötigen wir ein Scan vom Originaldokument, bevor wir die Software ausliefern können). Auf diese Weise können wir Abschreibefehler (z.B. in der E-Mail-Adresse) vermeiden.</p>
+      <h2 class="lowerh2">Dritter Schritt: Unterzeichnen des Lizenzvertrags</h2>
+      <p>Bitte stellen Sie sicher, daß der Vertrag durch den Unterzeichner sowohl auf Seite 4 (Vertrag) als auch auf Seite 6 (Anhang) unterschrieben wird.</p>
+      <h2 class="lowerh2">Vierter Schritt: Senden Sie den Vertrag zu uns</h2>
+      <p>Senden Sie die ausgefüllte PDF UND ein Scan vom Unterschrift zu <img src="images/email.gif" alt="email" border="0" width="89" height="13" align="top" />.</p>
+      <p>Schreiben Sie "[Eval-Lizenz]" am Anfang vom Betreff.</p>
+      <h2 class="lowerh2">Wie Sie an die Software kommen</h2>
+      <p>Die Software wird Ihnen per FTP zur Verfügung gestellt. Sie erhalten von uns eine E-Mail mit Rechnername, Login und Passwort Ihres individuellen FTP-Zugangs. Dieser wird in der Regel innerhalb weniger Tage nach Eingang des unterzeichneten Vertrags verfügbar.</p>
+      <p>OFFIS behält sich das Recht vor, eingesandte Lizenzverträge abzulehnen, wenn es Grund zu der Annahme gibt, daß die Informationen über den Vertragspartner unvollständig oder inkorrrekt sind oder daß das Lizenzmaterial nicht in Übereinstimmung mit den Bedingungen des Lizenzvertrags verwendet werden würde.</p>
+      <h2 class="lowerh2">Adobe Acrobat Reader</h2>
+      <p>Die aktuelle Version des Acrobat Readers kann über den Webserver der Firma Adobe bezogen werden.</p>
+      <p><a href="http://www.adobe.com/prodindex/acrobat/readstep.html"><img src="images/getacrobat.gif" alt="Acrobat Reader" border="0" height="31" width="88"></a></p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+    </td>
+    <td class="foot">
+      <?php include("footer.html.de")?>
+    </td>
+  </tr>
+</table>
+</body>
+
+</html>

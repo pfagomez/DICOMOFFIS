@@ -1,0 +1,61 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<meta name="description" content="Konformit&auml;t von DICOM-Bildern.">
+<meta name="author" content="Thomas Wilkens">
+<meta name="keywords" content="Demonstration, DICOM, Konformit&auml;t, Bild">
+<meta name="date" content="2003-03-03">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>dicom.offis.de - DICOM-Demonstrationen - Konformit&auml;t von DICOM-Bildern</title>
+</head>
+
+<body>
+<table width="945" border="0" cellspacing="25" cellpadding="5">
+  <colgroup>
+    <col width="200">
+    <col width="650">
+  </colgroup>
+  <tr>
+    <td class="logo">
+      <?php include("logo.html.de")?>
+    </td>
+    <td class="title">
+      <h1>Konformit&auml;t von DICOM-Bildern</h1>
+      <div class="language">Version in <a href="imgconf.php.en"><img src="images/en.gif" alt="English" width="16" height="10" border="0"></a>&nbsp;&nbsp;&nbsp;</div>
+    </td>
+  </tr>
+  <tr>
+    <td class="navigation">
+      <?php include("navbar.html.de")?>
+    </td>
+    <td class="text">
+      <h2>DCMCHECK auf der ESC 1998</h2>
+      <p>Auf dem Europ&auml;ischen Kardiologiekongress <a class="textlink" href="http://www.escardio.org">ESC 1998</a> wurde das von OFFIS entwickelte DICOM-Pr&uuml;fwerkzeug DCMCHECK sowie eine Studie &uuml;ber die Konformit&auml;t kardiologischer DICOM-CDs vorgestellt. Diese Studie wurde in Zusammenarbeit mit der Arbeitsgruppe IT des niederl&auml;ndischen Forschungsinstituts ICIN durchgef&uuml;hrt.</p>
+      <table border="0" cellspacing="10" cellpadding="0">
+        <colgroup>
+          <col width="100">
+          <col width="550">
+        </colgroup>
+        <tr><td><img src="images/icin.gif" alt="ICIN Logo" border="0" width="64" height="52"></td><td>Interuniversitair Cardiologisch Instituut<br>Nederland<br><a class="textlink" href="http://www.icin.knaw.nl">http://www.icin.knaw.nl</a></td></tr>
+      </table>
+      <h2 class="lowerh2">Die Konformit&auml;ts-Studie</h2>
+      <p>Im Rahmen der Studie wurden DICOM-CDs mit digitalen Herzkatheterfilmen (Angiographie) von zehn verschiedenen Herstellern sowie vier offizielle DICOM-Demo-CDs des amerikanischen Kardiologenverbandes <a class="textlink" href="http://www.acc.org">ACC</a> und des europ&auml;ischen Kardiologenverbandes <a class="textlink" href="http://www.escardio.org">ESC</a> auf Konformit&auml;t mit dem DICOM-Standard gepr&uuml;ft. Die dabei gefundenen Fehler wurden - je nach Schwere und Art des Fehlers - in vierzehn Kategorien eingeteilt. Die folgende Abbildung zeigt die gefundenen Fehler f&uuml;r die gepr&uuml;ften CDs (die Fehler sind zeilenweise, die CDs spaltenweise angeordnet).</p>
+      <img src="images/results.gif" alt="Resultate" border="0" width="330" height="314">
+      <p>Nur bei zwei der getesteten CDs wurden keine Fehler gefunden. Die &uuml;brigen CDs zeigten ein breites Spektrum von recht harmlosen bis hin zu "katastrophalen" Verletzungen des DICOM-Regelwerks.</p>
+      <p>In einem zweiten Test wurden die zehn "kommerziellen" CDs mit f&uuml;nf unterschiedlichen PC-basierten DICOM-Viewern angezeigt, die das hier verwendete DICOM-Format ("Basic cardiac application profile") unterst&uuml;tzen. Hier zeigte sich eine hohe Korrelation mit den Validierungsergebnissen: Die drei CDs mit den meisten Fehlern konnten auf der Mehrzahl der Viewer nicht angezeigt werden. Nur zwei der CDs wurden von allen f&uuml;nf Viewern verarbeitet.</p>
+      <p>Insgesamt zeigt die Studie, da&szlig; eine computerunterst&uuml;tzte Validierung der extrem komplexen DICOM-Datenformate zu einer deutlichen Qualit&auml;tsverbesserung bei zuk&uuml;nftigen DICOM-Implementierungen f&uuml;hren k&ouml;nnte, was letztlich der Interoperabilit&auml;t und damit der Zukunft- und Investitionssicherheit dieser Systeme zugute k&auml;me.</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+    </td>
+    <td class="foot">
+      <?php include("footer.html.de")?>
+    </td>
+  </tr>
+</table>
+</body>
+
+</html>

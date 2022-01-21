@@ -1,0 +1,59 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<meta name="description" content="Informationen zu DICOM-spezifischen Dienstleistungen durch OFFIS.">
+<meta name="author" content="Thomas Wilkens">
+<meta name="keywords" content="DICOM, OFFIS, Dienstleistung">
+<meta name="date" content="2007-02-12">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>dicom.offis.de - Dienstleistungen</title>
+</head>
+
+<body>
+<table width="945" border="0" cellspacing="25" cellpadding="5">
+  <colgroup>
+    <col width="200">
+    <col width="650">
+  </colgroup>
+  <tr>
+    <td class="logo">
+      <?php include("logo.html.de")?>
+    </td>
+    <td class="title">
+      <h1>Dienstleistungen</h1>
+      <div class="language">Version in <a href="service.php.en"><img src="images/en.gif" alt="English" width="16" height="10" border="0"></a>&nbsp;&nbsp;&nbsp;</div>
+    </td>
+  </tr>
+  <tr>
+    <td class="navigation">
+      <?php include("navbar.html.de")?>
+    </td>
+    <td class="text">
+      <h2>DICOM-spezifische Dienstleistungen durch OFFIS</h2>
+      <p>Das Verst&auml;ndnis und die Anwendung von Standards im Bereich der medizinischen Informatik ist h&auml;ufig sehr kompliziert und herausfordernd. Um erste Einblicke in solche Standards zu geben, das Verst&auml;ndnis ihrer Sachverhalte zu f&ouml;rdern und die Arbeit mit ihnen zu vereinfachen bietet OFFIS Dienstleistungen an, die von jedermann in Anspruch genommen werden k&ouml;nnen.</p>
+      <table border="0" cellspacing="10" cellpadding="0">
+        <colgroup>
+          <col width="150">
+          <col width="500">
+        </colgroup>
+        <tr><td valign="top"><a class="textlink" href="consult.php.de">DICOM-Beratung</a></td><td valign="top">Beratung rund um den DICOM-Standard und um die OFFIS DICOM-Software</td></tr>
+        <tr><td valign="top"><a class="textlink" href="training.php.de">DICOM-Schulung</a></td><td valign="top">Schulung im Umfeld des DICOM-Standards und der OFFIS DICOM-Software</td></tr>
+        <tr><td valign="top"><a class="textlink" href="ihetrain.php.de">IHE-Schulung</a></td><td valign="top">Schulung im Umfeld der IHE-Initiative</td></tr>
+        <tr><td valign="top"><a class="textlink" href="hl7train.php.de">HL7-Schulung</a></td><td valign="top">Schulung zum HL7-Standard</td></tr>          
+      </table>
+      <p>Diese Dienstleistungen werden in Kooperation mit der <a href="http://www.icsmed.de/"><b>ICS</b>MED AG</a>, <a href="http://www.jriesmeier.de/">J. Riesmeier</a> und  <a href="http://www.open-connections.de/">Open Connections GmbH </a> angeboten.</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+    </td>
+    <td class="foot">
+      <?php include("footer.html.de")?>
+    </td>
+  </tr>
+</table>
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<meta name="description" content="Links to DICOM Resources.">
+<meta name="author" content="Thomas Wilkens">
+<meta name="keywords" content="DICOM, OFFIS">
+<meta name="date" content="2021-06-04">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>dicom.offis.de - DICOM in the World Wide Web - DICOM Resources</title>
+</head>
+
+<body>
+<table width="945" border="0" cellspacing="25" cellpadding="5">
+  <colgroup>
+    <col width="200">
+    <col width="650">
+  </colgroup>
+  <tr>
+    <td class="logo">
+      <?php include("logo.html.en")?>
+    </td>
+    <td class="title">
+      <h1>DICOM Resources</h1>
+      <div class="language">Version in <a href="dcmres.php.de"><img src="images/de.gif" alt="Deutsch" width="16" height="10" border="0"></a>&nbsp;&nbsp;&nbsp;</div>
+    </td>
+  </tr>
+  <tr>
+    <td class="navigation">
+      <?php include("navbar.html.en")?>
+    </td>
+    <td class="text">
+      <h2>DICOM standard and supplements</h2>
+      <p>The web server of the DICOM committee contains the <a class="textlink" href="http://medical.nema.org/dicom/2008/">final text</a> of the current issue of the DICOM standard as well as the latest supplements.</p>
+      <p><a class="textlink" href="http://dicom.nema.org/">The NEMA Webserver</a></p>
+      <h2 class="lowerh2">DICOM Cookbook</h2>
+      <p>The "DICOM cookbook" from Philips Medical Systems is a recommendable, understandable technical introduction to DICOM. The document is available in PDF format and can be read with the free <a class="textlink" href="http://www.adobe.com/prodindex/acrobat/readstep.html">Adobe Acrobat Reader</a>.</p>
+      <p><a class="textlink" href="http://incenter.medical.philips.com/doclib/enc/8916819/DICOM_CookBook.pdf%3Ffunc%3Ddoc.Fetch%26nodeid%3D8916819">DICOM Cookbook</a></p>
+      <h2 class="lowerh2">DICOM software</h2>
+      <p>Besides the OFFIS DICOM Toolkit <a class="textlink" href="dcmtk.php.en">DCMTK</a> there are several other free DICOM software packages. As far as possible, these packages are automatically mirrored in gzip compressed form on the DICOM FTP server at OFFIS.</p>
+      <h3>The Mallinckrodt CTN software</h3>
+      <p>The Mallinckrodt Institute of Radiology, St. Louis,USA, has developed a DICOM implementation for the <a class="textlink" href="http://www.rsna.org">RSNA</a>. This software has been maintained and used at RSNA InfoRAD's DICOM demonstrations since 1992.</p>
+      <p><a class="textlink" href="ftp://dicom.offis.uni-oldenburg.de/pub/dicom/mirrors/mir/software/ctn/">Mirror area at OFFIS</a><br><a class="textlink" href="ftp://wuerlim.wustl.edu/pub/dicom/software/ctn/">Mallinckrodt FTP Server</a></p>
+      <h3 class="lowerh3">David Clunie's dicom3tools</h3>
+      <p>This toolkit converts a multitude of proprietory image formats to DICOM. It also contains tools for processing DICOM files.</p>
+      <p><a class="textlink" href="http://www.dclunie.com/dicom3tools.html">David Clunie's dicom3tools (HTTP)</a></p>
+      <h3 class="lowerh3">UCDAVIS DICOM implementation</h3>
+      <p>A DICOM implementation from the University of California at Davis, USA. This software can be compiled on Windows and MacOS.</p>
+      <p><a class="textlink" href="ftp://dicom.offis.uni-oldenburg.de/pub/dicom/mirrors/ucdavis/">Mirror area at OFFIS</a><br><i>UCDAVIS FTP Server (offline)</i></p>
+      <h3 class="lowerh3">Brown University DICOM implementation</h3>
+      <p>An implementation for storage media exchange of lossless compressed DICOM images. This software has been developed by the Brown University, USA, for the DISC 1995 demonstration of the <a class="textlink" href="http://www.acc.org">American College of Cardiology</a>.</p>
+      <p><a class="textlink" href="ftp://dicom.offis.uni-oldenburg.de/pub/dicom/mirrors/psu/dicom_software/Brown/">Mirror area at OFFIS</a><br><i>Penn State University FTP Server (offline)</i></p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+    </td>
+    <td class="foot">
+      <?php include("footer.html.en")?>
+    </td>
+  </tr>
+</table>
+</body>
+
+</html>

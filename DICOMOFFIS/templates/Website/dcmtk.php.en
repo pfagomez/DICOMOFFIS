@@ -1,0 +1,280 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<meta name="description" content="About DCMTK.">
+<meta name="author" content="OFFIS DICOM Team">
+<meta name="keywords" content="DICOM, software, DCMTK, OFFIS">
+<meta name="date" content="2021-05-31">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>dicom.offis.de - DICOM Software made by OFFIS - DCMTK - DICOM Toolkit</title>
+</head>
+
+<body>
+<table width="945" border="0" cellspacing="25" cellpadding="5">
+  <colgroup>
+    <col width="200">
+    <col width="600">
+  </colgroup>
+  <tr>
+    <td class="logo">
+      <?php include("logo.html.en")?>
+    </td>
+    <td class="title">
+      <h1>DCMTK - DICOM Toolkit</h1>
+      <div class="language">Version in <a href="dcmtk.php.de"><img src="images/de.gif" alt="Deutsch" width="16" height="10" border="0"></a>&nbsp;</div>
+    </td>
+  </tr>
+  <tr>
+    <td class="navigation">
+      <?php include("navbar.html.en")?>
+    </td>
+    <td class="text">
+      <h2>Description</h2>
+      <p>DCMTK is a collection of libraries and applications implementing large parts the DICOM standard. It includes software for examining, constructing and converting DICOM image files, handling offline media, sending and receiving images over a network connection, as well as demonstrative image storage and worklist servers. DCMTK is is written in a mixture of ANSI C and C++. It comes in complete source code and is made available as "open source" software.</p>
+      <p>DCMTK has been used at numerous DICOM demonstrations to provide central, vendor-independent image storage and worklist servers (CTNs - Central Test Nodes). It is used by hospitals and companies all over the world for a wide variety of purposes ranging from being a tool for product testing to being a building block for research projects, prototypes and commercial products.</p>
+      <p>The DCMTK software can be compiled under Windows and a wide range of Unix operating systems including Linux, Solaris, FreeBSD, OpenBSD, MacOS X and NetBSD. All necessary configuration scripts and project makefiles are supplied.</p>
+      <p>See the documentation included with the distribution for the latest information about changes in DCMTK between releases. A summary of the highlights of the current release is available in the <a class="textlink" href="https://dicom.offis.de/download/dcmtk/dcmtk366/ANNOUNCE">ANNOUNCE</a> file. An overview of the toolkit's modules is included in the distribution's <a class="textlink" href="https://dicom.offis.de/download/dcmtk/dcmtk366/README">README</a> file. The <a class="textlink" href="https://dicom.offis.de/download/dcmtk/dcmtk366/COPYRIGHT">COPYRIGHT</a> text and the <a class="textlink" href="history.php.en">history of DCMTK's development</a> are also available online. Frequently asked questions are answered in the <a class="textlink" href="http://forum.dcmtk.org/faq">FAQ</a>.</p>
+      <p>An overview of known issues and vulnerabilities in the various DCMTK releases can be found in the DCMTK Wiki on the <a class="textlink" href="http://support.dcmtk.org/redmine/projects/dcmtk/wiki/Issues">"Known Issues"</a> page. A complete list of known (open and resolved) issues can be found in the <a class="textlink" href="http://support.dcmtk.org/redmine/projects/dcmtk/issues">Bug Tracker</a>. Please note that issues are only resolved in the latest vesion of DCMTK (i.e. the current DCMTK snapshot).</p>
+      <h2>Quick installation</h2>
+      <table cellspacing="10" cellpadding="0" border="0">
+        <colgroup>
+          <col width="100">
+          <col width="80">
+          <col width="300">
+        </colgroup>
+          <tbody>
+            <tr>
+              <td>
+              <h3>OS</h3>
+              </td>
+              <td>
+                <h3>Package Manager</h3>
+              </td>
+              <td>
+                <h3>Command</h3>
+              </td>
+            </tr>
+            <tr>
+              <td>MacOS</td>
+              <td>
+                <a class="textlink" href="https://brew.sh/">
+                <img src="images/homebrew_logo.png" alt="brew-Link" width="29" height="32" border="0"></br>
+                Homebrew
+                </a>
+              </td>
+              <td>brew install dcmtk</td>
+            </tr>
+            <tr>
+              <td>Windows</td>
+              <td>
+                <a class="textlink" href="https://chocolatey.org/">
+                <img src="images/choco_logo_square.png" alt="choco-Link" width="45" height="32" border="0"></br>
+                Chocolatey
+                </a>
+              </td>
+              <td>choco install dcmtk</td>
+            </tr>
+            <tr>
+              <td>MacOS</td>
+              <td>
+                <a class="textlink" href="http://www.finkproject.org/download/index.php">
+                Fink
+                </a>
+              </td>
+              <td>fink install dcmtk</td>
+            </tr>
+            <tr>
+              <td>MacOS</td>
+              <td>
+                <a class="textlink" href="https://www.macports.org/install.php">
+                MacPorts
+                </a>
+              </td>
+              <td>port install dcmtk</td>
+            </tr>
+            <tr>
+              <td>Linux</td>
+              <td>
+                <a class="textlink" href="https://wiki.debian.org/DebianPackageManagement">
+                <img src="images/debianlogo.jpg" alt="debian-Link" width="45" height="32" border="0"></br>
+                Debian
+                </a>
+              </td>
+            <td>sudo apt install dcmtk</td>
+          </tr>
+        </tbody>
+      </table>
+      <h2>Release Model</h2>
+      <p>There are currently two different types of DCMTK releases:</p>
+      <table>
+          <tr>
+              <th align="right" valign="top" style="white-space:nowrap">Minor Releases</th>
+              <td>
+                A minor release marks a point in DCMTK development that we consider sufficiently stable for public
+                use. The release process contains a feature freeze phase during which development
+                is focused on code review and bug squashing. The main resource for measuring code stability
+                are our nightly builds and automated test cases on the various platforms. Exhaustive, manual testing
+                is only performed on our core platforms Windows and Linux. You can identify a minor release
+                on its version number -- only the last digit changes.
+              </td>
+          </tr>
+          <tr>
+              <th align="right" valign="top" style="white-space:nowrap">Major Releases</th>
+              <td>
+                Major releases are more extensively tested and validated. This is reflected in a longer feature
+                freeze phase and more manual tests. These are also performed on more than only our
+                core platforms. Furthermore, time is allocated to, for example, ensure compatibility with new
+                releases of the used external libraries.
+              </td>
+          </tr>
+      </table>
+      <p>All releases are published on this website as executable binary packages and as source code. Furthermore, the
+      release is marked in <a href="#snapshot">our source code repository</a>  using the Git <i>tag</i> mechanism, such that you may also download it from there.</p>
+
+      <h2>Sponsorship for a new major release</h2>
+      <p>Major releases of DCMTK are published only rarely because of the significant quality assurance effort required to fulfil users' expectations of a stable release.
+      If you would like to see a new major release including the latest DCMTK features, sponsorship for our small development team might be an option. <a href="https://dicom.offis.de/people.php.en">Contact us</a> to discuss details.</p>
+
+      <h2 class="lowerh2" id="snapshot">DCMTK - source code repository</h2>
+      <p>You have read access to the complete <a href="http://git.dcmtk.org/web/">source code repository</a> of the DCMTK. Alternatively, the whole repository is mirrored to <a href="https://github.com/DCMTK/dcmtk">GitHub</a> should you prefer that.</p>
+      <p>The official source code repository is actually a mirror of a private internal one. We employ our nightly
+      builds to ensure the official repository only gets updated if DCMTK compiles on all tested platforms and
+      the automated tests complete without errors (exceptions are possible, e.g. when bugs in external libraries
+      result in the tests failing).
+
+      <h2 class="lowerh2">Ohloh Analysis</h2>
+      <table>
+        <tr>
+          <td>
+            <script type="text/javascript" src="https://www.ohloh.net/p/15015/widgets/project_factoids.js"></script>
+            <noscript>JavaScript required!</noscript>
+          </td>
+          <td><script type="text/javascript" src="https://www.ohloh.net/p/15015/widgets/project_basic_stats.js"></script></td>
+        </tr>
+      </table>
+      <h2 class="lowerh2" id="src">DCMTK 3.6.6 - source code and documentation (2021-01-22)</h2>
+      <p>DCMTK can be downloaded as a gzip compressed tar archive or as a ZIP archive. The contents of the two archives are identical.</p>
+      <table border="0" cellspacing="10" cellpadding="0">
+        <colgroup>
+          <col width="50">
+          <col width="250">
+          <col width="350">
+        </colgroup>
+        <tr><td><img src="images/tgz.gif" alt="tgz file" border="0" width="29" height="32"></td><td><a class="textlink" href="https://dicom.offis.de/download/dcmtk/dcmtk366/dcmtk-3.6.6.tar.gz">dcmtk-3.6.6.tar.gz</a><br>6,586K</td><td>DCMTK 3.6.6 source code and documentation</td></tr>
+        <tr><td><img src="images/zip.gif" alt="zip file" border="0" width="29" height="32"></td><td><a class="textlink" href="https://dicom.offis.de/download/dcmtk/dcmtk366/dcmtk-3.6.6.zip">dcmtk-3.6.6.zip</a><br>9,388K</td><td>DCMTK 3.6.6 source code and documentation</td></tr>
+      </table>
+
+      <p id="doc">The developer documentation can also be viewed <a class="textlink" href="http://support.dcmtk.org/docs/">online</a> or downloaded separately.</p>
+      <table border="0" cellspacing="10" cellpadding="0">
+        <colgroup>
+          <col width="50">
+          <col width="250">
+          <col width="350">
+        </colgroup>
+        <tr><td><img src="images/zip.gif" alt="zip file" border="0" width="29" height="32"></td><td><a class="textlink" href="https://dicom.offis.de/download/dcmtk/dcmtk366/docs/dcmtk-3.6.6-html-help.zip">dcmtk-3.6.6-html-help.zip</a><br>27,331K</td><td>DCMTK 3.6.6 documentation in HTML format</td></tr>
+      </table>
+
+      <p id="lib">DCMTK makes use of the following external libraries for zlib compression (Deflated Transfer Syntax), character set conversion, TIFF and PNG export, as well as XML document processing.</p>
+      <table border="0" cellspacing="10" cellpadding="0">
+        <colgroup>
+          <col width="50">
+          <col width="250">
+          <col width="350">
+        </colgroup>
+        <tr><td><img src="images/tgz.gif" alt="tgz file" border="0" width="29" height="32"></td><td><a class="textlink" href="https://dicom.offis.de/download/dcmtk/dcmtk366/support/icu4c-68_2-src.tgz">icu4c-68_2-src.tgz</a><br>24,158K</td><td>icu4c 68.2 source code and documentation</td></tr>
+        <tr><td><img src="images/tgz.gif" alt="tgz file" border="0" width="29" height="32"></td><td><a class="textlink" href="https://dicom.offis.de/download/dcmtk/dcmtk366/support/libiconv-1.16.tar.gz">libiconv-1.16.tar.gz</a><br>5,046K</td><td>libiconv 1.16 source code and documentation</td></tr>
+        <tr><td><img src="images/tgz.gif" alt="tgz file" border="0" width="29" height="32"></td><td><a class="textlink" href="https://dicom.offis.de/download/dcmtk/dcmtk366/support/libpng-1.6.37.tar.gz">libpng-1.6.37.tar.gz</a><br>1,461K</td><td>libpng 1.6.37 source code and documentation</td></tr>
+        <tr><td><img src="images/tgz.gif" alt="tgz file" border="0" width="29" height="32"></td><td><a class="textlink" href="https://dicom.offis.de/download/dcmtk/dcmtk366/support/libxml2-2.9.10.tar.gz">libxml2-2.9.10.tar.gz</a><br>5,493K</td><td>libxml2 2.9.10 source code and documentation</td></tr>
+        <tr><td><img src="images/tgz.gif" alt="tgz file" border="0" width="29" height="32"></td><td><a class="textlink" href="https://dicom.offis.de/download/dcmtk/dcmtk366/support/tiff-4.2.0.tar.gz">tiff-4.2.0.tar.gz</a><br>2,744K</td><td>libtiff 4.2.0 source code and documentation</td></tr>
+        <tr><td><img src="images/tgz.gif" alt="tgz file" border="0" width="29" height="32"></td><td><a class="textlink" href="https://dicom.offis.de/download/dcmtk/dcmtk366/support/zlib-1.2.11.tar.gz">zlib-1.2.11.tar.gz</a><br>594K</td><td>zlib 1.2.11 source code and documentation</td></tr>
+        <tr><td><img src="images/tgz.gif" alt="tgz file" border="0" width="29" height="32"></td><td><a class="textlink" href="https://dicom.offis.de/download/dcmtk/dcmtk366/support/openjpeg-v2.4.0.tar.gz">openjpeg-v2.4.0.tar.gz</a><br>2,181K</td><td>openjpeg 2.4.0 source code and documentation (for DCMJP2K only)</td></tr>
+      </table>
+      <h2 class="lowerh2" id="bin">DCMTK 3.6.6 - executable binaries</h2>
+      <p>The following archives contain compiled, executable binaries of the current DCMTK release for the most popular of the supported systems. In addition to these files the source code archive is also recommended because it contains further documentation.</p>
+      <table border="0" cellspacing="10" cellpadding="0">
+        <colgroup>
+          <col width="50">
+          <col width="250">
+          <col width="350">
+        </colgroup>
+        <tr><td><img src="images/zip.gif" alt="zip file" border="0" width="29" height="32"></td><td><a class="textlink" href="https://dicom.offis.de/download/dcmtk/dcmtk366/bin/dcmtk-3.6.6-win32-dynamic.zip">dcmtk-3.6.6-win32-dynamic.zip</a><br>9,651K</td><td>DCMTK 3.6.6 for Windows (32 bit DLL build)</td></tr>
+        <tr><td><img src="images/zip.gif" alt="zip file" border="0" width="29" height="32"></td><td><a class="textlink" href="https://dicom.offis.de/download/dcmtk/dcmtk366/bin/dcmtk-3.6.6-win64-dynamic.zip">dcmtk-3.6.6-win64-dynamic.zip</a><br>10,765K</td><td>DCMTK 3.6.6 for Windows (64 bit DLL build)</td></tr>
+        <tr><td><img src="images/bz2.gif" alt="bz2 file" border="0" width="29" height="32"></td><td><a class="textlink" href="https://dicom.offis.de/download/dcmtk/dcmtk366/bin/dcmtk-3.6.6-linux-x86_64.tar.bz2">dcmtk-3.6.6-linux-x86_64.tar.bz2</a><br>66,450K</td><td>DCMTK 3.6.6 for Linux (x86_64, Ubuntu 20.10)</td></tr>
+        <tr><td><img src="images/bz2.gif" alt="bz2 file" border="0" width="29" height="32"></td><td><a class="textlink" href="https://dicom.offis.de/download/dcmtk/dcmtk366/bin/dcmtk-3.6.6-linux-x86_64-static.tar.bz2">dcmtk-3.6.6-linux-x86_64-static.tar.bz2</a><br>708,179K</td><td>DCMTK 3.6.6 for Linux (x86_64, Ubuntu 20.10, static binaries)</td></tr>
+        <tr><td><img src="images/bz2.gif" alt="bz2 file" border="0" width="29" height="32"></td><td><a class="textlink" href="https://dicom.offis.de/download/dcmtk/dcmtk366/bin/dcmtk-3.6.6-macosx-x86_64-static.tar.bz2">dcmtk-3.6.6-macosx-x86_64-static.tar.bz2</a><br>651,320K</td><td>DCMTK 3.6.6 for Mac OS X (x86_64)</td></tr>
+        </table>
+      <h2 class="lowerh2" id="bin-tls">DCMTK 3.6.6 - OpenSSL based security extensions</h2>
+      <p>DCMTK supports some of the DICOM security extensions and relies on the free <a class="textlink" href="http://www.openssl.org">OpenSSL</a> toolkit for the underlying cryptographic routines and the TLS protocol implementation. The following archives contain executable binaries that have been compiled and linked with OpenSSL. Only the DCMTK tools that make use of OpenSSL are included in these archives - please also download the corresponding full binary package. Please note that the use of cryptographic algorithms is affected by legislation and patent issues in many countries - you have to make sure yourself that you are allowed to use these tools before downloading them.</p>
+      <table border="0" cellspacing="10" cellpadding="0">
+        <colgroup>
+          <col width="50">
+          <col width="250">
+          <col width="350">
+        </colgroup>
+        <tr><td><img src="images/zip.gif" alt="zip file" border="0" width="29" height="32"></td><td><a class="textlink" href="https://dicom.offis.de/download/dcmtk/dcmtk366/bin/dcmtk-3.6.6-win32-dynamic-tls.zip">dcmtk-3.6.6-win32-dynamic-tls.zip</a><br>2,163K</td><td>DCMTK 3.6.6 OpenSSL add-on for Windows (32 bit DLL build)</td></tr>
+        <tr><td><img src="images/zip.gif" alt="zip file" border="0" width="29" height="32"></td><td><a class="textlink" href="https://dicom.offis.de/download/dcmtk/dcmtk366/bin/dcmtk-3.6.6-win64-dynamic-tls.zip">dcmtk-3.6.6-win64-dynamic-tls.zip</a><br>2,536K</td><td>DCMTK 3.6.6 OpenSSL add-on for Windows (64 bit DLL build)</td></tr>
+        <tr><td><img src="images/bz2.gif" alt="bz2 file" border="0" width="29" height="32"></td><td><a class="textlink" href="https://dicom.offis.de/download/dcmtk/dcmtk366/bin/dcmtk-3.6.6-linux-x86_64-tls.tar.bz2">dcmtk-3.6.6-linux-x86_64-tls.tar.bz2</a><br>11,218K</td><td>DCMTK 3.6.6 OpenSSL add-on for Linux (x86_64, Ubuntu 20.10)</td></tr>
+        <tr><td><img src="images/bz2.gif" alt="bz2 file" border="0" width="29" height="32"></td><td><a class="textlink" href="https://dicom.offis.de/download/dcmtk/dcmtk366/bin/dcmtk-3.6.6-linux-x86_64-static-tls.tar.bz2">dcmtk-3.6.6-linux-x86_64-static-tls.tar.bz2</a><br>120,001K</td><td>DCMTK 3.6.6 OpenSSL add-on for Linux (x86_64, Ubuntu 20.10, static binaries)</td></tr>
+        <tr><td><img src="images/bz2.gif" alt="bz2 file" border="0" width="29" height="32"></td><td><a class="textlink" href="https://dicom.offis.de/download/dcmtk/dcmtk366/bin/dcmtk-3.6.6-macosx-x86_64-static-tls.tar.bz2">dcmtk-3.6.6-macosx-x86_64-static-tls.tar.bz2</a><br>110,879K</td><td>DCMTK 3.6.6 OpenSSL add-on for Mac OS X (x86_64)</td></tr>
+        <tr><td><img src="images/tgz.gif" alt="tgz file" border="0" width="29" height="32"></td><td><a class="textlink" href="https://dicom.offis.de/download/dcmtk/dcmtk366/support/openssl-1.1.1i.tar.gz">openssl-1.1.1i.tar.gz</a><br>9,579K</td><td>OpenSSL 1.1.1i source code and documentation</td></tr>
+      </table>
+      <h2 class="lowerh2" id="lib-win">DCMTK 3.6.6 - support libraries for Windows</h2>
+      <p>In this section we provide the external libraries that are used by DCMTK (libiconv, libicu, libpng, libxml2, libtiff, openssl, and zlib) for the current DCMTK release 3.6.6 in pre-compiled format for Windows. The archives contain include files as well as debug and release versions of the corresponding libraries.</p>
+      <p>All support libraries included are available either compiled with "Multithreaded" runtime options (/MT and /MTd) or with "Multithreaded DLL" runtime options (/MD and /MDd). Please specify the include paths in CMake accordingly.</p>
+      <table border="0" cellspacing="10" cellpadding="0">
+        <colgroup>
+          <col width="50">
+          <col width="250">
+          <col width="350">
+        </colgroup>
+        <tr><td><img src="images/zip.gif" alt="zip file" border="0" width="29" height="32"></td><td><a class="textlink" href="https://dicom.offis.de/download/dcmtk/dcmtk366/support/dcmtk-3.6.6-win32-support-MD-iconv-msvc-15.8.zip">dcmtk-3.6.6-win32-support-MD-iconv-msvc-15.8.zip</a><br>11,408K</td><td>Pre-compiled libraries for Visual Studio 2017 (MSVC 15.8), 32 bit, with libiconv, with "MD" option</td></tr>
+        <tr><td><img src="images/zip.gif" alt="zip file" border="0" width="29" height="32"></td><td><a class="textlink" href="https://dicom.offis.de/download/dcmtk/dcmtk366/support/dcmtk-3.6.6-win32-support-MD-icu-msvc-15.8.zip">dcmtk-3.6.6-win32-support-MD-icu-msvc-15.8.zip</a><br>62,018K</td><td>Pre-compiled libraries for Visual Studio 2017 (MSVC 15.8), 32 bit, with icu4c, with "MD" option</td></tr>
+        <tr><td><img src="images/zip.gif" alt="zip file" border="0" width="29" height="32"></td><td><a class="textlink" href="https://dicom.offis.de/download/dcmtk/dcmtk366/support/dcmtk-3.6.6-win32-support-MT-iconv-msvc-15.8.zip">dcmtk-3.6.6-win32-support-MT-iconv-msvc-15.8.zip</a><br>11,383K</td><td>Pre-compiled libraries for Visual Studio 2017 (MSVC 15.8), 32 bit, with libiconv, with "MT" option</td></tr>
+        <tr><td><img src="images/zip.gif" alt="zip file" border="0" width="29" height="32"></td><td><a class="textlink" href="https://dicom.offis.de/download/dcmtk/dcmtk366/support/dcmtk-3.6.6-win32-support-MT-icu-msvc-15.8.zip">dcmtk-3.6.6-win32-support-MT-icu-msvc-15.8.zip</a><br>65,634K</td><td>Pre-compiled libraries for Visual Studio 2017 (MSVC 15.8), 32 bit, with icu4c, with "MT" option</td></tr>
+        <tr><td><img src="images/zip.gif" alt="zip file" border="0" width="29" height="32"></td><td><a class="textlink" href="https://dicom.offis.de/download/dcmtk/dcmtk366/support/dcmtk-3.6.6-win64-support-MD-iconv-msvc-15.8.zip">dcmtk-3.6.6-win64-support-MD-iconv-msvc-15.8.zip</a><br>12,632K</td><td>Pre-compiled libraries for Visual Studio 2017 (MSVC 15.8), 64 bit, with libiconv, with "MD" option</td></tr>
+        <tr><td><img src="images/zip.gif" alt="zip file" border="0" width="29" height="32"></td><td><a class="textlink" href="https://dicom.offis.de/download/dcmtk/dcmtk366/support/dcmtk-3.6.6-win64-support-MD-icu-msvc-15.8.zip">dcmtk-3.6.6-win64-support-MD-icu-msvc-15.8.zip</a><br>63,708K</td><td>Pre-compiled libraries for Visual Studio 2017 (MSVC 15.8), 64 bit, with icu4c, with "MD" option</td></tr>
+        <tr><td><img src="images/zip.gif" alt="zip file" border="0" width="29" height="32"></td><td><a class="textlink" href="https://dicom.offis.de/download/dcmtk/dcmtk366/support/dcmtk-3.6.6-win64-support-MT-iconv-msvc-15.8.zip">dcmtk-3.6.6-win64-support-MT-iconv-msvc-15.8.zip</a><br>12,614K</td><td>Pre-compiled libraries for Visual Studio 2017 (MSVC 15.8), 64 bit, with libiconv, with "MT" option</td></tr>
+        <tr><td><img src="images/zip.gif" alt="zip file" border="0" width="29" height="32"></td><td><a class="textlink" href="https://dicom.offis.de/download/dcmtk/dcmtk366/support/dcmtk-3.6.6-win64-support-MT-icu-msvc-15.8.zip">dcmtk-3.6.6-win64-support-MT-icu-msvc-15.8.zip</a><br>67,827K</td><td>Pre-compiled libraries for Visual Studio 2017 (MSVC 15.8), 64 bit, with icu4c, with "MT" option</td></tr>
+<!-- Downloadable pre-compiled support libraries
+-->
+      </table>
+
+      <h2 class="lowerh2" id="old">DCMTK - old versions</h2>
+      <p>Old versions of the DCMTK are still available for download via <a href="ftp://dicom.offis.de/pub/dicom/offis/software/dcmtk">ftp</a> or <a href="https://dicom.offis.de/download/dcmtk/">http</a>.</p>
+      <h2 class="lowerh2" id="contrib">DCMTK - user contributions</h2>
+      <p>The following tools and software packages have been contributed by DCMTK users. Any use of these applications is (of course) at your own risk.</p>
+      <table border="0" cellspacing="10" cellpadding="0">
+        <colgroup>
+          <col width="50">
+          <col width="250">
+          <col width="350">
+        </colgroup>
+        <tr><td><img src="images/hqx.gif" alt="doc file" border="0" width="29" height="32"></td><td><a class="textlink" href="https://dicom.offis.de/download/contrib/MacStoreSCU-330d1.PPC.hqx">MacStoreSCU-330d1.PPC.hqx</a><br>347K</td><td>StoreSCU for MacOS on PowerPC, based on DCMTK 3.3.0, by Arnaud Masson</td></tr>
+        <tr><td><img src="images/zip.gif" alt="zip file" border="0" width="29" height="32"></td><td><a class="textlink" href="https://dicom.offis.de/download/contrib/winoffis.zip">winoffis.zip</a><br>80K</td><td>Windows application for renaming .cc files from the DCMTK tar archive to .cxx (for Visual C++), by Gilles Mevel</td></tr>
+        <tr><td><img src="images/bz2.gif" alt="zip file" border="0" width="29" height="32"></td><td><a class="textlink" href="https://dicom.offis.de/download/contrib/dcmtk-3.6.0-openindiana.tar.bz2">dcmtk-3.6.0-openindiana.tar.bz2</a><br>38,142K</td><td>DCMTK 3.6.0 for OpenIndiana, by Paolo Marcheschi</td></tr>
+        <tr><td><img src="images/bz2.gif" alt="zip file" border="0" width="29" height="32"></td><td><a class="textlink" href="https://dicom.offis.de/download/contrib/dcmtk-3.6.1_20120831-openindiana64.pkg.tar.bz2">dcmtk-3.6.1_20120831-openindiana64.pkg.tar.bz2</a><br>76,687K</td><td>DCMTK 3.6.1 Snapshot (20120831) for OpenIndiana (64 bit), by Paolo Marcheschi</td></tr>
+        <tr><td><img src="images/bz2.gif" alt="zip file" border="0" width="29" height="32"></td><td><a class="textlink" href="https://dicom.offis.de/download/contrib/dcmtk-3.6.1_20120831-solaris32.pkg.bz2">dcmtk-3.6.1_20120831-solaris32.pkg.bz2</a><br>63,187K</td><td>DCMTK 3.6.1 Snapshot (20120831) for Solaris 10 (32 bit), by Paolo Marcheschi</td></tr>
+        <tr><td><img src="images/url.gif" alt="URL" border="0" width="29" height="32"></td><td><a class="textlink" href="http://pdb.finkproject.org/pdb/browse.php?summary=dcmtk">dcmtk_macosx</a></td><td><a class="textlink" href="http://www.finkproject.org/">Fink</a> package of DCMTK 3.5.4 for MacOS X 10.4, by Bernd Kümmerlen</td></tr>
+        <tr><td><img src="images/url.gif" alt="URL" border="0" width="29" height="32"></td><td><a class="textlink" href="http://www.mevis-research.de/~meyer/dcmtk/">dcmtk_irix6</a></td><td>DCMTK 3.5.2 for IRIX 6.x, by Sebastian Meyer</td></tr>
+        <tr><td><img src="images/url.gif" alt="URL" border="0" width="29" height="32"></td><td><a class="textlink" href="http://packages.debian.org/search?searchon=names&amp;keywords=dcmtk">dcmtk_debian</a></td><td>DCMTK for Debian Linux, by Pablo Sau, Jürgen Salk, Andreas Tille and Mathieu Malaterre</td></tr>
+        <tr><td><img src="images/url.gif" alt="URL" border="0" width="29" height="32"></td><td><a class="textlink" href="http://rpmfind.net/linux/rpm2html/search.php?query=dcmtk">dcmtk_rpm</a></td><td><a class="textlink" href="http://www.rpm.org/">RPM</a> packages of DCMTK, by Andy Loening and others</td></tr>
+        <tr><td><img src="images/url.gif" alt="URL" border="0" width="29" height="32"></td><td><a class="textlink" href="https://dicom.offis.de/download/contrib/mandriva/">dcmtk_mandriva</a></td><td><a class="textlink" href="http://www.rpm.org/">RPM</a> packages of DCMTK 3.5.4 for Mandriva Linux, by Marc Cals</td></tr>
+        <tr><td><img src="images/url.gif" alt="URL" border="0" width="29" height="32"></td><td><a class="textlink" href="https://launchpad.net/~rohangarg/+archive/experimental/+sourcepub/1506057/+listing-archive-extra">dcmtk_ubuntu</a></td><td>DCMTK 3.6.0 for Ubuntu Linux, by Rohan Garg</td></tr>
+        <tr><td><img src="images/url.gif" alt="URL" border="0" width="29" height="32"></td><td><a class="textlink" href="http://software.opensuse.org/search?q=dcmtk&baseproject=ALL&lang=en&include_home=true">dcmtk_opensuse</a></td><td>DCMTK for CentOS, Fedora, Mandriva and openSUSE Linux</td></tr>
+        <tr><td><img src="images/url.gif" alt="URL" border="0" width="29" height="32"></td><td><a class="textlink" href="http://www.freshports.org/devel/dcmtk/">dcmtk_freebsd</a></td><td>DCMTK for FreeBSD, by Pietro Cerutti</td></tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td>
+    </td>
+    <td class="foot">
+      <?php include("footer.html.en")?>
+    </td>
+  </tr>
+</table>
+</body>
+
+</html>

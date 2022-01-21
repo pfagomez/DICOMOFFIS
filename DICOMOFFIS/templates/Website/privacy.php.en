@@ -1,0 +1,148 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<meta name="description" content="Privacy Statement.">
+<meta name="author" content="Thomas Wilkens">
+<meta name="keywords" content="OFFIS, Privacy Statement">
+<meta name="date" content="2018-05-23">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>dicom.offis.de - Privacy</title>
+</head>
+
+<body>
+<table width="945" border="0" cellspacing="25" cellpadding="5">
+  <colgroup>
+    <col width="200">
+    <col width="650">
+  </colgroup>
+  <tr>
+    <td class="logo">
+      <?php include("logo.html.en")?>
+    </td>
+    <td class="title">
+      <h1>Privacy</h1>
+      <div class="language">Version in <a href="privacy.php.de"><img src="images/de.gif" alt="Deutsch" width="16" height="10" border="0"></a>&nbsp;&nbsp;&nbsp;</div>
+    </td>
+  </tr>
+  <tr>
+    <td class="navigation">
+      <?php include("navbar.html.en")?>
+    </td>
+    <td class="text">
+      <h2>Privacy Policy Statement</h2>
+      <p>We welcome you to our website. We would like to inform you about the
+      management of your personal data in accordance with Art. 13 General Data
+      Protection Regulation (GDPR).</p>
+
+      <h3>Controller</h3>
+      <p>The controller responsible for the described data collection and
+      processing is OFFIS e. V., Escherweg 2, 26121 Oldenburg/Germany.</p>
+
+      <h3>Usage Data</h3>
+      <p>When you visit our website, the data collected from the use of the
+      website is temporarily stored on our web server for statistical purposes
+      in order to improve the quality of our website. This data set contains:
+      <ul>
+        <li>the page from which the data is requested</li>
+        <li>the name of the data file,</li>
+        <li>date and time of the query,</li>
+        <li>the amount of data transferred,</li>
+        <li>the access status (file transmitted, file not found),</li>
+        <li>a description of the type of browser used,</li>
+        <li>the IP address of the requesting computer shortened to such an extent that no reidentification of any persona data is possible.</li>
+      </ul>
+      The listed usage data is stored anonymously. The legal basis for the
+      processing of this personal data is provided for in Art. 6 para. 1 lit.
+      f GDPR.</p>
+
+      <h3>Data Transfer to Third Parties</h3>
+      <p>We do not transfer your personal data to third parties.</p>
+
+      <h3>Cookies</h3>
+      <p>Furthermore, we use additional cookies to better align our websites
+      with your wishes and to collect data for usage statistics. This data
+      does not allow any inference to individual persons. The installation of
+      these cookies can be blocked through the corresponding browser settings
+      as well. You can delete any cookies already installed using the
+      functions of your browser, or directly from your hard drive. For further
+      information, refer to the Help section of your browser.</p>
+
+      <h3>Data Security</h3>
+      <p>To avoid unauthorized access to your data, we have implemented technical
+      and organizational measures. We use encryption technologies on our
+      website. Your data will be transferred to our servers and back again via
+      a connection that is protected by a TLS encryption technology. You can
+      recognize that you are browsing on an encryption secured website by the
+      lock-symbol shown in the address bar of your browser and by the address
+      bar starting with.</p>
+
+      <h3>Your Rights as a User</h3>
+      <p>As a website user, the GDPR grants you certain rights when processing
+      your personal data.</p>
+      <ol>
+        <li><i>Right of access (Art. 15 GDPR):</i> You have the right to obtain
+        confirmation as to whether or not personal data concerning you is being
+        processed, and, where that is the case access to the personal data and
+        the information specified in Art. 15 GDPR.
+
+        <li><i>Right to rectification and erasure (Art. 16 and 17 GDPR):</i> You have
+        the right to obtain without undue delay the rectification of inaccurate
+        personal data concerning you and, if necessary, the right to have
+        incomplete personal data completed. You also have the right to obtain an
+        erasure of the personal data concerning you without undue delay, if one
+        of the reasons listed in Art. 17 GDPR applies, e.g. if the data is no
+        longer necessary for the intended purpose.</li>
+
+        <li><i>Right to restriction of processing (Art. 18 GDPR):</i> If one of the
+        conditions set forth in Art. 18 GDPR applies, you shall have the right
+        to restrict the processing of your data to mere storage, e.g. if you
+        revoke consent, to the processing, for the duration of a possible
+        examination.</li>
+
+        <li><i>Right to data portability (Art. 20 GDPR):</i> In certain situations,
+        listed in Art. 20 GDPR, you have the right to receive the personal data
+        concerning you in a structured, common and machine-readable format or
+        demand a transmission of the data to another third party.</li>
+
+        <li><i>Right to object (Art. 21 GDPR):</i> If the data is processed pursuant to
+        Art. 6 para. 1 lit. f GDPR (data processing for the purposes of the
+        legitimate interests), you have the right to object to the processing at
+        any time for reasons arising out of your particular situation. We will
+        then no longer process personal data, unless there are demonstrably
+        compelling legitimate grounds for processing, which override the
+        interests, rights and freedoms of the person concerned, or the
+        processing serves the purpose of asserting, exercising or defending
+        legal claims.</li>
+
+        <li><i>Right to lodge a complaint with a supervisory authority:</i> Pursuant to
+        Art. 77 GDPR, you have the right to lodge a complaint with a supervisory
+        authority if you consider the processing of the data concerning you
+        infringing data protection regulations. The right to lodge a complaint
+        may be invoked in particular in the Member State of your habitual
+        residence, place of work or the place of the alleged infringement.</li>
+      </ol>
+
+      <h3>Contact Details of the Data Protection Officer</h3>
+
+      <p>Please contact our data protection officer if you have any further
+      questions, suggestions or wishes regarding data protection:</p>
+
+      <p>Dr. Uwe Schl&auml;ger<br/>
+      datenschutz nord GmbH<br/>
+      <a href="https://www.datenschutz-nord.de">www.datenschutz-nord.de</a><br/>
+      office(at)datenschutz-nord.de<br/>
+    </td>
+  </tr>
+  <tr>
+    <td>
+    </td>
+    <td class="foot">
+      <?php include("footer.html.en")?>
+    </td>
+  </tr>
+</table>
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<meta name="description" content="Information concerning IHE training.">
+<meta name="author" content="Michael Onken">
+<meta name="keywords" content="IHE, DICOM, OFFIS, training">
+<meta name="date" content="2012-12-05">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>dicom.offis.de - Service - IHE Training</title>
+</head>
+
+<body>
+<table width="945" border="0" cellspacing="25" cellpadding="5">
+  <colgroup>
+    <col width="200">
+    <col width="650">
+  </colgroup>
+  <tr>
+    <td class="logo">
+      <?php include("logo.html.en")?>
+    </td>
+    <td class="title">
+      <h1>IHE Training</h1>
+      <div class="language">Version in <a href="ihetrain.php.de"><img src="images/de.gif" alt="Deutsch" width="16" height="10" border="0"></a>&nbsp;&nbsp;&nbsp;</div>
+    </td>
+  </tr>
+  <tr>
+    <td class="navigation">
+      <?php include("navbar.html.en")?>
+    </td>
+    <td class="text">
+      <h2>IHE training provided by OFFIS</h2>
+      <p>OFFIS offers a two-day IHE course with focus on the Electronic Health Record (XDS) as an in-house training course.
+      If you are interested, please send an e-mail to the <a class="textlink" href="people.php.en">OFFIS DICOM Team</a>.</p>
+      <p>We also offer a course "Patient records with IHE" in German. For information on this see:
+      <a class="textlink" href="ihetrain.php.de">IHE-Schulung</a>.</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+    </td>
+    <td class="foot">
+      <?php include("footer.html.en")?>
+    </td>
+  </tr>
+</table>
+</body>
+
+</html>

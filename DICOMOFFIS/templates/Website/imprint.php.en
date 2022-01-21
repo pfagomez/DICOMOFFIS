@@ -1,0 +1,67 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<meta name="description" content="Legal Notice.">
+<meta name="author" content="Thomas Wilkens">
+<meta name="keywords" content="OFFIS, Legal Notice, Masthead">
+<meta name="date" content="2018-08-08">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>dicom.offis.de - DICOM Contacts at OFFIS - Legal Notice</title>
+</head>
+
+<body>
+<table width="945" border="0" cellspacing="25" cellpadding="5">
+  <colgroup>
+    <col width="200">
+    <col width="650">
+  </colgroup>
+  <tr>
+    <td class="logo">
+      <?php include("logo.html.en")?>
+    </td>
+    <td class="title">
+      <h1>Legal Notice</h1>
+      <div class="language">Version in <a href="imprint.php.de"><img src="images/de.gif" alt="Deutsch" width="16" height="10" border="0"></a>&nbsp;&nbsp;&nbsp;</div>
+    </td>
+  </tr>
+  <tr>
+    <td class="navigation">
+      <?php include("navbar.html.en")?>
+    </td>
+    <td class="text">
+      <h2></h2>
+      <table border="0" cellspacing="10" cellpadding="0">
+        <colgroup>
+          <col width="300">
+          <col width="350">
+        </colgroup>
+        <tr><td valign="top"><b>Address</b></td><td valign="top">OFFIS e. V.<br>Escherweg 2<br>26121 Oldenburg<br>Germany</td></tr>
+        <tr><td valign="top"><b>Phone</b></td><td valign="top">+49 441 9722-0</td></tr>
+        <tr><td valign="top"><b>Fax</b></td><td valign="top">+49 441 9722-102</td></tr>
+        <tr><td valign="top"><b>E-Mail</b></td><td valign="top"><a class="textlink" href="mailto:institut@offis.de">institut@offis.de</a></td></tr>
+        <tr><td valign="top"><b>Internet</b></td><td valign="top"><a class="textlink" href="https://www.offis.de/">https://www.offis.de/</a></td></tr>
+        <tr><td valign="top"><b>Board Members</b></td><td valign="top">
+          Prof. Dr. Sebastian Lehnhoff (Chairman)<br>
+          Prof. Dr.-Ing. Wolfgang H. Nebel<br>
+          Prof. Dr. techn. Susanne Boll-Westermann<br>
+          Prof. Dr.-Ing. Andreas Hein<br>
+        </td></tr>
+        <tr><td valign="top"><b>Register Court</b></td><td valign="top">Amtsgericht Oldenburg, Register Number VR 1956</td></tr>
+        <tr><td valign="top"><b>VAT Identification Number</b></td><td valign="top">DE 811582102</td></tr>
+        <tr><td valign="top"><b>Responsible in the sense of press law</b></td><td valign="top">Dr. Wilfried Thoben<br>OFFIS e. V.<br>Escherweg 2<br>26121 Oldenburg</td></tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td>
+    </td>
+    <td class="foot">
+      <?php include("footer.html.en")?>
+    </td>
+  </tr>
+</table>
+</body>
+
+</html>

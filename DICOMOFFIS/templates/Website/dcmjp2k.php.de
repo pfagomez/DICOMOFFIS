@@ -1,0 +1,69 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<meta name="description" content="Informationen zu DCMJP2K.">
+<meta name="author" content="Michael Onken">
+<meta name="keywords" content="DICOM, Software, DCMJP2K, JPEG 2000, JPEG2000, OFFIS">
+<meta name="date" content="2006-11-29">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>dicom.offis.de - DICOM-Software made by OFFIS - DCMJP2K - DICOM JPEG 2000-Modul</title>
+</head>
+
+<body>
+<table width="945" border="0" cellspacing="25" cellpadding="5">
+  <colgroup>
+    <col width="200">
+    <col width="650">
+  </colgroup>
+  <tr>
+    <td class="logo">
+      <?php include("logo.html.de")?>
+    </td>
+    <td class="title">
+      <h1>DCMJP2K - DICOM JPEG 2000-Modul</h1>
+      <div class="language">Version in <a href="dcmjp2k.php.en"><img src="images/en.gif" alt="English" width="16" height="10" border="0"></a>&nbsp;&nbsp;&nbsp;</div>
+    </td>
+  </tr>
+  <tr>
+    <td class="navigation">
+      <?php include("navbar.html.de")?>
+    </td>
+    <td class="text">
+      <h2>Beschreibung</h2>
+      <p>Das DICOM JPEG 2000-Toolkit DCMJP2K besteht aus drei Komponenten,</p>
+      <ul type="disc">
+        <li>einer C++ Klassenbibliothek, die eine DICOM JPEG 2000-Unterst&uuml;tzung implementiert,</li>
+        <li>einer Encoder-Applikation, die DICOM-Bilder in eine der JPEG 2000-Transfersyntaxen wandelt und</li>
+        <li>einer Decoder-Applikation, die mit JPEG 2000 kodierte DICOM-Bilder dekomprimiert.</li>
+      </ul>
+      <p>DCMJP2K unterst&uuml;tzt die DICOM JPEG 2000-Transfersyntaxen, die im Jahre 2001 in den Standard aufgenommen wurden. JPEG 2000 zeichnet sich zum einen durch eine üblicherweise deutlich bessere Kompressionsrate aus als sie durch die "Standard JPEG" Unterst&uuml;tzung in DICOM m&ouml;glich ist. Zudem bietet JPEG 2000 durch den internen Aufbau des Bildformats interessante Anwendungen im Bereich des Streaming, die in DICOM auch durch das JPIP-Protokoll (DICOM JPEG 2000 Interactive Protocol, nicht Teil von DCMJP2K) genutzt werden k&ouml;nnen. </p>
+      <p>Die DCMJP2K-Klassenbibliothek wird als zus&auml;tzliches Modul in das DICOM Toolkit DCMTK integriert. Durch das Registrieren des Decoders und des Encoders in der Codec-Verwaltung des Toolkits wird mit wenigen Zeilen Code die Kompression und Dekompression von JPEG 2000-kodierten Pixel-Daten erm&ouml;glicht.</p>
+      <p>Bei den mitgelieferten Encoder- / Decoder-Applikationen handelt es sich um Kommandozeilenprogramme, die mit Hilfe der DCMJP2K-Klassenbibliothek die Konvertierung von DICOM-Bildern in die DICOM JPEG 2000-Transfersyntaxen erlauben.
+      <h2 class="lowerh2">Leistungsmerkmale im Detail</h2>
+      <p>Die Klassenbibliothek sowie die Kommandozeilenapplikationen verf&uuml;gen &uuml;ber folgende Leistungsmerkmale:</p>
+      <ul type="disc">
+        <li>Unterst&uuml;tzung f&uuml;r verlustlose und verlustbehaftete JPEG 2000-Kompression in DICOM</li>
+        <li>Unterst&uuml;tzung diverser JPEG 2000-Kompressionsparameter (Kompressionsrate, Quantisierung, ...)</li>
+        <li>Nahtlose Integration in das DICOM Toolkit DCMTK</li>
+        <li>Automatische Anpassung der entsprechenden DICOM Attribute</li>
+        <li>Plattformunabh&auml;ngigkeit</li>
+      </ul>
+      <p>Zwei DICOM JPEG 2000-Transfersyntaxen werden unterst&uuml;tzt ("JPEG 2000 Image Compression (Lossless Only)" und "JPEG 2000 Image Compression").</p>
+      <p>Weitere Details können der Dokumentation der Programme <a href="http://support.dcmtk.org/docs-products/dcmcjp2k.html">DCMCJP2K</a> und <a href="http://support.dcmtk.org/docs-products/dcmdjp2k.html">DCMDJP2K</a> (in englischer Sprache) entnommen werden.</p>
+      <p>DCMJP2K basiert auf dem OFFIS DICOM-Toolkit <a class="textlink" href="dcmtk.php.de">DCMTK</a> und ist in unterschiedlichen Varianten erhältlich. Zum einen sind Binärversionen verfügbar und zum anderen ist es auch möglich, den Quelltext zu erwerben. DCMJP2K unterstützt verschiedene Unix-Dialekte (u. a. Linux, Solaris und Mac OS X) sowie Windows.</p>
+      <p>Dieses Modul ist nicht frei verfügbar und muß separat lizenziert werden.</p>      
+    </td>
+  </tr>
+  <tr>
+    <td>
+    </td>
+    <td class="foot">
+      <?php include("footer.html.de")?>
+    </td>
+  </tr>
+</table>
+</body>
+
+</html>

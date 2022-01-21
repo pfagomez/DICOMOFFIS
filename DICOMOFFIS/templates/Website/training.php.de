@@ -1,0 +1,625 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1" />
+    <meta name="description" content="Informationen zu DICOM-Schulungen." />
+    <meta name="author" content="DICOM Team" />
+    <meta name="keywords" content="DICOM, OFFIS, Schulung" />
+    <meta name="date" content="2021-11-01" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>dicom.offis.de - Dienstleistungen - DICOM-Schulung</title>
+  </head>
+  <body>
+    <table border="0" cellpadding="5" cellspacing="25" width="945">
+      <colgroup>
+        <col width="200" />
+        <col width="650" />
+      </colgroup>
+      <tr>
+        <td class="logo">
+          <?php include("logo.html.de")?>
+          <br />
+        </td>
+        <td class="title">
+          <h1>DICOM-Schulung</h1>
+          <div class="language">Version in
+          <a href="training.php.en">
+            <img src="images/en.gif" alt="English" border="0" height="10" width="16" />
+          </a></div>
+        </td>
+      </tr>
+      <tr>
+        <td class="navigation">
+          <?php include("navbar.html.de")?>
+          <br />
+        </td>
+        <td class="text">
+        <h2>DICOM-Schulungen durch OFFIS</h2>
+        <p>Die Kurse richten sich inhaltlich vornehmlich an Service-Mitarbeiter, Software-Entwickler und technische
+        interessierte Anwender aus dem DICOM-Umfeld. In der Regel finden die Kurse bei OFFIS in Oldenburg statt; Schulungen vor
+        Ort in Ihrem Unternehmen oder in Ihrer Organisation sind nach Absprache jedoch ebenfalls möglich. Das aktuelle
+        Schulungsangebot kann der unten stehenden Tabelle entnommen werden.</p>
+        <p>Bei Interesse wenden Sie sich bitte an einen der genannten
+        <a class="textlink" href="people.php.de">Ansprechpartner</a> oder teilen Sie uns unter der E-Mail Adresse
+        <img src="images/email.gif" alt="email" align="middle" border="0" height="13" width="89" /> Ihr Anliegen mit. Es gelten
+        unsere allgemeinen
+        <a class="textlink" href="#terms">Teilnahmebedingungen</a>.</p>
+        <p>Die Schulungen werden zusammen mit
+        <a href="http://www.jriesmeier.de/">J. Riesmeier</a> und
+        <a href="http://www.open-connections.de/">Open Connections GmbH</a> angeboten und durchgeführt.</p>
+
+
+
+        <h2>Schulungsangebote auf einen Blick
+        <a name="Termine" id="Termine"></a></h2>
+        <table border="0" cellpadding="0" cellspacing="10">
+          <tbody>
+            <tr>
+              <td width="200">14.-15. Februar 2022</td>
+              <td>
+              <img src="images/de.gif" alt="Deutsch" border="0" height="10" width="16" />
+              <a href="#Intensivkurs">DICOM-Intensivkurs</a>, <b>online</b></td>
+            </tr>
+            <tr>
+              <td width="200">16.-17. Februar 2022</td>
+              <td>
+              <img src="images/de.gif" alt="Deutsch" border="0" height="10" width="16" />
+              <a href="#ToolsUndTrouble">DICOM-Tools und -Troubleshooting</a>, <b>online</b></td>
+            </tr>
+            <tr>
+              <td width="200">09.-10. Mai 2022</td>
+              <td>
+              <img src="images/de.gif" alt="Deutsch" border="0" height="10" width="16" />
+              <a href="#Intensivkurs">DICOM-Intensivkurs</a>, je nach Pandemielage online oder in Präsenz</td>
+            </tr>
+            <tr>
+              <td width="200">19.-20. September 2022</td>
+              <td>
+              <img src="images/de.gif" alt="Deutsch" border="0" height="10" width="16" />
+              <a href="#Intensivkurs">DICOM-Intensivkurs</a>, je nach Pandemielage online oder in Präsenz</td>
+            </tr>
+            <tr>
+              <td width="200">21.-22. September 2022</td>
+              <td>
+              <img src="images/de.gif" alt="Deutsch" border="0" height="10" width="16" />
+              <a href="#Advanced">DICOM-Advanced</a>, je nach Pandemielage online oder in Präsenz</td>
+            </tr>
+            <tr>
+              <td width="200">14.-15. November 2022</td>
+              <td>
+              <img src="images/de.gif" alt="Deutsch" border="0" height="10" width="16" />
+              <a href="#Intensivkurs">DICOM-Intensivkurs</a>, je nach Pandemielage online oder in Präsenz</td>
+            </tr> 
+            <tr>
+              Die Schulungen starten jeweils um 9.00 Uhr und enden gegen 17.00 Uhr.</td>
+            </tr>
+<!--
+            <tr>
+              <td colspan="2">
+                <small>*In Zusammenarbeit mit
+                <a href="https://www.imbus.de/akademie/dicom-in-medicine/"> imbus AG
+                </a> angeboten.</small>
+              </td>
+            </tr>
+-->
+          </tbody>
+        </table>
+
+
+
+        <br/><br/>
+        <h2>Schulungsinhalte</h2>
+        <p>Das aktuelle Schulungsangebot umfaßt die folgenden Kurse, die jeweils in deutscher oder
+        <a href="training.php.en">englischer</a> Sprache verfügbar sind:</p>
+
+
+        <hr />
+        <a name="Intensivkurs" id="Intensivkurs"></a>
+        <table border="0" cellpadding="0" cellspacing="10">
+          <colgroup>
+            <col width="140" />
+            <col width="510" />
+          </colgroup>
+          <tbody>
+            <tr>
+              <td valign="top">
+                <b>Kurs:</b>
+              </td>
+              <td>
+                <b>DICOM-Intensivkurs</b>
+              </td>
+            </tr>
+            <tr>
+              <td valign="top">
+                <b>Ziel:</b>
+              </td>
+              <td>Sie erhalten eine grundlegende Einführung und einen umfassenden Überblick über den für den Bereich der
+              medizinischen Bildkommunikation maßgeblichen DICOM-Standard. Sie erfahren, wie die DICOM-Datenstrukturen und das
+              Dateiformat aufgebaut sind, wie die Kommunikation im Netzwerk funktioniert und wie die relevanten DICOM-Dienste
+              für den Austausch von medizinischen Informationen eingesetzt werden können. Ihr Nutzen ist ein effizienter
+              Einstieg und Know-how-Transfer durch kompetente Referenten, die sich seit vielen Jahren mit der Materie
+              beschäftigen.</td>
+            </tr>
+            <tr>
+              <td valign="top">
+                <b>Inhalte:</b>
+              </td>
+              <td>Geschichte und Aufbau des DICOM-Standards, Datenstrukturen und Informationsobjekte, Dateiformat und
+              Kodierungsregeln, Verbindungsaufbau und Nachrichtenaustausch im Netzwerk, Grundlegende Netzwerkdienste
+              (Verification, Storage), Aufbau von DICOM-Bildern, Etablierte DICOM-Netzwerkdienste (Query/Retrieve, Worklist
+              Management/MPPS, Storage Commitment, Print Management), Datenträger und Datenträgeraustausch, Conformance
+              Statement, Kompression in DICOM, Konsistente Bilddarstellung, Überblick über weitere DICOM-Dienste.</td>
+            </tr>
+            <tr>
+              <td valign="top">
+                <b>Voraussetzungen:</b>
+              </td>
+              <td>keine</td>
+            </tr>
+            <tr>
+              <td valign="top">
+                <b>Zielgruppe:</b>
+              </td>
+              <td>Service- und Support-Mitarbeiter, Software-Entwickler, technisch interessierte Anwender aus dem
+              DICOM-Umfeld</td>
+            </tr>
+            <tr>
+              <td valign="top">
+                <b>Sprache:</b>
+              </td>
+              <td>deutsch</td>
+            </tr>
+            <tr>
+              <td valign="top">
+                <b>Dauer:</b>
+              </td>
+              <td>2 Tage</td>
+            </tr>
+            <tr>
+              <td valign="top">
+                <b>Nächste Termine:</b>
+              </td>
+              <td>Siehe
+              <a href="#Termine">Übersicht der Schulungstermine</a> oben</td>
+            </tr>
+          </tbody>
+        </table>
+
+
+        <hr />
+        <a name="DCMTK" id="DCMTK"></a>
+        <table border="0" cellpadding="0" cellspacing="10">
+          <colgroup>
+            <col width="140" />
+            <col width="510" />
+          </colgroup>
+          <tbody>
+            <tr>
+              <td valign="top">
+                <b>Kurs:</b>
+              </td>
+              <td>
+                <b>DICOM-Toolkit DCMTK</b>
+              </td>
+            </tr>
+            <tr>
+              <td valign="top">
+                <b>Ziel:</b>
+              </td>
+              <td>Sie erhalten einen umfassenden Überblick über das DICOM-Toolkit DCMTK und die darin enthaltenen
+              Kommandozeilenprogramme. Neben der grundlegenden Struktur des DCMTK werden sämtliche öffentlichen Module im
+              Detail vorgestellt. Es besteht darüber hinaus die Möglichkeit, spezifische Anforderungen und Probleme aus der
+              Praxis zu diskutieren. Ihr Nutzen ist ein effizienter Einstieg und Know-how-Transfer durch kompetente Referenten,
+              die das DCMTK über Jahre hinweg maßgeblich mit entwickelt haben.</td>
+            </tr>
+            <tr>
+              <td valign="top">
+                <b>Inhalte:</b>
+              </td>
+              <td>Entwicklungsgeschichte des DCMTK, Architektur des Toolkits, Öffentliche Module (Überblick,
+              Anwendungsbeispiele, Kommandozeilenprogramme), Aktuelle Entwicklungen (Snapshots), Überblick über
+              nichtöffentliche Module, Praktischer Einsatz von ausgewählten DCMTK-Tools, Implementierungsstrategien, Diskussion
+              spezifischer Anforderungen.</td>
+            </tr>
+            <tr>
+              <td valign="top">
+                <b>Voraussetzungen:</b>
+              </td>
+              <td>Kenntnisse des DICOM-Standards, z. B. aus dem DICOM-Intensivkurs</td>
+            </tr>
+            <tr>
+              <td valign="top">
+                <b>Zielgruppe:</b>
+              </td>
+              <td>Service- und Support-Mitarbeiter, Software-Entwickler, technisch interessierte Anwender aus dem
+              DICOM-Umfeld</td>
+            </tr>
+            <tr>
+              <td valign="top">
+                <b>Sprache:</b>
+              </td>
+              <td>deutsch</td>
+            </tr>
+            <tr>
+              <td valign="top">
+                <b>Dauer:</b>
+              </td>
+              <td>1 Tag</td>
+            </tr>
+            <tr>
+              <td valign="top">
+                <b>Nächste Termine:</b>
+              </td>
+              <td>Siehe
+              <a href="#Termine">Übersicht der Schulungstermine</a> oben</td>
+            </tr>
+          </tbody>
+        </table>
+
+
+        <hr />
+        <a name="Kompakt" id="Kompakt"></a>
+        <table border="0" cellpadding="0" cellspacing="10">
+          <colgroup>
+            <col width="140" />
+            <col width="510" />
+          </colgroup>
+          <tbody>
+            <tr>
+              <td valign="top">
+                <b>Kurs:</b>
+              </td>
+              <td>
+                <b>DICOM-Kompakt</b>
+              </td>
+            </tr>
+            <tr>
+              <td valign="top">
+                <b>Ziel:</b>
+              </td>
+              <td>Sie erhalten eine nicht-technische Einführung in die im
+              Bereich der medizinischen Bildgebung genutzten IT-Systeme und
+              Strukturen, sowie die Grundlagen der Netzwerktechnik. Sie
+              erfahren, wie der DICOM-Standard funktioniert, welche Dienste
+              er anbietet, und wie er mit anderen Standards ineinander
+              greift, um die typischen Arbeitsabläufe im bildgebenden Bereich
+              zu unterstützen. Ihr Nutzen ist ein effizienter Einstieg in die
+              Grundlagen der medizinischen Bildkommunikation durch kompetente
+              Referenten, die sich seit vielen Jahren mit der Materie
+              beschäftigen.</td>
+            </tr>
+            <tr>
+              <td valign="top">
+                <b>Inhalte:</b>
+              </td>
+              <td>Überblick über die IT-Systeme im Krankenhaus - Grundlagen der Netzwerkkommunikation -
+              Einführung in den DICOM-Standard, grundlegende Netzwerkdienste, Datenträgeraustausch,
+              Dateien (Bilder, Befunde, Messwerte, Signaldaten), Kompression von Bildern,
+              Sicherheitslösungen, Konfigurationsmöglichkeiten - Überblick über andere relevante
+              Standards und Initiativen.</td>
+            </tr>
+            <tr>
+              <td valign="top">
+                <b>Zielgruppe:</b>
+              </td>
+              <td>Produktmanager, Vertriebsmitarbeiter sowie Anwender aus dem DICOM-Umfeld</td>
+            </tr>
+            <tr>
+              <td valign="top">
+                <b>Dauer:</b>
+              </td>
+              <td>1 Tag</td>
+            </tr>
+            <tr>
+              <td valign="top">
+                <b>Nächste Termine:</b>
+              </td>
+              <td>Nach Anfrage</td>
+            </tr>
+          </tbody>
+        </table>
+
+
+        <hr />
+        <a name="Advanced" id="Advanced"></a>
+        <table border="0" cellpadding="0" cellspacing="10">
+          <colgroup>
+            <col width="140" />
+            <col width="510" />
+          </colgroup>
+          <tbody>
+            <tr>
+              <td valign="top">
+                <b>Kurs:</b>
+              </td>
+              <td>
+                <b>DICOM Advanced</b>
+              </td>
+            </tr>
+            <tr>
+              <td valign="top">
+                <b>Ziel:</b>
+              </td>
+              <td>Sie erhalten einen vertieften Einblick in eine Reihe von erweiterten DICOM-Konzepten, die erst in den letzten Jahren in den Standard eingeführt worden sind und die in neuen Informationsobjekten und Diensten Verwendung finden. Diese immer noch recht neuen Konzepte gewinnen zunehmend an Bedeutung und sind zum Teil bereits in aktuellen Systemen praktisch umgesetzt. Ihr Nutzen ist ein fundierter Einstieg in diese erweiterten DICOM-Konzepte anhand von sechs ausgewählten Themenbereichen.</td>
+            </tr>
+            <tr>
+              <td valign="top">
+                <b>Inhalte:</b>
+              </td>
+              <td>Kurze Einführung in die wesentlichen DICOM-Entwicklungen der letzten Jahre, Neue Informationsobjekte auf der
+              Basis des &quot;Enhanced Multiframe&quot;-Modells, DICOM Whole Slide Imaging (WSI), Web-basierte DICOM-Dienste (DICOMweb),
+              Strukturierte Dokumentation und strukturierter Datenaustausch mit Hilfe von DICOM Structured Reporting (SR) und
+              kontrollierter Terminologie, Erweiterte Workflow-Unterstützung mit Unified Worklist and Procedure Step (UPS),
+              die DICOM-Sicherheitserweiterungen (Nutzerauthentifizierung im Netzwerk, Verschlüsselte Netzwerkverbindungen mit TLS,
+              Anonymisierung und Pseudonymisierung von DICOM-Daten, Digitale Signaturen, Audit Trail). Die Vorträge werden jeweils
+              durch praktische Übungen ergänzt.</td>
+            </tr>
+            <tr>
+              <td valign="top">
+                <b>Voraussetzungen:</b>
+              </td>
+              <td>Kenntnisse des DICOM-Standards, z. B. aus dem DICOM-Intensivkurs; dieser Kurs vermittelt neue/erweiterte
+              Datenstrukturen und Dienste, die erst in den letzten Jahren in den DICOM-Standard eingeführt worden sind.
+              Für einige der praktischen Übungen wird ein Notebook benötigt.</td>
+            </tr>
+            <tr>
+              <td valign="top">
+                <b>Zielgruppe:</b>
+              </td>
+              <td>Service- und Support-Mitarbeiter, Software-Entwickler, technisch interessierte Anwender aus dem
+              DICOM-Umfeld</td>
+            </tr>
+            <tr>
+              <td valign="top">
+                <b>Dauer:</b>
+              </td>
+              <td>2 Tage</td>
+            </tr>
+            <tr>
+              <td valign="top">
+                <b>Nächste Termine:</b>
+              </td>
+              <td>Siehe
+              <a href="#Termine">Übersicht der Schulungstermine</a> oben</td>
+            </tr>
+          </tbody>
+        </table>
+
+
+        <hr />
+        <a name="ToolsUndTrouble" id="ToolsUndTrouble"></a>
+        <table border="0" cellpadding="0" cellspacing="10">
+          <colgroup>
+            <col width="140" />
+            <col width="510" />
+          </colgroup>
+          <tbody>
+            <tr>
+              <td valign="top">
+                <b>Kurs:</b>
+              </td>
+              <td>
+                <b>DICOM-Tools und -Troubleshooting</b>
+              </td>
+            </tr>
+            <tr>
+              <td valign="top">
+                <b>Ziel:</b>
+              </td>
+              <td>Sie lernen, wie sich typische Probleme im DICOM-Alltag analysieren und meistern lassen, und welche Open
+              Source-Werkzeuge Ihnen dabei helfen können. Dabei lernen Sie auch in praktischen Übungen, einige dieser Werkzeuge
+              eigenständig zu verwenden, d. h. zu konfigurieren, auszuführen und die Ausgaben zu analysieren. Ein besonderer
+              Schwerpunkt ist die Verwendung der Tools des DICOM Open Source Toolkits DCMTK. Kompetente Referenten, die sich
+              seit vielen Jahren mit der DICOM-Programmierung und Problemlösung beschäftigen, geben Ihnen so Vorgehensweisen
+              und Hilfsmittel an die Hand, um DICOM-Probleme in der Praxis erfolgreich lösen zu können.</td>
+            </tr>
+            <tr>
+              <td valign="top">
+                <b>Inhalte:</b>
+              </td>
+              <td>Typische DICOM-Probleme und Lösungsansätze in den Bereichen Datenstrukturen, Dateien und Datenträger
+              <sup>1</sup>; Netzwerkdienste
+              <sup>1</sup>; Bildformat und Kompression
+              <sup>1</sup>; Diskussion eigener Probleme aus der Praxis, und wie mit diesen umgegangen werden kann; Überblick
+              über hilfreiche Open-Source- und Freeware-Tools.</td>
+            </tr>
+            <tr>
+              <td valign="top">
+                <b>Voraussetzungen:</b>
+              </td>
+              <td>Kenntnisse des DICOM-Standards, z. B. aus dem DICOM-Intensivkurs; dieser Kurs stellt die ideale Ergänzung zum
+              Intensivkurs dar, da hier die zuvor theoretisch vermittelten Kenntnisse anhand von Problemen aus der Praxis
+              vertieft werden. Für die praktischen Übungen wird ein Notebook benötigt.</td>
+            </tr>
+            <tr>
+              <td valign="top">
+                <b>Zielgruppe:</b>
+              </td>
+              <td>Service- und Support-Mitarbeiter, Software-Entwickler, technisch interessierte Anwender aus dem
+              DICOM-Umfeld</td>
+            </tr>
+            <tr>
+              <td valign="top">
+                <b>Dauer:</b>
+              </td>
+              <td>2 Tage</td>
+            </tr>
+            <tr>
+              <td valign="top">
+                <b>Nächste Termine:</b>
+              </td>
+              <td>Siehe
+              <a href="#Termine">Übersicht der Schulungstermine</a> oben</td>
+            </tr>
+            <tr>
+              <td />
+              <td>
+              <sup>1</sup>mit praktischer Übung</td>
+            </tr>
+          </tbody>
+        </table>
+
+
+        <hr />
+        <a name="DCMTKFuerEntwickler" id="DCMTKFuerEntwickler"></a>
+        <table border="0" cellpadding="0" cellspacing="10">
+          <colgroup>
+            <col width="140" />
+            <col width="510" />
+          </colgroup>
+          <tbody>
+            <tr>
+              <td valign="top">
+                <b>Kurs:</b>
+              </td>
+              <td>
+                <b>DICOM-Toolkit DCMTK für Entwickler</b>
+              </td>
+            </tr>
+            <tr>
+              <td valign="top">
+                <b>Ziel:</b>
+              </td>
+              <td>Sie erfahren, wie das DICOM-Toolkit DCMTK aufgebaut ist, wie es konfiguriert und kompiliert wird. Zahlreiche
+              Aspekte des Toolkits werden durch praktische Übungen vertieft, d. h. Sie lernen schrittweise eigene Programme mit
+              Hilfe des DCMTK zu entwickeln. Der Kurs wird von den Hauptentwicklern des DCMTK durchgeführt, die allesamt über
+              langjährige Erfahrung mit der Software-Entwicklung im DICOM-Umfeld verfügen.</td>
+            </tr>
+            <tr>
+              <td valign="top">
+                <b>Inhalte:</b>
+              </td>
+              <td>Aufbau, Konfiguration und Kompilieren des DCMTK
+              <sup>1</sup>; grundlegende Funktionalität (Kapselung von Systemfunktionen, Logging und Kommandozeilenprogramme);
+              Handhabung von DICOM-Datensätzen und -Dateien
+              <sup>1</sup>; Kommunikation mit Hilfe der DICOM-Netzwerkdienste
+              <sup>1</sup>; Visualisierung von DICOM-Bildern
+              <sup>1</sup>; weitere Aspekte wie DICOM Structured Reporting; Allgemeines zum Entwicklungsprozess des DCMTK und
+              zur Unterstützung bei weitergehenden Fragen</td>
+            </tr>
+            <tr>
+              <td valign="top">
+                <b>Voraussetzungen:</b>
+              </td>
+              <td>Kenntnisse des DICOM-Standards, z. B. aus dem DICOM-Intensivkurs; Programmierkenntnisse, insbesondere in C++;
+              es ist erforderlich, ein Notebook mit einem vom DCMTK unterstützten Compiler (siehe INSTALL-Datei) mitzubringen,
+              um die praktischen Übungen durchführen zu können.</td>
+            </tr>
+            <tr>
+              <td valign="top">
+                <b>Zielgruppe:</b>
+              </td>
+              <td>Software-Entwickler, die grundlegende DICOM-Erfahrung haben und das DCMTK (besser) kennen lernen wollen</td>
+            </tr>
+            <tr>
+              <td valign="top">
+                <b>Dauer:</b>
+              </td>
+              <td>2 Tage</td>
+            </tr>
+            <tr>
+              <td valign="top">
+                <b>Nächste Termine:</b>
+              </td>
+              <td>Nach Anfrage</td>
+            </tr>
+            <tr>
+              <td />
+              <td>
+              <sup>1</sup>mit praktischer Übung</td>
+            </tr>
+          </tbody>
+        </table>
+
+
+        <hr />
+        <a name="Individuell" id="Individuell"></a>
+        <table border="0" cellpadding="0" cellspacing="10">
+          <colgroup>
+            <col width="140" />
+            <col width="510" />
+          </colgroup>
+          <tbody>
+            <tr>
+              <td valign="top">
+                <b>Kurs:</b>
+              </td>
+              <td>
+                <b>DICOM individuell</b>
+              </td>
+            </tr>
+            <tr>
+              <td valign="top">
+                <b>Inhalte:</b>
+              </td>
+              <td>Die Schulungsinhalte werden speziell auf die Bedürfnisse der Teilnehmer abgestimmt.</td>
+            </tr>
+            <tr>
+              <td valign="top">
+                <b>Zielgruppe:</b>
+              </td>
+              <td>nach Absprache</td>
+            </tr>
+            <tr>
+              <td valign="top">
+                <b>Sprache:</b>
+              </td>
+              <td>Deutsch/Englisch</td>
+            </tr>
+            <tr>
+              <td valign="top">
+                <b>Dauer:</b>
+              </td>
+              <td>nach Absprache</td>
+            </tr>
+            <tr>
+              <td valign="top">
+                <b>Ort:</b>
+              </td>
+              <td>nach Absprache</td>
+            </tr>
+            <tr>
+              <td valign="top">
+                <b>Nächste Termine:</b>
+              </td>
+              <td>Nach Anfrage</td>
+            </tr>
+          </tbody>
+        </table>
+
+
+        <hr />
+        <h3>
+          <a id="terms" name="terms">Teilnahmebedingungen</a>
+        </h3>
+        <p>Stornierungen von Anmeldungen müssen schriftlich erfolgen.</p>
+        <p>Für Schulungen bei OFFIS in Oldenburg sowie für Online-Schulungen gilt: Bei Stornierungen, die mehr als 14 Tage vor Beginn der Schulung
+        eingehen, wird der Teilnehmerbeitrag vollständig erstattet. Bei Stornierungen, die uns bis zu 8 Tage vor Beginn der
+        Schulung vorliegen, stellen wir 50% des Teilnehmerbeitrags in Rechnung. Bei späteren Stornierungen oder bei
+        Nichterscheinen des Teilnehmers ist der volle Teilnehmerbeitrag zu zahlen.</p>
+        <p>Für Schulungen außerhalb von Oldenburg gilt: Bei Stornierungen, die mehr als 6 Wochen vor Beginn der Schulung
+        eingehen, wird der Teilnehmerbeitrag vollständig erstattet. Bei Stornierungen, die uns bis zu 3 Wochen vor Beginn der
+        Schulung vorliegen, stellen wir 50% des Teilnehmerbeitrags in Rechnung. Bei späteren Stornierungen oder bei
+        Nichterscheinen des Teilnehmers ist der volle Teilnehmerbeitrag zu zahlen.</p>
+        <p>Die Benennung eines Ersatz-Teilnehmers ist jederzeit möglich.</p>
+        <p>OFFIS hat das Recht, eine Schulung abzusagen, wenn die Mindestteilnehmerzahl von 8 Personen nicht erreicht wird. In
+        diesem Fall wird der Teilnehmerbeitrag in voller Höhe erstattet.</p>
+        <hr />
+        <p>Alle DICOM-Schulungen werden in Kooperation mit
+        <a href="http://www.jriesmeier.de/">J. Riesmeier</a> und
+        <a href="http://www.open-connections.de/">Open Connections GmbH</a> angeboten.</p>
+      </td>
+      </tr>
+      <tr>
+        <td>
+          <br />
+        </td>
+        <td class="foot">
+          <?php include("footer.html.de")?>
+          <br />
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

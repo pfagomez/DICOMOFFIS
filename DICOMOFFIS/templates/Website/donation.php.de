@@ -1,0 +1,66 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<meta name="description" content="Spenden an DICOM@OFFIS">
+<meta name="author" content="Michael Onken">
+<meta name="keywords" content="Spende, Spenden, DICOM, Toolkit, DCMTK">
+<meta name="date" content="2006-03-28">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>dicom.offis.de - Spenden an DICOM@OFFIS</title>
+</head>
+
+<body>
+<table width="945" border="0" cellspacing="25" cellpadding="5">
+  <colgroup>
+    <col width="200">
+    <col width="650">
+  </colgroup>
+  <tr>
+    <td class="logo">
+      <?php include("logo.html.de")?>
+    </td>
+    <td class="title">
+      <h1>Spenden an DICOM@OFFIS</h1>
+      <div class="language">Version in <a href="donation.php.en"><img src="images/en.gif" alt="English" width="16" height="10" border="0"></a>&nbsp;&nbsp;&nbsp;</div>
+    </td>
+  </tr>
+  <tr>
+    <td class="navigation">
+      <?php include("navbar.html.de")?>
+    </td>
+    <td class="text">
+      <h2>Spenden</h2>
+      <p>Der Forschungs- und Entwicklungsbereich "<a href="http://www.offis.de/f_e_bereiche/gesundheit.html">Gesundheit</a>" von OFFIS beschäftigt sich in drei Themenschwerpunkten mit dem Leitthema "Integrierte Gesundheitsversorgung". Dabei werden technische Integrationsmöglichkeiten von Informations- und Kommunikationssystemen sowie die Einbindung bildgebender Systeme zur Unterstützung und Verbesserung der Arbeitsabläufe im Gesundheitswesen im Themenschwerpunkt "Integrationstechnik" untersucht. In diesem Zusammenhang engagiert sich OFFIS bereits seit über zehn Jahren im Bereich der Normierung der medizinischen Bildkommunikation (DICOM).</p>
+      <p>Ein Großteil der DICOM-Software, die von OFFIS seit vielen Jahren gepflegt und weiterentwickelt wird, steht kostenlos zum Herunterladen bereit. Aufgrund zahlreicher Nachfragen haben wir uns entschlossen, eine einfache Möglichkeit zu bieten, unsere Arbeit im Bereich Gesundheit auch finanziell zu unterstützen.</p>
+      <p>Sie können eine Spende in beliebiger Höhe vornehmen, indem Sie auf das nachfolgende PayPal-Logo klicken.</p>
+      <div style="text-align:center">
+        <form action="https://www.paypal.com/de/cgi-bin/webscr" method="post">
+          <input type="hidden" name="cmd" value="_s-xclick" />
+          <input type="hidden" name="item_name" value="DICOM@OFFIS" />
+          <input type="hidden" name="no_shipping" value="1" />
+          <input type="hidden" name="no_note" value="0" />
+          <input type="hidden" name="currency_code" value="EUR" />
+          <input type="hidden" name="tax" value="0" />
+          <input type="hidden" name="lc" value="de" />
+          <input type="hidden" name="return" value="http://dicom.offis.de/index.php.de" />
+          <input type="image" src="https://www.paypal.com/de_DE/i/btn/x-click-but04.gif" name="submit" alt="Spenden Sie an DICOM@OFFIS mit PayPal - schnell, kostenlos und sicher!">
+          <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+        </form>
+      </div>
+      <p>Falls Sie eine Spendenbescheinigung benötigen, senden Sie uns bitte eine E-Mail an <img src="images/email.gif" alt="email" border="0" width="89" height="13" align="middle">.</p>
+      <p>Vielen Dank für Ihre Spende!</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+    </td>
+    <td class="foot">
+      <?php include("footer.html.de")?>
+    </td>
+  </tr>
+</table>
+</body>
+
+</html>

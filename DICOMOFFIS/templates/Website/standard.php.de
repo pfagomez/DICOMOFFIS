@@ -1,0 +1,53 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<meta name="description" content="Standardisierung von Bildkommunikation in der Medizin.">
+<meta name="author" content="Thomas Wilkens">
+<meta name="keywords" content="Standardisierung, Bildkommunikation, Medizin">
+<meta name="date" content="2003-03-03">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>dicom.offis.de - Allgemeine Informationen - Standardisierung von Bildkommunikation</title>
+</head>
+
+<body>
+<table width="945" border="0" cellspacing="25" cellpadding="5">
+  <colgroup>
+    <col width="200">
+    <col width="650">
+  </colgroup>
+  <tr>
+    <td class="logo">
+      <?php include("logo.html.de")?>
+    </td>
+    <td class="title">
+      <h1>Standardisierung von Bildkommunikation</h1>
+      <div class="language">Version in <a href="standard.php.en"><img src="images/en.gif" alt="English" width="16" height="10" border="0"></a>&nbsp;&nbsp;&nbsp;</div>
+    </td>
+  </tr>
+  <tr>
+    <td class="navigation">
+      <?php include("navbar.html.de")?>
+    </td>
+    <td class="text">
+      <h2>Die Entwicklung von Standards f&uuml;r die medizinische Informatik</h2>
+      <p>Informations- und Kommunikationstechnik werden in den kommenden Jahren in immer st&auml;rkeren Ma&szlig;en ambulante, station&auml;re und administrative Bereiche des Gesundheitswesens einzeln und integrierend durchdringen. Der Geschwindigkeit des technischen Fortschritts steht aber der Wunsch nach langfristiger und verl&auml;&szlig;licher Verf&uuml;gbarkeit von medizinischen Daten gegen&uuml;ber. Unabdingbar ist zudem auch die Sicherung von Investitionen f&uuml;r einen angemessenen Zeitraum. Diese Anforderungen lassen sich nur mit Normen begegnen. Da das Gesundheitswesen hochgradig verteilt und gegliedert ist, kommt der Normung von Schnittstellen von konzeptionellen bis hinunter zu technischen Ebenen eine besondere Bedeutung zu. Dies ist auch f&uuml;r die Entwicklung neuer Dienste - z.&nbsp;B. f&uuml;r die Telemedizin - unerl&auml;&szlig;lich. Die folgenden internationalen Komitees engagieren sich bei der Entwicklung von Standards f&uuml;r die medizinische Informatik:</p>
+      <ol>
+        <li>DICOM Committee<br>Das DICOM-Komitee ist Herausgeber des DICOM-Standards ("Digital Imaging and Communications in Medicine"), der sich seit seiner Erstver&ouml;ffentlichung 1993 zum wichtigsten Standard f&uuml;r den Bereich der medizinischen Bildverarbeitung entwickelt hat.</li>
+        <li>Comit&eacute; Europ&eacute;en de Normalisation<br>Das Technische Komitee CEN/TC251 "Health Informatics" beim Europ&auml;ischen Komitee f&uuml;r Normung erarbeitet Informationsmodelle f&uuml;r medizinische Informationssysteme, Standards f&uuml;r Wissensrepr&auml;sentation und Terminologie, f&uuml;r Sicherheit und Qualit&auml;tssicherung sowie f&uuml;r die Bild- und Signalverarbeitung in der Medizin.</li>
+        <li>International Organisation for Standardization<br>Das 1998 gegr&uuml;ndete ISO-Komitee ISO/TC215 f&uuml;r Medizininformatik hat ein &auml;hnliches Themenspektrum wie CEN/TC251, ist aber nicht in seinem Wirkungsbereich auf Europa beschr&auml;nkt. Hier werden Modelle f&uuml;r medizinische Informationssysteme sowie Standards f&uuml;r Wissensrepr&auml;sentation und Terminologie, Sicherheit und Qualit&auml;tssicherung in der Medizin entstehen, z.&nbsp;T. auf der Basis von CEN-Standards.</li>
+      </ol>
+    </td>
+  </tr>
+  <tr>
+    <td>
+    </td>
+    <td class="foot">
+      <?php include("footer.html.de")?>
+    </td>
+  </tr>
+</table>
+</body>
+
+</html>

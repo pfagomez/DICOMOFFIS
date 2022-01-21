@@ -1,0 +1,53 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<meta name="description" content="About contacts concerning DICOM at OFFIS.">
+<meta name="author" content="Thomas Wilkens">
+<meta name="keywords" content="DICOM, OFFIS">
+<meta name="date" content="2004-11-11">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>dicom.offis.de - Contact Info</title>
+</head>
+
+<body>
+<table width="945" border="0" cellspacing="25" cellpadding="5">
+  <colgroup>
+    <col width="200">
+    <col width="650">
+  </colgroup>
+  <tr>
+    <td class="logo">
+      <?php include("logo.html.en")?>
+    </td>
+    <td class="title">
+      <h1>Contact Info</h1>
+      <div class="language">Version in <a href="contact.php.de"><img src="images/de.gif" alt="Deutsch" width="16" height="10" border="0"></a>&nbsp;&nbsp;&nbsp;</div>
+    </td>
+  </tr>
+  <tr>
+    <td class="navigation">
+      <?php include("navbar.html.en")?>
+    </td>
+    <td class="text">
+      <h2>The OFFIS computer science institute</h2>
+      <p>The OFFIS computer science institute was founded in 1991. With its 210 employees, it is located today in the beautiful city of Oldenburg in the northwestern part of Germany. In August 1995, the organization moved into the new OFFIS building in the Escherweg 2 in Oldenburg.</p>
+      <p>In the surroundings of the new OFFIS building, a modern center for service providers and research institutes is emerging today. Predominantly, companies, institutions and organizations from the computer science domain are settling in OFFIS' vicinity.</p>
+      <p><a class="textlink" href="people.php.en">Contacts at OFFIS</a></p>
+      <p><a class="textlink" href="direct.php.en">Directions for getting to OFFIS</a></p>
+      <p><a class="textlink" href="imprint.php.en">Legal Notice</a></p>
+      <p><a class="textlink" href="privacy.php.en">Privacy Policies</a></p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+    </td>
+    <td class="foot">
+      <?php include("footer.html.en")?>
+    </td>
+  </tr>
+</table>
+</body>
+
+</html>

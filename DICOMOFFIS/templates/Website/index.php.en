@@ -1,0 +1,116 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<meta name="description" content="Home page for dicom.offis.de">
+<meta name="author" content="Thomas Wilkens">
+<meta name="keywords" content="DICOM, OFFIS">
+<meta name="date" content="2018-11-30">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>dicom.offis.de - Home</title>
+</head>
+
+<body>
+<table width="945" border="0" cellspacing="25" cellpadding="5">
+  <colgroup>
+    <col width="200">
+    <col width="650">
+  </colgroup>
+  <tr>
+    <td class="logo">
+      <?php include("logo.html.en")?>
+    </td>
+    <td class="title">
+      <h1>dicom.offis.de - Home</h1>
+      <div class="language">Version in <a href="index.php.de"><img src="images/de.gif" alt="Deutsch" width="16" height="10" border="0"></a>&nbsp;&nbsp;&nbsp;</div>
+    </td>
+  </tr>
+  <tr>
+    <td class="navigation">
+      <?php include("navbar.html.en")?>
+    </td>
+    <td class="text">
+      <h2>Welcome to the dicom.offis.de webpages</h2>
+      <p>On these webpages all information concerning DICOM activities within the OFFIS computer science institute are at your disposal. We have made an effort to keep these pages as clearly arranged as possible. Remarks concerning these pages can be sent through email to&nbsp;<img src="images/email.gif" alt="email" border="0" width="89" height="13" align="middle">.</p>
+      <table border="0" cellspacing="10" cellpadding="0">
+        <colgroup>
+          <col width="120">
+          <col width="530">
+        </colgroup>
+        <tr><td valign="top"><a class="textlink" href="general.php.en">General Information</a></td><td valign="top">Information concerning standardization efforts and introduction to the DICOM standard</td></tr>
+        <tr><td valign="top"><a class="textlink" href="demos.php.en">DICOM Demos</a></td><td valign="top">Information concerning DICOM demonstrations on conferences and meetings</td></tr>
+        <tr><td valign="top"><a class="textlink" href="software.php.en">DICOM Software</a></td><td valign="top">Information concerning DICOM software made by OFFIS</td></tr>
+        <tr><td valign="top"><a class="textlink" href="service.php.en">Service</a></td><td valign="top">Information concerning DICOM related services provided by OFFIS</td></tr>
+        <tr><td valign="top"><a class="textlink" href="links.php.en">Links</a></td><td valign="top">Information concerning DICOM in the world wide web</td></tr>
+        <tr><td valign="top"><a class="textlink" href="contact.php.en">Contact Info</a></td><td valign="top">Contacts concerning DICOM at OFFIS</td></tr>
+        <tr><td valign="top"><a class="textlink" href="donation.php.en">Donations</a></td><td valign="top">Donate to the OFFIS DICOM team via PayPal</td></tr>
+      </table>
+      <div class="newsbox">
+        <h2 class="lowerh2"><a name="news">News</a></h2>
+        <p style="margin-top:25px;">New version 3.6.6 of the DICOM toolkit <a class="textlink" href="dcmtk.php.en">DCMTK</a> released.  See <a class="textlink" href="http://dicom.offis.de/download/dcmtk/dcmtk366/ANNOUNCE">announcement</a> for more details.</p>
+<p style="margin-top:25px;">Next <a class="textlink" href="training.php.en">DICOM training course</a> in English language:</p>
+       <!-- <ul>
+          <li>DICOM Intensive Course: 25th/26th April 2022, online course</li>
+          <li>DICOM Tools and Troubleshooting: 27th/28th April 2022, online course</li>
+	  <li>DICOM Intensive Course - Online - 4 half days: 13th - 16th June 2022</li>
+	  <li>DICOM Intensive Course: 10th/11th October 2022, online course</li>
+	  <li>DICOM Advanced: 12th/13th October 2022, online course</li>
+       </ul>-->
+
+        <table border="0" cellspacing="10" cellpadding="0">
+          <tr>
+	    <td width="200">25th/26th April 2022</td>
+            <td>
+            <img src="images/en.gif" alt="English" width="16" height="10" border="0" />
+            DICOM Intensive Course, online course.</td>
+          </tr>
+          <tr>
+            <td width="200">27th/28th April 2022</td>
+            <td>
+            <img src="images/en.gif" alt="English" width="16" height="10" border="0" />
+            DICOM-Tools and -Troubleshooting, online course.</td>
+          </tr>
+          <tr>
+            <td width="200">13th - 16th June 2022</td>
+            <td>
+            <img src="images/en.gif" alt="English" width="16" height="10" border="0" />
+            DICOM Intensive Course - Online - 4 half days, online course.</td>
+          </tr>
+          <tr>
+            <td width="200">10th/11th October 2022</td>
+            <td>
+            <img src="images/en.gif" alt="English" width="16" height="10" border="0" />
+            DICOM Intensive Course, online course.</td>
+          </tr>
+          <tr>
+            <td width="200">12th/13th October 2022</td>
+            <td>
+            <img src="images/en.gif" alt="English" width="16" height="10" border="0" />
+            DICOM Advanced, online course.</td>
+          </tr>
+        </table>
+
+        <p style="margin-top:25px;">All courses: early bird discount for registrations up to six weeks before the course date!</p>
+<!--
+        <p style="margin-top:25px;">Next <a class="textlink" href="ihetrain.php.en">IHE training</a> April 23rd/24th 2012 in Thun, Switzerland</p>
+        <ul>
+          <li>IHE training 27th/28th of October 2009 in Thun (Switzerland)</li>
+        </ul>
+        <p>The training is provided in cooperation with <a href="http://www.medshare.ch/"><b></b>medshare GmbH (Switzerland)</a>.</p>
+-->
+      </div>
+      <div class="dicomlogo"><img src="images/dicomlogo.gif" alt="DICOM logo" border="0" width="330" height="88"></div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+    </td>
+    <td class="foot">
+      <?php include("footer.html.en")?>
+    </td>
+  </tr>
+</table>
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<meta name="description" content="Donations to DICOM@OFFIS">
+<meta name="author" content="Jörg Riesmeier">
+<meta name="keywords" content="Donation, Donate, DICOM, Toolkit, DCMTK">
+<meta name="date" content="2006-03-28">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>dicom.offis.de - Donations to DICOM@OFFIS</title>
+</head>
+
+<body>
+<table width="945" border="0" cellspacing="25" cellpadding="5">
+  <colgroup>
+    <col width="200">
+    <col width="650">
+  </colgroup>
+  <tr>
+    <td class="logo">
+      <?php include("logo.html.en")?>
+    </td>
+    <td class="title">
+      <h1>Donations to DICOM@OFFIS</h1>
+      <div class="language">Version in <a href="donation.php.de"><img src="images/de.gif" alt="Deutsch" width="16" height="10" border="0"></a>&nbsp;&nbsp;&nbsp;</div>
+    </td>
+  </tr>
+  <tr>
+    <td class="navigation">
+      <?php include("navbar.html.en")?>
+    </td>
+    <td class="text">
+      <h2>Donations</h2>
+      <p>The OFFIS research and development division "<a href="http://www.offis.de/en/r_d_divisions/health.html">Health</a>" works in three key areas with the central theme of "Integrated Healthcare". In the key area "Integration Technology", technical integration possibilities for information and communication systems as well as the integration of image acquisition devices for the support and improvement of work procedures in healthcare are being investigated. In this context, OFFIS is involved in the standardization of medical image communication (DICOM) since more than ten years.</p>
+      <p>Large parts of the DICOM software that is maintained and further developed by OFFIS can be downloaded free of charge. As a result of public demand, we decided to offer a simple way to support our work in the Health division also financially.</p>
+      <p>You can donate any amount of money by clicking on the PayPal logo.</p>
+      <div style="text-align:center">
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+          <input type="hidden" name="cmd" value="_s-xclick">
+          <input type="hidden" name="item_name" value="DICOM@OFFIS" />
+          <input type="hidden" name="no_shipping" value="1" />
+          <input type="hidden" name="no_note" value="0" />
+          <input type="hidden" name="currency_code" value="EUR" />
+          <input type="hidden" name="tax" value="0" />
+          <input type="hidden" name="lc" value="us" />        
+          <input type="image" src="https://www.paypal.com/en_US/i/btn/x-click-but04.gif" name="submit" alt="Donate to DICOM@OFFIS via PayPal - it's fast, free and secure!">
+          <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----MIIHRwYJKoZIhvcNAQcEoIIHODCCBzQCAQExggEwMIIBLAIBADCBlDCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20CAQAwDQYJKoZIhvcNAQEBBQAEgYB2kdfm/PfSDRF2vhgSskJpQEoSI6XXM+X9pyHyZgK7Z8M1TT28sc0mychiP+4jYJbdjpko4dmfZcAE4R6JHK4Cmbt7Q/522WCyJXRPkr+hP/jkGWWQX21Y22sUnVllMwJ/1MRoir0i5XEmcvbWrmzFlSm6DgZ+3bMtX+GQhKuOeTELMAkGBSsOAwIaBQAwgcQGCSqGSIb3DQEHATAUBggqhkiG9w0DBwQIaQz87Edjl0SAgaBLOr+acJF8qrXcD8ktZHyzGTmgC9JnThTPnbHk3sNfWTiAb/4/UkVsrwIvhI9vA14De0aNCUN/sthdAnn15GBCUdS4MOTLyzkznu5Z2Nj1AkncmhahgVPBgvcEdqC0LYTFpn49AuC/w4KNCoe/PNS+PV85jOnWXc4A8GLkVSReT+sm4M9Gg0DEWPt5oXrBubmctqMAukO+LeqpwcTron3HoIIDhzCCA4MwggLsoAMCAQICAQAwDQYJKoZIhvcNAQEFBQAwgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tMB4XDTA0MDIxMzEwMTMxNVoXDTM1MDIxMzEwMTMxNVowgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDBR07d/ETMS1ycjtkpkvjXZe9k+6CieLuLsPumsJ7QC1odNz3sJiCbs2wC0nLE0uLGaEtXynIgRqIddYCHx88pb5HTXv4SZeuv0Rqq4+axW9PLAAATU8w04qqjaSXgbGLP3NmohqM6bV9kZZwZLR/klDaQGo1u9uDb9lr4Yn+rBQIDAQABo4HuMIHrMB0GA1UdDgQWBBSWn3y7xm8XvVk/UtcKG+wQ1mSUazCBuwYDVR0jBIGzMIGwgBSWn3y7xm8XvVk/UtcKG+wQ1mSUa6GBlKSBkTCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb22CAQAwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQUFAAOBgQCBXzpWmoBa5e9fo6ujionW1hUhPkOBakTr3YCDjbYfvJEiv/2P+IobhOGJr85+XHhN0v4gUkEDI8r2/rNk1m0GA8HKddvTjyGw/XqXa+LSTlDYkqI8OwR8GEYj4efEtcRpRYBxV8KxAW93YDWzFGvruKnnLbDAF6VR5w/cCMn5hzGCAZowggGWAgEBMIGUMIGOMQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxFDASBgNVBAoTC1BheVBhbCBJbmMuMRMwEQYDVQQLFApsaXZlX2NlcnRzMREwDwYDVQQDFAhsaXZlX2FwaTEcMBoGCSqGSIb3DQEJARYNcmVAcGF5cGFsLmNvbQIBADAJBgUrDgMCGgUAoF0wGAYJKoZIhvcNAQkDMQsGCSqGSIb3DQEHATAcBgkqhkiG9w0BCQUxDxcNMDYwMzE0MTAxNzIwWjAjBgkqhkiG9w0BCQQxFgQUr2KkjGQgB8a01h6SbHzO3fosqPkwDQYJKoZIhvcNAQEBBQAEgYCyXzuqxTJRNX62dUX9V7mrMD0TocHkUuf3lcUhM83NheN7mi0dqrUOkazC45xEsHKWoYElZafIy62jdM4fmenmo55auItleUrSyFv9YsVeLqJt2zX+/FPQC71aM81gw/L6MRViGozboSz6tl8T9r6lO+lK0ofJw+/hOstIyr8H8A==-----END PKCS7-----">
+        </form>
+      </div>
+      <p>If you need a donation receipt, please send an e-mail to <img src="images/email.gif" alt="email" border="0" width="89" height="13" align="middle">.</p>
+      <p>Thank you for your donation! </p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+    </td>
+    <td class="foot">
+      <?php include("footer.html.en")?>
+    </td>
+  </tr>
+</table>
+</body>
+
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<meta name="description" content="Demonstration of DICOM Networks.">
+<meta name="author" content="Thomas Wilkens">
+<meta name="keywords" content="demonstration, DICOM, network">
+<meta name="date" content="2003-03-03">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>dicom.offis.de - DICOM Demonstrations - Demonstration of DICOM Networks</title>
+</head>
+
+<body>
+<table width="945" border="0" cellspacing="25" cellpadding="5">
+  <colgroup>
+    <col width="200">
+    <col width="650">
+  </colgroup>
+  <tr>
+    <td class="logo">
+      <?php include("logo.html.en")?>
+    </td>
+    <td class="title">
+      <h1>Demonstration of DICOM Networks</h1>
+      <div class="language">Version in <a href="networks.php.de"><img src="images/de.gif" alt="Deutsch" width="16" height="10" border="0"></a>&nbsp;&nbsp;&nbsp;</div>
+    </td>
+  </tr>
+  <tr>
+    <td class="navigation">
+      <?php include("navbar.html.en")?>
+    </td>
+    <td class="text">
+      <h2>Interoperability through DICOM</h2>
+      <p>Since in theory the DICOM standard provides means to create heterogeneous networks of medical devices, it was important from the very beginning to demonstrate to the public that DICOM compatible devices (from different vendors) are indeed able to interoperate. The setup of a demonstrative network on a congress is a particular challenge because there is no rehearsal: the different devices are simply connected at the exhibition area and then it turns out if they can communicate with one another or not.</p>
+      <h2 class="lowerh2">Demonstration of DICOM image archive services (PACS)</h2>
+      <p>DICOM allows to store medical images in a digital image archive (PACS), to query the contents of an archive and to selectively download images, series or studies from an archive. This so-called DICOM Query/Retrieve service has been demonstrated on a number of congresses. At each demonstration, a corresponding network was created, which consisted of DICOM devices from different vendors and of one or more central archives ("Central Test Nodes"). OFFIS participated in a number of such demonstrations, using the "OFFIS Image CTN" (included the <a class="textlink" href="dcmtk.php.en">OFFIS DICOM Toolkit</a>) as central archive:</p>
+      <table border="0" cellspacing="0" cellpadding="0">
+        <colgroup>
+          <col width="220">
+          <col width="430">
+        </colgroup>
+        <tr><td><b>RSNA 1993</b> (Chicago)</td><td>Congress of the <a class="textlink" href="http://www.rsna.org">Radiological Society of North America</a></td></tr>
+        <tr><td><b>EuroPACS 1994</b> (Geneva)</td><td>Meeting of the <a class="textlink" href="http://www.europacs.org">EuroPACS Society</a></td></tr>
+        <tr><td><b>RSNA 1994</b> (Chicago)</td><td>Congress of the <a class="textlink" href="http://www.rsna.org">Radiological Society of North America</a></td></tr>
+        <tr><td><b>ECR 1995</b> (Vienna)</td><td><a class="textlink" href="http://www.ecr.org">European Congress of Radiology</a></td></tr>
+        <tr><td><b>CAR 1995</b> (Berlin)</td><td><a class="textlink" href="http://www.cars-int.de">Computer Assisted Radiology</a></td></tr>
+        <tr><td><b>SERAM 1996</b> (Palma de Mallorca)</td><td>Annual meeting of the <a class="textlink" href="http://www.seram.es">Sociedad Espa&ntilde;ola de Radiología Medica</a></td></tr>
+        <tr><td><b>CAR 1996</b> (Paris)</td><td><a class="textlink" href="http://www.cars-int.de">Computer Assisted Radiology</a></td></tr>
+        <tr><td><b>ECR 1997</b> (Vienna)</td><td><a class="textlink" href="http://www.ecr.org">European Congress of Radiology</a></td></tr>
+        <tr><td><b>CAR 1997</b> (Berlin)</td><td><a class="textlink" href="http://www.cars-int.de">Computer Assisted Radiology</a></td></tr>
+      </table>
+      <h2 class="lowerh2">Demonstration of the DICOM Modality Worklist Service</h2>
+      <p>In 1996, the DICOM standard was extended by the new "Modality Worklist Service" which enables a modality to directly download a worklist together with demographic patient data from an information system. Through this new service, a manual input of patient data at a modality's console - which had frequently proven to be a reason for data inconsistencies in an archive - was made unnecessary. In accordance with this new service, OFFIS developed the "Modality Worklist CTN" application, an enhancement of the <a class="textlink" href="dcmtk.php.en">OFFIS DICOM Toolkit</a>. This application was the world's first server implementation of the Modality Worklist Service and it was demonstrated at the following congresses:</p>
+      <table border="0" cellspacing="0" cellpadding="0">
+        <colgroup>
+          <col width="220">
+          <col width="430">
+        </colgroup>
+        <tr><td><b>CAR 1996</b> (Paris)</td><td><a class="textlink" href="http://www.cars-int.de">Computer Assisted Radiology</a></td></tr>
+        <tr><td><b>ECR 1997</b> (Vienna)</td><td><a class="textlink" href="http://www.ecr.org">European Congress of Radiology</a></td></tr>
+        <tr><td><b>CAR 1997</b> (Berlin)</td><td><a class="textlink" href="http://www.cars-int.de">Computer Assisted Radiology</a></td></tr>
+      </table>
+      <p>As a result of extensions to the DICOM standard, the "Modality Worklist CTN" has in the meantime been replaced by a new implementation (application "wlmscpfs") within the <a class="textlink" href="dcmtk.php.en">OFFIS DICOM Toolkit</a>.</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+    </td>
+    <td class="foot">
+      <?php include("footer.html.en")?>
+    </td>
+  </tr>
+</table>
+</body>
+
+</html>

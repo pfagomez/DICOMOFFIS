@@ -1,0 +1,56 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<meta name="description" content="Austausch von DICOM-Bildern auf Datentr&auml;gern.">
+<meta name="author" content="Thomas Wilkens">
+<meta name="keywords" content="Demonstration, DICOM, Austausch, Bilder, Datentr&auml;ger">
+<meta name="date" content="2003-03-03">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>dicom.offis.de - DICOM-Demonstrationen - Austausch von DICOM-Bildern auf Datentr&auml;gern</title>
+</head>
+
+<body>
+<table width="945" border="0" cellspacing="25" cellpadding="5">
+  <colgroup>
+    <col width="200">
+    <col width="650">
+  </colgroup>
+  <tr>
+    <td class="logo">
+      <?php include("logo.html.de")?>
+    </td>
+    <td class="title">
+      <h1>Austausch von DICOM-Bildern auf Datentr&auml;gern</h1>
+      <div class="language">Version in <a href="mediaxch.php.en"><img src="images/en.gif" alt="English" width="16" height="10" border="0"></a>&nbsp;&nbsp;&nbsp;</div>
+    </td>
+  </tr>
+  <tr>
+    <td class="navigation">
+      <?php include("navbar.html.de")?>
+    </td>
+    <td class="text">
+      <h2>Datentr&auml;ger vs. Netzwerk</h2>
+      <p>Neben der Netzwerkkommunikation spielt in verschiedenen Bereichen der Medizin auch der Austausch von Datentr&auml;gern eine gro&szlig;e Rolle, etwa in der Kardiologie, wo die gro&szlig;en Datenmengen (z.&nbsp;B. bis zu 600 MByte f&uuml;r eine Herzkatheteruntersuchung) eine Netzwerk&uuml;bertragung oftmals zu langsam oder zu teuer werden lassen. W&auml;hrend die kommunizierenden Ger&auml;te bei einem DICOM-Netzwerk verschiedene &Uuml;bertragungsparameter "online" aushandeln k&ouml;nnen (z.&nbsp;B. ob die Daten komprimiert &uuml;bertragen werden sollen), m&uuml;ssen f&uuml;r einen interoperablen Datentr&auml;geraustausch beide Seiten a priori wissen, wie die Daten zu schreiben sind. DICOM definiert daher sogenannte "Anwendungsprofile", die f&uuml;r verschiedene Anwendungsgebiete genau definieren, wie und auf welchem Medium Daten ausgetauscht werden k&ouml;nnen. Eine besondere Rolle spielt hierbei das "DICOM General Purpose CD-R Image Interchange Profile", das den Austausch aller DICOM-Bildtypen in unkomprimierter Form mittels beschreibbarer CDs erm&ouml;glicht.</p>
+      <h2 class="lowerh2">ECR 1997 Medien-Demonstration</h2>
+      <p>Auf dem Europ&auml;ischen Radiologiekongress <a class="textlink" href="http://www.ecr.org" >ECR&nbsp;1997</a> wurde das "DICOM General Purpose CD-R Image Interchange Profile" erstmals der &Ouml;ffentlichkeit vorgestellt. Die beteiligten Firmen, General Electric Medical Systems, Philips Medical Systems und Picker Medical Systems hatten hierbei jeweils eine eigene CD-R mit verschiedenen Bildern hergestellt, und demonstrierten die F&auml;higkeit ihrer Systeme, die CD-Rs der anderen Hersteller zu lesen. OFFIS lieferte f&uuml;r die Tests im Vorfeld der Tagung organisatorische Unterst&uuml;tzung. Die Demonstration war ein wichtiger Schritt zur &Uuml;berpr&uuml;fung der Praktikabilit&auml;t dieses DICOM-Anwendungsprofils.</p>
+      <h2 class="lowerh2">CAR 1997 DICOM Demonstration CD</h2>
+      <p>Im Rahmen der Tagung <a class="textlink" href="http://www.cars-int.de">CAR&nbsp;1997</a> (Computer Assisted Radiology and Surgery, 25. bis 28. Juni 1997, Berlin) wurde unter den Tagungsteilnehmern eine CD-ROM mit DICOM-Bildern von verschiedenen Herstellern verteilt, die dem "DICOM General Purpose CD-R Image Interchange Profile" entspricht. OFFIS &uuml;bernahm als neutrale Stelle die Organisation der CD-Produktion, testete die Bilder mit dem DICOM-Pr&uuml;fwerkzeug DCMCHECK und erzeugte den Master f&uuml;r die CD-ROM-Pressung. Die HTML-Dokumentation der CAR 1997 DICOM Demonstration CD kann hier online angezeigt werden:</p>
+      <p><a class="textlink" href="car97cd/index.htm">CAR 1997 DICOM Demonstration CD - Dokumentation</a></p>
+      <h2 class="lowerh2">NEMA DICOM CD 1997</h2>
+      <p>Eine weitere Demo-CD f&uuml;r das "DICOM General Purpose CD-R Image Interchange Profile" wurde vom "Committee for the Advancement of DICOM" und der <a class="textlink" href="http://medical.nema.org">NEMA Medical Imaging Informatics Section</a> (den Herausgebern des DICOM-Standards) bei OFFIS in Auftrag gegeben und auf der Jahrestagung der <a class="textlink" href="http://www.rsna.org">Radiological Society of North America</a> (RSNA) im November 1997 im Rahmen der Industrieausstellung verteilt. Die HTML-Dokumentation der NEMA DICOM CD 1997 kann hier online angezeigt werden:<p>
+      <p><a class="textlink" href="nema97cd/index.htm">NEMA DICOM CD 1997 - Dokumentation</a></p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+    </td>
+    <td class="foot">
+      <?php include("footer.html.de")?>
+    </td>
+  </tr>
+</table>
+</body>
+
+</html>

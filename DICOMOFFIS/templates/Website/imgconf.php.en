@@ -1,0 +1,61 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<meta name="description" content="Conformance of DICOM Images.">
+<meta name="author" content="Thomas Wilkens">
+<meta name="keywords" content="demonstration, DICOM, conformance, image">
+<meta name="date" content="2003-03-03">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>dicom.offis.de - DICOM Demonstrations - Conformance of DICOM Images</title>
+</head>
+
+<body>
+<table width="945" border="0" cellspacing="25" cellpadding="5">
+  <colgroup>
+    <col width="200">
+    <col width="650">
+  </colgroup>
+  <tr>
+    <td class="logo">
+      <?php include("logo.html.en")?>
+    </td>
+    <td class="title">
+      <h1>Conformance of DICOM Images</h1>
+      <div class="language">Version in <a href="imgconf.php.de"><img src="images/de.gif" alt="Deutsch" width="16" height="10" border="0"></a>&nbsp;&nbsp;&nbsp;</div>
+    </td>
+  </tr>
+  <tr>
+    <td class="navigation">
+      <?php include("navbar.html.en")?>
+    </td>
+    <td class="text">
+      <h2>DCMCHECK presentation at the ESC 1998 congress</h2>
+      <p>At the 1998 annual meeting of the <a class="textlink" href="http://www.escardio.org">European Society of Cardiology</a> (ESC), the DICOM validation tool DCMCHECK was presented together with a study about the conformance of cardiological DICOM CDs. This study was performed in co-operation with the IT group of the Dutch research institute ICIN.</p>
+      <table border="0" cellspacing="10" cellpadding="0">
+        <colgroup>
+          <col width="100">
+          <col width="550">
+        </colgroup>
+        <tr><td><img src="images/icin.gif" alt="ICIN logo" border="0" width="64" height="52"></td><td>Interuniversitair Cardiologisch Instituut<br>Nederland<br><a class="textlink" href="http://www.icin.knaw.nl">http://www.icin.knaw.nl</a></td></tr>
+      </table>
+      <h2 class="lowerh2">The conformance study</h2>
+      <p>Within the scope of this study, DICOM CDs with digital cardiac catheterizations (angiography) from ten different vendors as well as four official DICOM demonstration CDs from the American College of Cardiology <a class="textlink" href="http://www.acc.org">ACC</a> and the European Society of Cardiology <a class="textlink" href="http://www.escardio.org">ESC</a> were tested with regard to conformance to the DICOM standard. The detected errors were separated into fourteen different categories according to error type and severity. The following figure shows the errors (rows) found on the different CDs (columns).</p>
+      <img src="images/results.gif" alt="results" border="0" width="330" height="314">
+      <p>Only two of the fourteen tested CDs did not contain any errors. The remaining twelve showed violations ranging from "minor" to "disastrous".</p>
+      <p>In a second test phase, the ten "commercial" CDs were viewed with five different PC based DICOM viewers supporting the DICOM format used for these CDs ("basic cardiac application profile"). In correspondance with the results of the earlier validation, the images on the three CDs with the highest error rates could not be displayed by the majority of viewers. Only two CDs could be processed by all five viewers.</p>
+      <p>As a conclusion, the study showed that a computer supported validation of the extremely complex DICOM data formats could lead to a significant quality improvement of future DICOM implementations. This would in turn secure customers' investments in such systems.</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+    </td>
+    <td class="foot">
+      <?php include("footer.html.en")?>
+    </td>
+  </tr>
+</table>
+</body>
+
+</html>

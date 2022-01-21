@@ -1,0 +1,50 @@
+/* Datum   : 27. Februar 2003                                                         */
+/* Autor   : Thomas Wilkens                                                           */
+/* Aufgabe : Globale Definitionen für das Layout einer Webseite unter dicom.offis.de. */
+
+/* Format von Absatzarten */
+h1,h2,h3,p,ul,li,a,div,td { font-family:Arial,sans-serif; }
+h1 { margin-top:24px; font-size:22px; text-align:center; }
+h2 { margin-top:10px; font-size:16px; text-align:justify; }
+h3 { margin-top:10px; font-size:13px; font-weight:bold; text-align:justify; }
+p,ul,ol,li,a,div,td { font-size:13px; text-align:justify; }
+li { margin-top:3px; }
+
+/* Format bestimmter Tabellenzellen */
+td.logo { vertical-align:top; background-color:#FFFFFF; color:#000000; }
+td.title { vertical-align:middle; text-align:center; background-image:url(images/titlebg.gif);}
+td.navigation { vertical-align:top; background-color:#F0F0F0; color:#000000; }
+td.text { vertical-align:top; background-color:#FFFFFF; color:#000000; }
+td.foot { vertical-align:middle; background-color:#FFFFFF; text-align:center; color:#000000; }
+td.update { vertical-align:middle; background-color:#FFFFFF; text-align:center; color:#000000; }
+
+/* Format bestimmter Absaetze */
+h2.lowerh2 { margin-top:36px; }
+h3.lowerh3 { margin-top:30px; }
+h3.lowerh3faq { margin-top:20px; }
+div.language { font-size:10px; text-align:right; }
+div.ngmain { margin-top:10px; margin-bottom:4px; font-weight:bold; }
+div.ngsub { margin-top:2px; margin-bottom:2px; font-weight:normal; }
+div.copyright { margin-top:5px; margin-bottom:15px; text-align:center; font-weight:normal; font-size:10px }
+div.offislogo { margin-top:15px; text-align:center; font-weight:normal; font-size:10px }
+div.linkline { margin-top:5px; margin-bottom:10px; text-align:center; font-weight:normal; }
+div.update { margin-top:15px; text-align:center; font-weight:normal; font-size:10px; }
+div.w3c { margin-top:15px; text-align:center; font-weight:normal; font-size:10px; }
+div.dicomlogo { margin-top:30px; text-align:center; font-weight:normal; font-size:10px; }
+
+/* Format von Links; es gibt zwei Klassen von Links: a) Textlinks und b) Links in der Navigationsleiste */
+a.textlink:link { color:#0000A0; text-decoration:underline; background-color:#FFFFFF; }
+a.textlink:visited { color:#0000A0; text-decoration:underline; background-color:#FFFFFF; }
+a.textlink:hover { color:#0000A0; text-decoration:underline; background-color:#FFFFFF; }
+a.textlink:active { color:#EE0000; text-decoration:underline; background-color:#FFFFFF; }
+a.ng:link { color:#000000; text-decoration:none; background-color:#F0F0F0; }
+a.ng:visited { color:#000000; text-decoration:none; background-color:#F0F0F0; }
+a.ng:hover { color:#000000; text-decoration:none; background-color:#C0C0C0; }
+a.ng:active { color:#EE0000; text-decoration:none; background-color:#C0C0C0; }
+a.offislink:link { font-weight:normal; font-size:10px; color:#000000; text-decoration:none; background-color:#F0F0F0; }
+a.offislink:visited { font-weight:normal; font-size:10px; color:#000000; text-decoration:none; background-color:#F0F0F0; }
+a.offislink:hover { font-weight:normal; font-size:10px; color:#000000; text-decoration:none; background-color:#C0C0C0; }
+a.offislink:active { font-weight:normal; font-size:10px; color:#EE0000; text-decoration:none; background-color:#C0C0C0; }
+
+/* Spezialfall: Link-Anker in der Ueberschrift */
+h2 a { font-size:16px }

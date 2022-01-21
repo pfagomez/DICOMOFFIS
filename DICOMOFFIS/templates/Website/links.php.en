@@ -1,0 +1,56 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<meta name="description" content="Informationen concerning DICOM in the WWW.">
+<meta name="author" content="Thomas Wilkens">
+<meta name="keywords" content="DICOM, OFFIS">
+<meta name="date" content="2003-03-03">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>dicom.offis.de - DICOM in the World Wide Web</title>
+</head>
+
+<body>
+<table width="945" border="0" cellspacing="25" cellpadding="5">
+  <colgroup>
+    <col width="200">
+    <col width="650">
+  </colgroup>
+  <tr>
+    <td class="logo">
+      <?php include("logo.html.en")?>
+    </td>
+    <td class="title">
+      <h1>DICOM in the World Wide Web</h1>
+      <div class="language">Version in <a href="links.php.de"><img src="images/de.gif" alt="Deutsch" width="16" height="10" border="0"></a>&nbsp;&nbsp;&nbsp;</div>
+    </td>
+  </tr>
+  <tr>
+    <td class="navigation">
+      <?php include("navbar.html.en")?>
+    </td>
+    <td class="text">
+      <h2>DICOM online resources</h2>
+      <p>DICOM is a standard in the health informatics domain. DICOM defines data structures and services for information exchange between digital image creating and image processing devices. There are numerous webpages concerning DIOCM in the world wide web.</p>
+      <table border="0" cellspacing="10" cellpadding="0">
+        <colgroup>
+          <col width="150">
+          <col width="500">
+        </colgroup>
+        <tr><td valign="top"><a class="textlink" href="dcmres.php.en">DICOM Resources</a></td><td valign="top">Documents of the standard and software tools in the DICOM domain</td></tr>
+        <tr><td valign="top"><a class="textlink" href="dcmweb.php.en">DICOM Webpages</a></td><td valign="top">Information concerning the DICOM standard itself</td></tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td>
+    </td>
+    <td class="foot">
+      <?php include("footer.html.en")?>
+    </td>
+  </tr>
+</table>
+</body>
+
+</html>

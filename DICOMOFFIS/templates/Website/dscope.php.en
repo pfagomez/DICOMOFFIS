@@ -1,0 +1,104 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<meta name="description" content="About DICOMscope.">
+<meta name="author" content="Thomas Wilkens">
+<meta name="keywords" content="DICOM, software, DICOMscope, OFFIS">
+<meta name="date" content="2011-01-11">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>dicom.offis.de - DICOM Software made by OFFIS - DICOMscope - DICOM Viewer</title>
+</head>
+
+<body>
+<table width="945" border="0" cellspacing="25" cellpadding="5">
+  <colgroup>
+    <col width="200">
+    <col width="650">
+  </colgroup>
+  <tr>
+    <td class="logo">
+      <?php include("logo.html.en")?>
+    </td>
+    <td class="title">
+      <h1>DICOMscope - DICOM Viewer</h1>
+      <div class="language">Version in <a href="dscope.php.de"><img src="images/de.gif" alt="Deutsch" width="16" height="10" border="0"></a>&nbsp;&nbsp;&nbsp;</div>
+    </td>
+  </tr>
+  <tr>
+    <td class="navigation">
+      <?php include("navbar.html.en")?>
+    </td>
+    <td class="text">
+      <h2>Description</h2>
+      <p>DICOMscope is a free DICOM viewer which can display uncompressed, monochrome DICOM images from all modalities and which supports monitor calibration according to DICOM part 14 as well as presentation states. DICOMscope offers a print client (DICOM Basic Grayscale Print Management) which also implements the optional Presentation LUT SOP Class. The development of this prototype was commissioned by the "Committee for the Advancement of DICOM" and <a class="textlink" href="dispcons.php.en">demonstrated</a> at the European Congress of Radiology <a class="textlink" href="http://www.ecr.org">ECR 1999</a>. An enhanced version was developed for the "DICOM Display Consistency Demonstration" at <a class="textlink" href="http://www.rsna.org">RSNA InfoRAD 1999</a>. The current release 3.5.1 has been demonstrated at <a class="textlink" href="http://www.ecr.org">ECR 2001</a> and contains numerous extensions, including a print server, support for encrypted DICOM communication, digital signatures and structured reporting.</p>
+      <p>DICOMscope is not meant as a competition for commercial DICOM viewers. The application is rather a feasibility study for DICOM presentation states. The program is <i>not</i> appropriate to be used in a clinical environment, e.g. for reporting.</p>
+      <p><b>Disclaimer:</b> This software is made available, as is, and OFFIS, the Institute for Microtherapy / VISUS-TT and OTech make no warranty regarding the software, its performance, its merchantability or fitness for any particular use, freedom from any computer diseases or its conformity to any specification.  The entire risk as to quality and performance of the software is with the user. This software is intended for investigational use only. It has not been tested or approved for clinical application or production environments.</p>
+      <h2 class="lowerh2">System requirements</h2>
+      <p>DICOMscope&nbsp;3.5.1 requires Windows&nbsp;9x,&nbsp;Me,&nbsp;NT,&nbsp;2000 or XP and a "True Color" display. We recommend at least 64MB of RAM and a Pentium&nbsp;II or similar.</p>
+      <h2 class="lowerh2">DICOMscope&nbsp;3.5.1 for Windows (July 2001)</h2>
+      <p>DICOMscope can be downloaded either as a ZIP archive or as a self-extracting archive. Additionally, the Java Runtime Environment Version 1.3 (or later) is required. This environment is freely available on the Sun Webserver.</p>
+      <table border="0" cellspacing="10" cellpadding="0">
+        <colgroup>
+          <col width="50">
+          <col width="250">
+          <col width="350">
+        </colgroup>
+        <tr><td><img src="images/zip.gif" alt="zip file" border="0" width="29" height="32"></td><td><a class="textlink" href="ftp://dicom.offis.de/pub/dicom/offis/software/dscope/dscope351/bin/dswin351.zip">dswin351.zip</a><br>6436K</td><td>DICOMscope&nbsp;3.5.1</td></tr>
+        <tr><td><img src="images/exe.gif" alt="exe file" border="0" width="29" height="32"></td><td><a class="textlink" href="ftp://dicom.offis.de/pub/dicom/offis/software/dscope/dscope351/bin/dswin351.exe">dswin351.exe</a><br>6468K</td><td>DICOMscope&nbsp;3.5.1, self-extracting archive</td></tr>
+        <tr><td><img src="images/url.gif" alt="URL" border="0" width="29" height="32"></td><td><a class="textlink" href="http://java.sun.com/j2se/1.3/jre/download-windows.html">JRE 1.3</a><br>~8MB</td><td>Download of the Java&nbsp;1.3&nbsp;Runtime&nbsp;Environment for Windows&nbsp;9x/Me/NT/2000/XP from http://java.sun.com</td></tr>
+      </table>
+      <p>By downloading the software, you agree with the above mentioned conditions, especially with the limitation of its use for clinical environments.</p>
+      <h2 class="lowerh2">Documentation of DICOMscope&nbsp;3.5.1</h2>
+      <p>There is a user manual and a conformance statement available for DICOMscope. Some handouts distributed at DICOMscope demonstrations can also be downloaded.</p>
+      <table border="0" cellspacing="10" cellpadding="0">
+        <colgroup>
+          <col width="50">
+          <col width="250">
+          <col width="350">
+        </colgroup>
+        <tr><td><img src="images/acrobat.gif" alt="pdf file" border="0" width="29" height="32"></td><td><a class="textlink" href="ftp://dicom.offis.de/pub/dicom/offis/software/dscope/dscope351/docs/dscs35.pdf">dscs35.pdf</a><br>352K</td><td>Conformance Statement (English)</td></tr>
+        <tr><td><img src="images/acrobat.gif" alt="pdf file" border="0" width="29" height="32"></td><td><a class="textlink" href="ftp://dicom.offis.de/pub/dicom/offis/software/dscope/dscope351/docs/dsum351.pdf">dsum351.pdf</a><br>1076K</td><td>User Manual (English)</td></tr>
+        <tr><td><img src="images/acrobat.gif" alt="pdf file" border="0" width="29" height="32"></td><td><a class="textlink" href="ftp://dicom.offis.de/pub/dicom/offis/software/dscope/dscope351/docs/rsna99ho.pdf">rsna99ho.pdf</a><br>197K</td><td>RSNA 1999 Handout (English)</td></tr>
+        <tr><td><img src="images/acrobat.gif" alt="pdf file" border="0" width="29" height="32"></td><td><a class="textlink" href="ftp://dicom.offis.de/pub/dicom/offis/software/dscope/dscope351/docs/rsna00ho.pdf">rsna00ho.pdf</a><br>140K</td><td>RSNA 2000 Handout (English)</td></tr>
+        <tr><td><img src="images/acrobat.gif" alt="pdf file" border="0" width="29" height="32"></td><td><a class="textlink" href="ftp://dicom.offis.de/pub/dicom/offis/software/dscope/dscope351/docs/ecr01ho.pdf">ecr01ho.pdf</a><br>140K</td><td>ECR 2001 Handout (English)</td></tr>
+      </table>
+      <h2 class="lowerh2">Source code of DICOMscope&nbsp;3.5.1</h2>
+      <p>DICOMscope is based on the OFFIS DICOM Toolkit DCMTK&nbsp;3.5.0. The graphical user interface has been implemented by the <a class="textlink" href="http://www.microtherapy.de/">Institute for Microtherapy</a> in Java 1.3.</p>
+      <table border="0" cellspacing="10" cellpadding="0">
+        <colgroup>
+          <col width="50">
+          <col width="250">
+          <col width="350">
+        </colgroup>
+        <tr><td><img src="images/zip.gif" alt="zip file" border="0" width="29" height="32"></td><td><a class="textlink" href="ftp://dicom.offis.de/pub/dicom/offis/software/dscope/dscope351/dsgui351.zip">dsgui351.zip</a><br>1912K</td><td>Java source code</td></tr>
+        <tr><td><img src="images/zip.gif" alt="zip file" border="0" width="29" height="32"></td><td><a class="textlink" href="ftp://dicom.offis.de/pub/dicom/offis/software/dscope/dscope351/dcmtk350.zip">dcmtk350.zip</a><br>2752K</td><td>OFFIS DICOM Toolkit<br>DCMTK 3.5.0</td></tr>
+      </table>
+      <h2 class="lowerh2">Other versions of DICOMscope</h2>
+      <p>The binary package of the current version 3.6.0 is already <a href="ftp://dicom.offis.de/pub/dicom/offis/software/dscope/dscope360/bin/dswin360.exe">available</a>, the source code packages, unfortunately, not yet completely.</p>
+      <p>In addition, old versions of DICOMscope are still available for download via <a href="ftp://dicom.offis.de/pub/dicom/offis/software/dscope/">ftp</a> or <a href="http://dicom.offis.de/download/dscope/">http</a>.</p>
+      <h2 class="lowerh2">OFFIS Structured Reports</h2>
+      <p>This archive contains a number of DICOM Structured Reporting documents including referenced images. The sample documents have been created by OFFIS for the <a class="textlink" href="http://www.ecr.org">ECR 2001</a> demonstration.</p>
+      <table border="0" cellspacing="10" cellpadding="0">
+        <colgroup>
+          <col width="50">
+          <col width="250">
+          <col width="350">
+        </colgroup>
+        <tr><td><img src="images/zip.gif" alt="zip file" border="0" width="29" height="32"></td><td><a class="textlink" href="ftp://dicom.offis.de/pub/dicom/offis/software/dscope/dscope351/support/srdoc102.zip">srdoc102.zip</a><br>9140K</td><td>OFFIS SR Documents for DICOMscope 3.5.1</td></tr>
+        <tr><td><img src="images/zip.gif" alt="zip file" border="0" width="29" height="32"></td><td><a class="textlink" href="ftp://dicom.offis.de/pub/dicom/offis/software/dscope/dscope360/support/srdoc103.zip">srdoc103.zip</a><br>9140K</td><td>OFFIS SR Documents for DICOMscope 3.6.0</td></tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td>
+    </td>
+    <td class="foot">
+      <?php include("footer.html.en")?>
+    </td>
+  </tr>
+</table>
+</body>
+
+</html>

@@ -1,0 +1,655 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1" />
+    <meta name="description" content="Information concerning DICOM training." />
+    <meta name="author" content="DICOM Team" />
+    <meta name="keywords" content="DICOM, OFFIS, training" />
+    <meta name="date" content="2021-09-16" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>dicom.offis.de - Service - DICOM Training</title>
+  </head>
+  <body>
+    <table width="945" border="0" cellspacing="25" cellpadding="5">
+      <colgroup>
+        <col width="200" />
+        <col width="650" />
+      </colgroup>
+      <tr>
+        <td class="logo">
+          <?php include("logo.html.en")?>
+        </td>
+        <td class="title">
+          <h1>DICOM Training</h1>
+          <div class="language">Version in
+          <a href="training.php.de">
+            <img src="images/de.gif" alt="Deutsch" width="16" height="10" border="0" />
+          </a></div>
+        </td>
+      </tr>
+      <tr>
+        <td class="navigation">
+          <?php include("navbar.html.en")?>
+        </td>
+        <td class="text">
+        <h2>DICOM training provided by OFFIS</h2>
+        <p>The training courses are primarily intended for service staff, software developers and technically interested users
+        working in the DICOM domain. Usually, the training courses take place in Frankfurt; in case you want a
+        training course to take place at your company or organization, this is also possible on request. The current range of
+        training courses is described in the table below.</p>
+        <p>In case you are interested in DICOM related training courses, please contact one of the mentioned
+        <a class="textlink" href="people.php.en">contacts at OFFIS</a> or write an email to
+        <img src="images/email.gif" alt="email" border="0" width="89" height="13" align="middle" />including details of your
+        request. Our general
+        <a class="textlink" href="#terms">terms and conditions</a> apply.</p>
+
+
+
+        <h2>Training Dates at a Glance
+        <a name="dates" id="dates"></a></h2>
+        <table border="0" cellspacing="10" cellpadding="0">
+          <tr>
+	    <td width="200">25th/26th April 2022</td>
+            <td>
+            <img src="images/en.gif" alt="English" width="16" height="10" border="0" />
+            <a href="#intensivecourse">DICOM Intensive Course</a>, online course.</td>
+          </tr>
+          <tr>
+            <td width="200">27th/28th April 2022</td>
+            <td>
+            <img src="images/en.gif" alt="English" width="16" height="10" border="0" />
+            <a href="#toolsandtroubleshooting">DICOM-Tools and -Troubleshooting</a>, online course.</td>
+          </tr>
+          <tr>
+            <td width="200">13th - 16th June 2022</td>
+            <td>
+            <img src="images/en.gif" alt="English" width="16" height="10" border="0" />
+            <a href="#intensivecourse4halfdays">DICOM Intensive Course - Online - 4 half days</a>, online course.</td>
+          </tr>
+          <tr>
+            <td width="200">10th/11th October 2022</td>
+            <td>
+            <img src="images/en.gif" alt="English" width="16" height="10" border="0" />
+            <a href="#intensivecourse">DICOM Intensive Course</a>, online course.</td>
+          </tr>
+          <tr>
+            <td width="200">12th/13th October 2022</td>
+            <td>
+            <img src="images/en.gif" alt="English" width="16" height="10" border="0" />
+            <a href="#advancedcourse">DICOM Advanced</a>, online course.</td>
+          </tr>
+        </table>
+
+        Further trainings are available in German language, see
+        <a href="training.php.de">German training page</a>.<br/>
+        <p>All DICOM training courses are offered in cooperation with
+        <a href="http://www.jriesmeier.com/">J. Riesmeier</a> and
+        <a href="http://www.open-connections.de/">Open Connections GmbH</a>
+        <br/>DICOM Advanced course is offered in cooperation with the
+        <a href="http://iheacademy.nl/en/training-course-dicom-advanced-0">
+        IHE academy </a> in the Netherlands
+        (<a href="http://www.ringholm.com/training/dicom_advanced_training_course.htm">Ringholm bv</a>)</p>
+
+        <br/><br/>
+        <h2>Range of training courses</h2>
+        <p>The current range of training courses encompasses the following courses which are available in
+        <a href="training.php.de">German</a> or English:</p>
+
+
+        <hr />
+        <a name="intensivecourse" id="intensivecourse"></a>
+        <table border="0" cellspacing="10" cellpadding="0">
+          <colgroup>
+            <col width="140" />
+            <col width="510" />
+          </colgroup>
+          <tr>
+            <td valign="top">
+              <b>Training course:</b>
+            </td>
+            <td>
+              <b>DICOM Intensive Course</b>
+            </td>
+          </tr>
+          <tr>
+            <td valign="top">
+              <b>Objective:</b>
+            </td>
+            <td>You will receive a basic introduction and a comprehensive overview of the DICOM standard relevant to the field of medical image communication. You will learn how the DICOM data structures and file format are structured, how communication works on the network, and how the relevant DICOM services can be used to exchange medical information. Your benefit is an efficient introduction and know-how transfer by competent speakers who have been dealing with the subject for many years.
+          </td>
+          </tr>
+          <tr>
+            <td valign="top">
+              <b>Contents:</b>
+            </td>
+            <td>History and organization of the DICOM standard, data structures and information objects, file format and encoding
+            rules, association negotiation and message exchange in a network, basic network services (verification, storage),
+            structure of DICOM images, well-established network services (query/retrieve, worklist management/MPPS, storage
+            commitment, print management), storage media and storage media exchange, conformance statement, compression in DICOM, display consistency, overview of further DICOM services.</td>
+          </tr>
+          <tr>
+            <td valign="top">
+              <b>Requirements:</b>
+            </td>
+            <td>None</td>
+          </tr>
+          <tr>
+            <td valign="top">
+              <b>Target group:</b>
+            </td>
+            <td>Service and support staff, software developers and technically interested users working in the DICOM domain</td>
+          </tr>
+          <tr>
+            <td valign="top">
+              <b>Language:</b>
+            </td>
+            <td>English</td>
+          </tr>
+          <tr>
+            <td valign="top">
+              <b>Duration:</b>
+            </td>
+            <td>2 days</td>
+          </tr>
+          <tr>
+            <td valign="top">
+              <b>Next dates:</b>
+            </td>
+            <td>See
+            <a href="#dates">list of training dates</a> above.</td>
+          </tr>
+        </table>
+
+
+        <hr />
+        <a name="intensivecourse4halfdays" id="intensivecourse4halfdays"></a>
+        <table border="0" cellspacing="10" cellpadding="0">
+          <colgroup>
+            <col width="140" />
+            <col width="510" />
+          </colgroup>
+          <tr>
+            <td valign="top">
+              <b>Training course:</b>
+            </td>
+            <td>
+              <b>DICOM Intensive Course - Online - 4 half days</b>
+            </td>
+          </tr>
+          <tr>
+            <td valign="top">
+              <b>Objective:</b>
+            </td>
+            <td>You will receive a basic introduction and a comprehensive overview of the DICOM standard relevant to the field of medical image communication. You will learn how the DICOM data structures and file format are structured, how communication works on the network, and how the relevant DICOM services can be used to exchange medical information. Your benefit is an efficient introduction and know-how transfer by competent speakers who have been dealing with the subject for many years.
+          </td>
+          </tr>
+          <tr>
+            <td valign="top">
+              <b>Contents:</b>
+            </td>
+            <td>History and organization of the DICOM standard, data structures and information objects, file format and encoding
+            rules, association negotiation and message exchange in a network, basic network services (verification, storage),
+            structure of DICOM images, well-established network services (query/retrieve, worklist management/MPPS, storage
+            commitment, print management), storage media and storage media exchange, conformance statement, compression in DICOM, display consistency, overview of further DICOM services.</td>
+          </tr>
+          <tr>
+            <td valign="top">
+              <b>Requirements:</b>
+            </td>
+            <td>None</td>
+          </tr>
+          <tr>
+            <td valign="top">
+              <b>Target group:</b>
+            </td>
+            <td>Service and support staff, software developers and technically interested users working in the DICOM domain. This course takes place online over 4 half days from 
+	    4 p.m. to 8 p.m. CET/CEST, corresponding to 9 a.m. to 1 p.m. CST/CDT. It is therefore well suited for participants from the American continent.</td>
+          </tr>
+          <tr>
+            <td valign="top">
+              <b>Language:</b>
+            </td>
+            <td>English</td>
+          </tr>
+          <tr>
+            <td valign="top">
+              <b>Duration:</b>
+            </td>
+            <td>4 half days</td>
+          </tr>
+          <tr>
+            <td valign="top">
+              <b>Next dates:</b>
+            </td>
+            <td>See
+            <a href="#dates">list of training dates</a> above.</td>
+          </tr>
+        </table>
+	
+
+
+        <hr />
+        <a name="dcmtkcourse" id="dcmtkcourse"></a>
+        <table border="0" cellspacing="10" cellpadding="0">
+          <colgroup>
+            <col width="140" />
+            <col width="510" />
+          </colgroup>
+          <tr>
+            <td valign="top">
+              <b>Training course:</b>
+            </td>
+            <td>
+              <b>DICOM Toolkit DCMTK</b>
+            </td>
+          </tr>
+          <tr>
+            <td valign="top">
+              <b>Objective:</b>
+            </td>
+            <td>You will receive a comprehensive overview of the DICOM toolkit DCMTK and the command line programs contained therein. In addition to the basic structure of the DCMTK, all public modules are presented in detail. There is also the possibility to discuss specific requirements and current problems from the field. Its benefit is an efficient entry and transfer of know-how by competent speakers who have contributed significantly to the DCMTK over the years.
+          </td>
+          </tr>
+          <tr>
+            <td valign="top">
+              <b>Contents:</b>
+            </td>
+            <td>DCMTK's development history, architecture of the toolkit, public modules (overview, examples of use, command
+            line tools), current developments, overview of non-public modules, practical use of selected DCMTK tools,
+            implementation strategies, discussion of specific requirements.</td>
+          </tr>
+          <tr>
+            <td valign="top">
+              <b>Requirements:</b>
+            </td>
+            <td>Knowledge of the DICOM standard, ideally acquired in the DICOM Intensive Course</td>
+          </tr>
+          <tr>
+            <td valign="top">
+              <b>Target group:</b>
+            </td>
+            <td>Service and support staff, software developers and technically interested users working in the DICOM domain</td>
+          </tr>
+          <tr>
+            <td valign="top">
+              <b>Language:</b>
+            </td>
+            <td>English</td>
+          </tr>
+          <tr>
+            <td valign="top">
+              <b>Duration:</b>
+            </td>
+            <td>1 day</td>
+          </tr>
+          <tr>
+            <td valign="top">
+              <b>Next dates:</b>
+            </td>
+            <td>On request</td>
+          </tr>
+        </table>
+
+
+        <hr />
+        <a name="compactcourse" id="compactcourse"></a>
+        <table border="0" cellspacing="10" cellpadding="0">
+          <colgroup>
+            <col width="140" />
+            <col width="510" />
+          </colgroup>
+          <tr>
+            <td valign="top">
+              <b>Training course:</b>
+            </td>
+            <td>
+              <b>DICOM Compact Course</b>
+            </td>
+          </tr>
+          <tr>
+            <td valign="top">
+              <b>Objective:</b>
+            </td>
+            <td>You will receive a non-technical introduction to the IT
+            systems and structures used in the field of medical imaging, as
+            well as the fundamentals of network technology. You will learn
+            how the DICOM standard works, what services it offers, and how it
+            interacts with other standards to support typical imaging
+            workflows. Your benefit is an efficient introduction to the
+            basics of medical image communication by competent speakers who
+            have been dealing with the subject for many years.</td>
+          </tr>
+          <tr>
+            <td valign="top">
+              <b>Contents:</b>
+            </td>
+            <td>Overview of hospital IT systems (basics of network communication)
+            introduction to the DICOM standard, basic network services, storage media
+            exchange, files (images, measurements, signal data),
+            image compression, security solutions, configuration options -
+            overview of other relevant standards and initiatives.</td>
+          </tr>
+          <tr>
+            <td valign="top">
+              <b>Target group:</b>
+            </td>
+            <td>Product manager, sales staff and users from the DICOM environment</td>
+          </tr>
+          <tr>
+            <td valign="top">
+              <b>Language:</b>
+            </td>
+            <td>English</td>
+          </tr>
+          <tr>
+            <td valign="top">
+              <b>Duration:</b>
+            </td>
+            <td>1 day</td>
+          </tr>
+          <tr>
+            <td valign="top">
+              <b>Next dates:</b>
+            </td>
+            <td>On request</td>
+          </tr>
+        </table>
+
+
+        <hr />
+        <a name="advancedcourse" id="advancedcourse"></a>
+        <table border="0" cellspacing="10" cellpadding="0">
+          <colgroup>
+            <col width="140" />
+            <col width="510" />
+          </colgroup>
+          <tr>
+            <td valign="top">
+              <b>Training course:</b>
+            </td>
+            <td>
+              <b>DICOM Advanced topics</b>
+            </td>
+          </tr>
+          <tr>
+            <td valign="top">
+              <b>Objective:</b>
+            </td>
+            <td>You will gain an in-depth look at a number of advanced DICOM
+            concepts that have been introduced to the standard only in recent
+            years and are being used in new information objects and services.
+            These still quite new concepts are becoming increasingly important
+            and are in part already being implemented in current systems. Your
+            benefit is a well-founded introduction to these advanced DICOM
+            concepts based on six selected subject areas.</td>
+          </tr>
+          <tr>
+            <td valign="top">
+              <b>Contents:</b>
+            </td>
+            <td>Brief introduction to key DICOM developments in recent years,
+            new information objects based on the enhanced multiframe model, DICOM Whole Slide Imaging (WSI),
+            Web based DICOM services (DICOMweb),
+            structured documentation and structured data exchange using DICOM structured reporting (SR) and controlled terminology,
+            advanced workflow support with unified worklist and procedure step (UPS),
+            the DICOM security extensions (network user authentication, encrypted network connections using TLS,
+            de-identification and pseudonymization of DICOM data, digital signatures, audit trail).
+            The presentations are complemented by practical exercises.</td>
+          </tr>
+          <tr>
+            <td valign="top">
+              <b>Requirements:</b>
+            </td>
+            <td>Knowledge of the DICOM standard, e.g. from the DICOM Intensive Course; this course teaches new
+            enhanced data structures and services that have only been introduced to the DICOM standard in recent years.
+            For some of the practical exercises a notebook computer is needed.</td>
+          </tr>
+          <tr>
+            <td valign="top">
+              <b>Target group:</b>
+            </td>
+            <td>Service and support staff, software developers, technically interested users from the DICOM environment</td>
+          </tr>
+          <tr>
+            <td valign="top">
+              <b>Language:</b>
+            </td>
+            <td>English</td>
+          </tr>
+          <tr>
+            <td valign="top">
+              <b>Duration:</b>
+            </td>
+            <td>2 days</td>
+          </tr>
+          <tr>
+            <td valign="top">
+              <b>Next dates:</b>
+            </td>
+            <td>See<a href="#dates"> list of training dates </a>above.</td>
+          </tr>
+        </table>
+
+
+        <hr />
+        <a name="toolsandtroubleshooting" id="toolsandtroubleshooting"></a>
+        <table border="0" cellspacing="10" cellpadding="0">
+          <colgroup>
+            <col width="140" />
+            <col width="510" />
+          </colgroup>
+          <tr>
+            <td valign="top">
+              <b>Training course:</b>
+            </td>
+            <td>
+              <b>DICOM Tools and Troubleshooting
+              </b>
+            </td>
+          </tr>
+          <tr>
+            <td valign="top">
+              <b>Objective:</b>
+            </td>
+            <td>You will learn how typical problems in DICOM everyday life can be analyzed and mastered, and which open source tools can help you with this. You will also learn, with practical exercises, how to use some of these tools independently, i.e. to configure, execute and analyze the outputs on your own. A special focus of this course is the use of the tools of the DICOM open source toolkit DCMTK. Competent speakers who have been involved in DICOM programming and problem solving for many years will provide you with procedures and tools to successfully solve DICOM problems of the field.
+          </td>
+          </tr>
+          <tr>
+            <td valign="top">
+              <b>Contents:</b>
+            </td>
+            <td>Typical problems and solutions regarding DICOM data structures, files and storage media
+            <sup>1</sup>; network services
+            <sup>1</sup>; DICOM image format and compression
+            <sup>1</sup>; discussion of individual problems from practice and solutions; overview of &quot;useful&quot; open source
+            and freeware tools.</td>
+          </tr>
+          <tr>
+            <td valign="top">
+              <b>Requirements:</b>
+            </td>
+            <td>Knowledge of the DICOM standard, ideally acquired in the DICOM Intensive Course.
+              This course is the ideal supplement to the intensive course, as the
+              theoretical knowledge previously imparted is deepened here by means of practical problems.
+              A notebook computer is required for the practical exercises.</td>
+          </tr>
+          <tr>
+            <td valign="top">
+              <b>Target group:</b>
+            </td>
+            <td>Service staff, software developers and technically interested users working in the DICOM domain</td>
+          </tr>
+          <tr>
+            <td valign="top">
+              <b>Language:</b>
+            </td>
+            <td>English</td>
+          </tr>
+          <tr>
+            <td valign="top">
+              <b>Duration:</b>
+            </td>
+            <td>2 days</td>
+          </tr>
+          <tr>
+            <td valign="top">
+              <b>Next dates:</b>
+            </td>
+            <td>See
+            <a href="#dates">list of training dates</a> above.</td>
+          </tr>
+          <tr>
+            <td />
+            <td>
+            <sup>1</sup>with practical exercise</td>
+          </tr>
+        </table>
+
+
+        <hr />
+        <a name="dicomfordevelopers" id="dicomfordevelopers"></a>
+        <table border="0" cellspacing="10" cellpadding="0">
+          <colgroup>
+            <col width="140" />
+            <col width="510" />
+          </colgroup>
+          <tr>
+            <td valign="top">
+              <b>Training course:</b>
+            </td>
+            <td>
+              <b>DICOM toolkit DCMTK for developers
+              <sup>new</sup></b>
+            </td>
+          </tr>
+          <tr>
+            <td valign="top">
+              <b>Objective:</b>
+            </td>
+            <td>You will learn how the DICOM toolkit DCMTK is structured, how it is configured and compiled. Numerous aspects of the toolkit are deepened through hands-on exercises, meaning you learn to gradually develop your own programs using the DCMTK. The course is run by DCMTK's main developers, all of whom have many years of experience in software development in the DICOM environment.
+          </td>
+          </tr>
+          <tr>
+            <td valign="top">
+              <b>Contents:</b>
+            </td>
+            <td>Structure, configuration and compilation of the DCMTK<sup>1</sup> ; basic functionality (encapsulation of system functions, logging and command line programs); Handling DICOM records and files<sup>1</sup>; Communication using network services <sup>1</sup>; Visualization of DICOM images<sup>1</sup>; other aspects such as DICOM Structured Reporting; General information about DCMTK's development process and support for further questions.</td>
+          </tr>
+          <tr>
+            <td valign="top">
+              <b>Requirements:</b>
+            </td>
+            <td>Knowledge of the DICOM standard, ideally acquired in the DICOM Intensive Course; programming skills, especially in C++; it is necessary to bring a notebook computer with a DCMTK supported compiler (see INSTALL file) to do the practical exercises.</td>
+          </tr>
+          <tr>
+            <td valign="top">
+              <b>Target group:</b>
+            </td>
+            <td>Software developers who have basic DICOM experience and want to know (better) the DCMTK</td>
+          </tr>
+          <tr>
+            <td valign="top">
+              <b>Language:</b>
+            </td>
+            <td>English</td>
+          </tr>
+          <tr>
+            <td valign="top">
+              <b>Duration:</b>
+            </td>
+            <td>2 days</td>
+          </tr>
+          <tr>
+            <td valign="top">
+              <b>Next dates:</b>
+            </td>
+            <td>On request</td>
+          </tr>
+          <tr>
+            <td />
+            <td>
+            <sup>1</sup>with practical exercise</td>
+          </tr>
+        </table>
+
+
+        <hr />
+        <a name="individualcourse" id="individualcourse"></a>
+        <table border="0" cellspacing="10" cellpadding="0">
+          <colgroup>
+            <col width="140" />
+            <col width="510" />
+          </colgroup>
+          <tr>
+            <td valign="top">
+              <b>Training course:</b>
+            </td>
+            <td>
+              <b>DICOM individualized</b>
+            </td>
+          </tr>
+          <tr>
+            <td valign="top">
+              <b>Contents:</b>
+            </td>
+            <td>The training content is tailored to the needs of the participants.</td>
+          </tr>
+          <tr>
+            <td valign="top">
+              <b>Target group:</b>
+            </td>
+            <td>Can be arranged</td>
+          </tr>
+          <tr>
+            <td valign="top">
+              <b>Language:</b>
+            </td>
+            <td>English</td>
+          </tr>
+          <tr>
+            <td valign="top">
+              <b>Duration:</b>
+            </td>
+            <td>Can be arranged</td>
+          </tr>
+          <tr>
+            <td valign="top">
+              <b>Place:</b>
+            </td>
+            <td>Can be arranged</td>
+          </tr>
+        </table>
+
+
+        <hr />
+        <h3>
+          <a id="terms" name="terms">Terms and Conditions</a>
+        </h3>
+        <p>Cancellation of registration has to be made in written form.</p>
+        <p>If the training course takes place at OFFIS in Oldenburg (Germany) or online, the following applies: For cancellations that are
+        received at least 14 days before the training course begins, 100% of the course fee will be refunded. For cancellations
+        that are received up to 8 days before the training course begins, 50% of the course fee will be invoiced. For later
+        cancellations and for non-attendance of the participant, the complete course fee has to be paid.</p>
+        <p>If the training course takes place outside of Oldenburg (Germany), the following applies: For cancellations that are
+        received at least 6 weeks before the training course begins, 100% of the course fee will be refunded. For cancellations
+        that are received up to 3 weeks before the training course begins, 50% of the course fee will be invoiced. For later
+        cancellations and for non-attendance of the participant, the complete course fee has to be paid.</p>
+        <p>The nomination of a substitute participant is always possible.</p>
+        <p>OFFIS reserves the right to cancel a training course if a minimum of 8 participants is not reached. In this case, the
+        complete course fee will be refunded.</p>
+        <hr />
+        <p>All DICOM training courses are offered in cooperation with
+        <a href="http://www.jriesmeier.com/">J. Riesmeier</a> and
+        <a href="http://www.open-connections.de/">Open Connections GmbH</a> .</p>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td class="foot">
+          <?php include("footer.html.en")?>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

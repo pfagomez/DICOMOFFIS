@@ -1,0 +1,51 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<meta name="description" content="Allgemeines zu Standardisierungsbem&uuml;hungen in der Medizin und zu DICOM.">
+<meta name="author" content="Thomas Wilkens">
+<meta name="keywords" content="Standardisierung, Medizin, DICOM">
+<meta name="date" content="2003-03-03">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>dicom.offis.de - Allgemeine Informationen</title>
+</head>
+
+<body>
+<table width="945" border="0" cellspacing="25" cellpadding="5">
+  <colgroup>
+    <col width="200">
+    <col width="650">
+  </colgroup>
+  <tr>
+    <td class="logo">
+      <?php include("logo.html.de")?>
+    </td>
+    <td class="title">
+      <h1>Allgemeine Informationen</h1>
+      <div class="language">Version in <a href="general.php.en"><img src="images/en.gif" alt="English" width="16" height="10" border="0"></a>&nbsp;&nbsp;&nbsp;</div>
+    </td>
+  </tr>
+  <tr>
+    <td class="navigation">
+      <?php include("navbar.html.de")?>
+    </td>
+    <td class="text">
+      <h2>DICOM und Standardisierungsbem&uuml;hungen in der Medizin</h2>
+      <p>In den letzten Jahren wurden Informations- und Kommunikationstechnologien immer weiter in alle Bereiche des Gesundheitswesen integriert. Nicht nur im administrativen Bereich sondern vor allem auch bei der Behandlung von Patienten erleichtert der Einsatz dieser Technologien dem medizinischen Personal immer mehr den t&auml;glichen Arbeitsablauf. Im Hinblick auf diese Tatsache ist es offensichtlich, da&szlig; der Stellenwert rechnergest&uuml;tzter Technologien in der Medizin auch in Zukunft weiter deutlich zunehmen werden wird.</p>
+      <p>Damit eine Kommunikation zwischen medizinischen Ger&auml;ten unterschiedlicher Hersteller &uuml;berhaupt m&ouml;glich ist, existieren in der medizinischen Informatik eine Reihe von Standardisierungsbem&uuml;hungen, die von verschiedenen Komitees vorangetrieben werden. Im Bereich der Bildkommunikation hat sich der DICOM-Standard ("Digital Imaging and Communications in Medicine") durchgesetzt, der im Jahre 1993 zuerst ver&ouml;ffentlicht wurde.</p>
+      <p><a class="textlink" href="standard.php.de">Standardisierung von Bildkommunikation</a></p>
+      <p><a class="textlink" href="dcmintro.php.de">Einf&uuml;hrung in den DICOM-Standard</a></p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+    </td>
+    <td class="foot">
+      <?php include("footer.html.de")?>
+    </td>
+  </tr>
+</table>
+</body>
+
+</html>

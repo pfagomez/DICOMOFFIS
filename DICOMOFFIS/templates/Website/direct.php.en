@@ -1,0 +1,59 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<meta name="description" content="About directions for getting to OFFIS.">
+<meta name="author" content="Thomas Wilkens">
+<meta name="keywords" content="DICOM, OFFIS">
+<meta name="date" content="2003-03-03">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>dicom.offis.de - DICOM Contacts at OFFIS - Directions for getting to OFFIS</title>
+</head>
+
+<body>
+<table width="945" border="0" cellspacing="25" cellpadding="5">
+  <colgroup>
+    <col width="200">
+    <col width="650">
+  </colgroup>
+  <tr>
+    <td class="logo">
+      <?php include("logo.html.en")?>
+    </td>
+    <td class="title">
+      <h1>Directions for getting to OFFIS</h1>
+      <div class="language">Version in <a href="direct.php.de"><img src="images/de.gif" alt="Deutsch" width="16" height="10" border="0"></a>&nbsp;&nbsp;&nbsp;</div>
+    </td>
+  </tr>
+  <tr>
+    <td class="navigation">
+      <?php include("navbar.html.en")?>
+    </td>
+    <td class="text">
+      <h2>Getting here by plane</h2>
+      <p>The airport of the city of Bremen lies some 45 km east of Oldenburg. There is a bus shuttle service that runs between airport and the city of Oldenburg, early registration for this service is recommended though.</p>
+
+      <h2 class="lowerh2">Getting here by train/bus</h2>
+      <p>The station of the city of Oldenburg is 3 km away from the OFFIS building. In case you are pressed for time, we recommend taking a taxi. Otherwise, take bus #308 from "Hauptbahnhof/ZOB" (station/central bus terminal) to "Johann-Justus-Weg" (line's final destination) and get off the bus at "Industriestra&szlig;e".</p>
+
+      <h2 class="lowerh2">Getting here by car</h2>
+      <p>Take Highway A28, exit "OL-Haarentor" and keep driving towards the city centre. Having driven for some 700m, turn left at the traffic lights. After another kilometer turn left again right behind a grocery store; the street sign should say "Industriestra&szlig;e" now. After another 200m take the second left ("Escherweg"). There is a parking lot for guests right behind the OFFIS building.
+      <p>The following figures provide important maps for getting to OFFIS by car.</p>
+      <p><b>Highways around Oldenburg</b></p>
+      <img src="images/stadtplan.gif" alt="highway map" border="0" width="330" height="416">
+      <p><b>City map for getting to OFFIS</b></p>
+      <img src="images/wegskizze.gif" alt="city map" border="0" width="330" height="302">
+    </td>
+  </tr>
+  <tr>
+    <td>
+    </td>
+    <td class="foot">
+      <?php include("footer.html.en")?>
+    </td>
+  </tr>
+</table>
+</body>
+
+</html>

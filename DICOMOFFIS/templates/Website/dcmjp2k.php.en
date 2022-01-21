@@ -1,0 +1,69 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<meta name="description" content="Informations about DCMJP2K.">
+<meta name="author" content="Michael Onken">
+<meta name="keywords" content="DICOM, Software, DCMJP2K, JPEG 2000, JPEG2000, OFFIS">
+<meta name="date" content="2006-11-29">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>dicom.offis.de - DICOM Software made by OFFIS - DCMJP2K - DICOM JPEG 2000 Module</title>
+</head>
+
+<body>
+<table width="945" border="0" cellspacing="25" cellpadding="5">
+  <colgroup>
+    <col width="200">
+    <col width="650">
+  </colgroup>
+  <tr>
+    <td class="logo">
+      <?php include("logo.html.de")?>
+    </td>
+    <td class="title">
+      <h1>DCMJP2K - DICOM JPEG 2000 Module</h1>
+      <div class="language">Version in <a href="dcmjp2k.php.de"><img src="images/de.gif" alt="Deutsch" width="16" height="10" border="0"></a>&nbsp;&nbsp;&nbsp;</div>
+    </td>
+  </tr>
+  <tr>
+    <td class="navigation">
+      <?php include("navbar.html.en")?>
+    </td>
+    <td class="text">
+      <h2>Description</h2>
+      <p>The DICOM JPEG2000 toolkit DCMJP2K consists of three components:</p>
+      <ul type="disc">
+        <li>A C++ class library which implements DICOM JPEG 2000 support (compression / decompression),</li>
+        <li>an encoder application that converts DICOM images to DICOM JPEG 2000 transfer syntax and</li>
+        <li>a decoder application that decompresses DICOM JPEG 2000 images to an uncompressed transfer syntax</li>
+      </ul>
+      <p>DCMJP2K supports two DICOM JPEG 2000 transfer syntaxes, that were integrated into the standard in 2001. JPEG 2000 allows for a better compression than the original "Standard JPEG" support in DICOM. Additionally, the internal structure of the JPEG 2000 format permits some powerful streaming features that can be accessed in DICOM, too (DICOM JPEG 2000 Interactive Protocol, not part of DCMJP2K). </p>
+      <p>The DCMJP2K class library integrates as a module into DCMTK. Encoder and decoder register themselves at the DCMTK codec registry just like other codecs, e. g. the dcmjpeg module. Thus, a few lines of code are sufficient to change the transfer syntax to JPEG 2000 or for decompression.</p>
+      <p>The two DCMJP2K applications work at the command line and allow for converting DICOM image files to JPEG2000 transfer syntax and vice versa.</p>
+      <h2 class="lowerh2">Features in detail</h2>
+      <p>The class library and command line applications provide the following features:</p>
+      <ul type="disc">
+        <li>Lossless and Lossy JPEG 2000 compression for DICOM images</li>
+        <li>Tweaking of various compression parameters (compression ratio, quantization, ...)</li>
+        <li>Seamless integration into the DICOM Toolkit DCMTK</li>
+        <li>Automatic adaption of related DICOM attributes</li>
+        <li>Platform independent source code</li>
+      </ul>
+      <p>Two of the DICOM JPEG 2000 transfer syntaxes are supported ("JPEG 2000 Image Compression (Lossless Only)" and "JPEG 2000 Image Compression").</p>
+      <p>Further details can be found in the online documentation for the tools <a href="http://support.dcmtk.org/docs-products/dcmcjp2k.html">DCMCJP2K</a> and <a href="http://support.dcmtk.org/docs-products/dcmdjp2k.html">DCMDJP2K</a>.</p>
+      <p>DCMJP2K is based on the OFFIS DICOM toolkit <a class="textlink" href="dcmtk.php.en">DCMTK</a> and is available in different versions: There is a binary version as well as a source code variant. DCMJP2K supports several Unix dialects (e. g. Linux, Solaris and Mac OS X) as well as Windows.</p>
+      <p>This module is not freely available and must be licensed separately.</p>      
+    </td>
+  </tr>
+  <tr>
+    <td>
+    </td>
+    <td class="foot">
+      <?php include("footer.html.en")?>
+    </td>
+  </tr>
+</table>
+</body>
+
+</html>
