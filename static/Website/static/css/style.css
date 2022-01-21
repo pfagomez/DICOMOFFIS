@@ -1,7 +1,7 @@
 .wrapper2{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 0px;
+    gap: 4px;
 }
 .img-sample{
     background-color: rgba(255, 0, 0, 0);
