@@ -1,7 +1,9 @@
 .wrapper2{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    gap: 2px;
+    left: 10px;
+    top: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(115px, 1fr));
+    gap: 0px;
 }
 .img-sample{
     background-color: rgba(255, 0, 0, 0);
@@ -34,6 +36,8 @@ img {
 
 .wrapper3 {
     display: grid;
+    top: 10px;
+    left:10px;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     gap: 0px;
 }
@@ -241,13 +245,49 @@ a.u-link.u-hover-blue-1:hover {
 }
 
 
-.u-nav-container-collapse2 {
-  display: none;
-  z-index: 1001;
-  left: 1px !important;
-  top: 0 !important;
-  bottom: 0 !important;
-  position: fixed !important;
-  overflow: hidden;
-  width: 0;
+.logoLink {display:inline-block; position:absolute; top:35px; left:15px;}
+.logoLink {
+  top:30px;
+  left:20px;}
+.logoLink {
+		top: 0;
+	}
+
+img.shadow {
+  box-shadow: 5px 5px 12px silver;
+  border-radius: 5px;
+}
+
+
+/* Bild dynamisch gestallten*/
+
+.ip_image
+{
+	position: relative;
+	width: 100%;
+}
+
+.ip_image:before{
+	content: "";
+	display: block;
+	padding-top: 100%;
+	border-radius: 100%;
+	background-size: cover;
+}
+
+.ip_image_content{
+	position:  absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+
+img.pimage
+{
+	width: calc(100% - 4px);
+	height: calc(100% - 4px);
+	border-radius: 100%;
+	background-size: cover;
+	border: 2px solid #454545;
 }
