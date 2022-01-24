@@ -1,9 +1,9 @@
 .wrapper2{
-    display: grid;
+    display: flex;
     left: 10px;
     top: 20px;
-    grid-template-columns: repeat(auto-fill, minmax(115px, 1fr));
-    gap: 0px;
+    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    gap: 10px;
 }
 .img-sample{
     background-color: rgba(255, 0, 0, 0);
@@ -23,10 +23,10 @@ img {
     color : rgb(0, 0, 0);
 }
 .container {
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(4, 1fr);
     grid-auto-rows: 150px;
-    gap: 1rem;
+    gap: 100px;
     width: 100%;
     max-width: 37.5rem;
     padding: 0.5rem;
@@ -35,17 +35,11 @@ img {
   }
 
 .wrapper3 {
-    display: grid;
+    display: flex;
     top: 10px;
     left:10px;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-    gap: 0px;
-}
-
-.wrapper4 {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-    gap: 0px;
+    gap: 50px;
 }
 
 .styled-button1 {
@@ -258,36 +252,65 @@ img.shadow {
   border-radius: 5px;
 }
 
-
-/* Bild dynamisch gestallten*/
-
-.ip_image
-{
-	position: relative;
-	width: 100%;
+.u-section-1 {
+  background-image: none;
+  color:#ffffff;
 }
 
-.ip_image:before{
-	content: "";
-	display: block;
-	padding-top: 100%;
-	border-radius: 100%;
-	background-size: cover;
+.u-section-1 .u-sheet-1 {
+  min-height: 500px;
+  color:#ffffff;
+} .u-section-1 {
+  background-image: none;
+  color:#ffffff;
 }
 
-.ip_image_content{
-	position:  absolute;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	right: 0;
+.u-section-1 .u-sheet-1 {
+  min-height: 500px;
+  color:#ffffff
 }
 
-img.pimage
-{
-	width: calc(100% - 4px);
-	height: calc(100% - 4px);
-	border-radius: 100%;
-	background-size: cover;
-	border: 2px solid #454545;
+
+@media (max-width: 767px){
+  .brand-title{
+  font-size: 1.2em;
+  }
+    .brand-subtitle{
+    display: none;
+
+  }
+  }
+  
+  @media (max-width: 575px){
+  .brand-title{
+  font-size: 1em;
+  }
+  .brand-suptitle{
+    display: none;
+  }
+  }
+  
+
+@media (max-width: 767px){
+    .brand-logo{
+    height: 80px;
+    }
+    }
+    
+@media (max-width: 575px){
+    .brand-logo{
+    height: 50px;
+    }
+    }
+
+  @media (max-width:767px){
+  .wrapper2{
+    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+}
+}
+      
+@media (max-width:575px){
+  .wrapper2{
+      grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
+}
 }
