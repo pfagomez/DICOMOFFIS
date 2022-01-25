@@ -30,3 +30,6 @@ def datenschutz (request):
 
 def impressum (request):
     return render(request, 'Website/Impressum.html')
+
+def offis (request):
+    return render(request, 'https://www.offis.de')
