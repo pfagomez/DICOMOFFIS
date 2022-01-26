@@ -16,6 +16,7 @@
 img {
     width: auto; 
     max-height: 100%; 
+    vertical-align: baseline;
 }
 .brand-title {
     font-weight: bold;
@@ -332,3 +333,106 @@ a.u-button-style.u-border-1 {
 
 
 /* Tabelle */
+th,
+td,
+caption {
+	border: thin solid #a0a0a0;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	border-width: thin 0 0 thin;
+	margin: 0 0 1em;
+	table-layout: auto;
+	/* Prevents HTML tables from becoming too wide */
+	
+	max-width: 100%;
+}
+
+th,
+td {
+	font-weight: normal;
+	text-align: left;
+}
+
+th,
+caption {
+	background-color: #f1f3f4;
+	font-weight: 700;
+  border: thin solid #a0a0a0;
+}
+
+th,
+td,
+caption {
+	padding: .4em .6em;
+}
+
+caption {
+	text-align: center;
+	border-width: thin thin 0 thin;
+}
+
+table.finanz td {
+	text-align: right;
+}
+
+table.finanz tr.result > * {
+	border-top-width: medium;
+}
+
+
+
+.u-grey-m,
+.u-body.u-grey-m,
+.u-container-style.u-grey-m:before,
+.u-container-layout.u-grey-m:before,
+.u-table-alt-grey-m tr:nth-child(even) {
+  color: #111111;
+  background-color: rgba(198,199,201,255);
+}
+.u-button-style.u-grey-m,
+.u-button-style.u-grey-m[class*="u-border-"] {
+  color: #111111 !important;
+  background-color: rgba(198,199,201,255) !important;
+}
+.u-button-style.u-grey-m:hover,
+.u-button-style.u-grey-m[class*="u-border-"]:hover,
+.u-button-style.u-grey-m:focus,
+.u-button-style.u-grey-m[class*="u-border-"]:focus,
+.u-button-style.u-button-style.u-grey-m:active,
+.u-button-style.u-button-style.u-grey-m[class*="u-border-"]:active,
+.u-button-style.u-button-style.u-grey-m.active,
+.u-button-style.u-button-style.u-grey-m[class*="u-border-"].active,
+li.active > .u-button-style.u-button-style.grey-m,
+li.active > .u-button-style.u-button-style.grey-m[class*="u-border-"] {
+  color: #111111 !important;
+  background-color: rgba(198,199,201,255) !important;
+}
+.u-hover-grey-m:hover,
+.u-hover-grey-m[class*="u-border-"]:hover,
+.u-hover-grey-m:focus,
+.u-hover-grey-m[class*="u-border-"]:focus,
+.u-active-grey-m.u-active.u-active,
+.u-active-grey-m[class*="u-border-"].u-active.u-active,
+a.u-button-style.u-hover-grey-m:hover,
+a.u-button-style.u-hover-grey-m[class*="u-border-"]:hover,
+a.u-button-style:hover > .u-hover-grey-m,
+a.u-button-style:hover > .u-hover-grey-m[class*="u-border-"],
+a.u-button-style.u-hover-grey-m:focus,
+a.u-button-style.u-hover-grey-m[class*="u-border-"]:focus,
+a.u-button-style.u-button-style.u-active-grey-m:active,
+a.u-button-style.u-button-style.u-active-grey-m[class*="u-border-"]:active,
+a.u-button-style.u-button-style.u-active-grey-m.active,
+a.u-button-style.u-button-style.u-active-grey-m[class*="u-border-"].active,
+a.u-button-style.u-button-style.active > .u-active-grey-m,
+a.u-button-style.u-button-style.active > .u-active-grey-m[class*="u-border-"],
+li.active > a.u-button-style.u-button-style.u-active-grey-m,
+li.active > a.u-button-style.u-button-style.u-active-grey-m[class*="u-border-"] {
+  color: #111111 !important;
+  background-color: rgba(198,199,201,255) !important;
+}
+a.u-link.u-hover-grey-m:hover {
+  color: rgba(198,199,201,255) !important;
+}
