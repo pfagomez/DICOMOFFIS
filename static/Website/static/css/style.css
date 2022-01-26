@@ -314,3 +314,8 @@ img.shadow {
       grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
 }
 }
+
+.u-text.u-border-1,
+a.u-button-style.u-border-1 {
+  border-width: 5px;
+}
