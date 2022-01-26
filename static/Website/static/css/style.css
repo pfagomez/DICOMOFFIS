@@ -319,3 +319,13 @@ img.shadow {
 a.u-button-style.u-border-1 {
   border-width: 5px;
 }
+
+.container2 {
+  position: absolute;
+  text-align: left;
+  width: 500px;
+  height: 500px;
+  margin-top: 306px;
+  margin-left: 108px;
+  
+}

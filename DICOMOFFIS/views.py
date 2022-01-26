@@ -33,3 +33,6 @@ def impressum (request):
 
 def offis (request):
     return render(request, 'https://www.offis.de')
+
+def standardisierung (request):
+    return render(request, 'Website/Standardisierung.html')

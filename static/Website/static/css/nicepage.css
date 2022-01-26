@@ -19,8 +19,6 @@
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
   border: 0; }
-  
-
 
 .fr-view img.fr-rounded, .fr-view .fr-img-caption.fr-rounded img {
   border-radius: 10px;
@@ -291,6 +289,7 @@
     background-clip: padding-box; }
   .fr-view button.fr-large, .fr-view input.fr-large, .fr-view textarea.fr-large {
     font-size: 24px; }
+
 /**
  * Image style.
  */
@@ -302,18 +301,9 @@ a.fr-view.fr-green {
 /**
  * Link style.
  */
- 
- 
- div.stati {
-  position: static;
-  border: 3px solid #73AD21;
-}
-
 img.fr-view {
   position: relative;
-  max-width: 100%;
-  max-height: 100%;
- }
+  max-width: 100%; }
   img.fr-view.fr-dib {
     margin: 5px auto;
     display: block;
@@ -340,7 +330,6 @@ img.fr-view {
       float: right;
       margin: 5px 0 5px 5px;
       max-width: calc(100% - 5px); }
-
 
 span.fr-img-caption.fr-view {
   position: relative;
@@ -9185,7 +9174,8 @@ ul.u-text li:last-child {
   padding-left: 0 !important;
 }
 .u-text-default {
-  display: inline-block;
+  display: table;
+  align-self: flex-start;
 }
 .u-text-default:empty {
   display: block;
@@ -12340,28 +12330,6 @@ section.u-image,
   .u-layout-col > .u-size-28-xs {
     flex: 28 0 46.66666667%;
   }
-  @media only screen and (min-width: 800px)  {
-    body { font-size: 120%; line-height: 1.5}
-  
-    #top-logo {width: 80px;}
-  
-    .site-title {font-size: 1.6em;line-height: 1.5;margin-left: 1em;}
-  
-    .topbar li { width: 33.33333%;height: 5rem;}
-    .topbar a { padding-left: 0;align-items: center;}
-  
-    .footer-cols {display: flex;justify-content: center;}	
-  
-    .cols {
-      width: 49%;
-      max-width: 520px;
-      padding-left: 1em;
-      padding-right: 1em;
-      box-sizing: border-box;
-    }
-  
-    .excerpt {font-size: 1.2em}
-  }
   .u-layout-row > .u-size-27-xs {
     flex: 0 0 45%;
     max-width: 45%;
@@ -13520,7 +13488,7 @@ section.u-image,
   }
 }
 .u-layout-col,
-z.u-layout-row,
+.u-layout-row,
 .u-layout-col > * {
   display: flex;
 }
@@ -35813,18 +35781,7 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-header .u-image-1 {
     margin-left: calc(((100% - 940px) / 2) + -78px);
   }
-  .img_right  { 
-    float:right; 
-    text-align:center; 
-    padding:0; 
-    margin:2px 0 18px 40px; 
-}
-.img_left { 
-    float:left; 
-    text-align:center; 
-    padding:0; 
-    margin:2px 0 18px 40px; 
-}
+
   .u-header .u-text-1 {
     margin-top: -98px;
     margin-left: calc(((100% - 940px) / 2) + 247px);

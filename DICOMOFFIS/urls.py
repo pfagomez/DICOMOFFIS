@@ -14,5 +14,6 @@ urlpatterns =[
    path('Dienstleistungen/', views.dienstleistungen, name = ("Dienstleistungen")),
    path('Datenschutz/', views.datenschutz, name = ("Datenschutz")),
    path('Impressum/', views.impressum, name = ("Impressum")),
+   path('Allgemeines/Standardisierung/', views.standardisierung, name=("Standardisierung")),
 
 ]
