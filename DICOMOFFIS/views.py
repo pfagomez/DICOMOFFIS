@@ -1,8 +1,15 @@
 from django.shortcuts import render
+from django.template import loader
+from .models import Eintrag
 
 # Create your views here.
 def index2 (request):
-    return render (request,'Website/index2.html');
+    letzer_Eintrag = Eintrag.objects.order_by('datum')
+    loader.get_template('Website/index2.html')
+    context = {
+        'latest_question_list': letzer_Eintrag,
+    }
+    return render (request,'Website/index2.html',);
 
 def allgemeines (request):
     return render (request,'Website/Allgemeines/Allgemeines.html')
@@ -79,8 +86,8 @@ def dicomBeratung (request):
 def dicomSchulung (request):
     return render(request, 'Website/Dienstleistungen/DICOM-Schulung.html')
 
-def HL7Schulung (request):
+def hl7Schulung (request):
     return render(request, 'Website/Dienstleistungen/HL7-Schulung.html')
 
-def IHESchulung (request):
+def iheSchulung (request):
     return render(request, 'Website/Dienstleistungen/IHE-Schulung.html')

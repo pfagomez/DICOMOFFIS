@@ -26,6 +26,10 @@ urlpatterns =[
    path('Kontakt/', views.kontakt, name = ("Kontakt")),
       path('Kontakt/', views.kontakt, name = ("Kontakt")),
    path('Dienstleistungen/', views.dienstleistungen, name = ("Dienstleistungen")),
+   path('Dienstleistungen/DICOM-Beratung', views.dicomBeratung, name = ("DICOM-Beratung")),
+   path('Dienstleistungen/DICOM-Schulung', views.dicomSchulung, name = ("DICOM-Schulung")),
+   path('Dienstleistungen/IHE-Schulung', views.iheSchulung, name = ("IHE-Schulung")),
+   path('Dienstleistungen/HL7-Schulung', views.hl7Schulung, name = ("HL7-Schulung")),
    path('Datenschutz/', views.datenschutz, name = ("Datenschutz")),
    path('Impressum/', views.impressum, name = ("Impressum")),
 
