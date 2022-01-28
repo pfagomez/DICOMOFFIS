@@ -29,7 +29,7 @@ def dicomscope (request):
 def kontakt (request):
     return render(request, 'Website/Kontakt/Kontakt.html')
 
-def kontakt (request):
+def ansprechpartner (request):
     return render(request, 'Website/Kontakt/Ansprechpartner.html')
 
 def dienstleistungen (request):
@@ -72,13 +72,19 @@ def dcmppscu (request):
     return render (request, 'Website/DCMTK-Erweiterungsmodule/DCMPPSCU.html')
 
 def dcmprint (request):
-    return render (request, 'Website/DCMTK-Erweiterungsmodule/DCMPPRINT.html')
+    return render (request, 'Website/DCMTK-Erweiterungsmodule/DCMPRINT.html')
 
 def ppsmgr (request):
     return render (request, 'Website/DCMTK-Erweiterungsmodule/PPSMGR.html')
 
 def testversionen (request):
     return render (request, 'Website/DCMTK-Erweiterungsmodule/Testversionen.html')
+
+def dcmpps (request):
+    return render (request, 'Website/DCMTK-Erweiterungsmodule/DCMPPS.html')
+
+def dcmstcom (request):
+    return render (request, 'Website/DCMTK-Erweiterungsmodule/DCMSTCOM.html')
 
 def dicomBeratung (request):
     return render(request, 'Website/Dienstleistungen/DICOM-Beratung.html')
