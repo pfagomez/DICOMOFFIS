@@ -5,6 +5,15 @@
     grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
     gap: 10px;
 }
+
+.wrapper1{
+  display: flex;
+  left: 10px;
+  top: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+}
+
 .img-sample{
     background-color: rgba(255, 0, 0, 0);
     height: 200px;
@@ -278,13 +287,14 @@ img.shadow {
   }
     .brand-subtitle{
     display: none;
+    font-size: 30px;
 
   }
   }
   
   @media (max-width: 575px){
   .brand-title{
-  font-size: 1em;
+  font-size: 2em;
   }
   .brand-suptitle{
     display: none;
@@ -435,4 +445,9 @@ li.active > a.u-button-style.u-button-style.u-active-grey-m[class*="u-border-"] 
 }
 a.u-link.u-hover-grey-m:hover {
   color: rgba(198,199,201,255) !important;
+}
+
+.table-border{
+  padding-left:30px;
+  padding-right:30px;
 }
