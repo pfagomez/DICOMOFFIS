@@ -24,8 +24,8 @@
 
 }
 
-img.icon{
-  float: right;
+.icon{
+  left: 350px;
   position: absolute;
 }
 
@@ -61,11 +61,25 @@ img {
 }
 .brand-title {
     font-weight: bold;
-    font-size: 1.6em;
+    font-size: 2em;
     color : rgb(0, 0, 0);
 }
+
+
+@media(max-width:10000px){
+  .icon{
+    display:none
+  }
+}
+
+@media(max-width:575px){
+  .icon{
+    display:flex
+  }
+}
+
 .container {
-    grid-template-columns: repeat(1, 50px);
+    grid-template-columns: repeat(4, 200px);
     grid-auto-rows: 20px;
     gap: 125px;
     width: 100%;
