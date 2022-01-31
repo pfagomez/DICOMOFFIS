@@ -18,7 +18,7 @@
   display: flex;
   left: 10px;
   top: 20px;
-  grid-template-columns: 60px 60px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 50px;
   padding-left: 10px;
 
