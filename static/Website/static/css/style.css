@@ -14,6 +14,25 @@
   gap: 10px;
 }
 
+.wrapper5{
+  display: flex;
+  left: 10px;
+  top: 20px;
+  grid-template-columns: 60px 60px;
+  gap: 50px;
+  padding-left: 10px;
+
+}
+
+img.icon{
+  float: right;
+  position: absolute;
+}
+
+.selektor {
+  text-decoration: underline rgb(255,135,0);
+}
+
 .wrapper4{
   display: flex;
   left: 10px;
