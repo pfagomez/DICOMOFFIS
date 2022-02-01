@@ -1,7 +1,7 @@
-{% load static %}
+  {% load static %}
 <header class=" u-clearfix u-header u-header" id="sec-0efc" data-animation-name="" data-animation-duration="0"
   data-animation-delay="0" data-animation-direction="">
-  <div class="wrapper3">
+  <!-- <div class="wrapper3">
     <div class="wrapper2">
 
       <a href="https://www.offis.de/"><img class="shadow brand-logo" src="{% static 'images/OFFIS_Whitebackground.png' %}"
@@ -14,7 +14,7 @@
       <span class="brand-title">DCMTK<span class="brand-subtitle"> - OFFIS DICOM Toolkit</span></span>
     </div>
     <a href="/Home"><img src="{% static 'images/Flagge_englisch.png' %}" height="25px"></img></a>
-  </div>
+  </div> -->
   <!--  </a><h1 class="u-text u-text-default u-text-1">DCMTK - OFFIS DICOM Toolkit</h1></div>-->
   <nav class=" u-menu u-menu-dropdown u-offcanvas u-menu-1" data-position="right">
     <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px;">
@@ -36,9 +36,15 @@
     </div>
 
     <a href="/Home"><img class="icon" src="{% static 'images/Flagge_englisch.png' %}" height="25px"></img></a>
-    <div class="u-align-center">
+    <div class="u-align-center-md">
       <div class="u-custom-menu u-nav-container">
         <ul class="u-nav u-unstyled u-nav-1">
+          <li class="u-nav-item">
+            <a href="https://www.offis.de/"><img class="shadow brand-logo" src="{% static 'images/OFFIS_Whitebackground.png' %}" height="100px"></a>
+          </li>
+          <li class="u-nav-item">
+            <a href="/Home"><img class="shadow brand-logo" src="{% static 'images/DCMTK_ohne_Rand.png' %}" height="100px"></a>
+          </li>
           <li class="u-nav-item"><a
               class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-B-base" href="/Home"
               style="padding: 10px 44px;">Home</a>
