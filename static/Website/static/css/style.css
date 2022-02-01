@@ -25,7 +25,7 @@
 }
 
 .icon{
-  left: 350px;
+  left: 300px;
   position: absolute;
 }
 
@@ -35,10 +35,10 @@
 
 .wrapper4{
   display: flex;
-  left: 10px;
+  align-content: center ;
   top: 20px;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 10px;
+  gap: 20px;
   border: 5px;
   padding-left:20px;
   padding-right:20px;
@@ -157,8 +157,8 @@ img {
 .u-button-style.u-button-style.u-white-0[class*="u-border-"].active,
 li.active > .u-button-style.u-button-style.u-white-0,
 li.active > .u-button-style.u-button-style.u-white-0[class*="u-border-"] {
-  color: #111111 !important;
-  background-color: #dadada !important;
+  color: white !important;
+  background-color: rgb(255,135,0) !important;
 
 }
 .u-hover-white-0:hover,
@@ -249,6 +249,58 @@ a.u-link.u-hover-blue:hover {
   color: rgb(27,161,218) !important;
 }
 
+.u-orange-1,
+.u-body.u-orange-1,
+.u-container-style.orange-1:before,
+.u-container-layout.u-orange-1:before,
+.u-table-alt-orange-1 tr:nth-child(even) {
+  color: #111111;
+  background-color: rgb(31, 144, 192);
+}
+.u-button-style.u-orange-1,
+.u-button-style.u-orange-1[class*="u-border-"] {
+  color: #111111 !important;
+  background-color: rgb(255,135,0) !important;
+}
+.u-button-style.u-orange-1:hover,
+.u-button-style.u-orange-1[class*="u-border-"]:hover,
+.u-button-style.u-orange-1:focus,
+.u-button-style.u-orange-1[class*="u-border-"]:focus,
+.u-button-style.u-button-style.u-orange-1:active,
+.u-button-style.u-button-style.u-orange-1[class*="u-border-"]:active,
+.u-button-style.u-button-style.u-orange-1.active,
+.u-button-style.u-button-style.u-orange-1[class*="u-border-"].active,
+li.active > .u-button-style.u-button-style.orange-1,
+li.active > .u-button-style.u-button-style.orange-1[class*="u-border-"] {
+  color: #111111 !important;
+  background-color: #dadada !important;
+}
+.u-hover-orange-1:hover,
+.u-hover-orange-1[class*="u-border-"]:hover,
+.u-hover-orange-1:focus,
+.u-hover-orange-1[class*="u-border-"]:focus,
+.u-active-orange-1.u-active.u-active,
+.u-active-orange-1[class*="u-border-"].u-active.u-active,
+a.u-button-style.u-hover-orange-1:hover,
+a.u-button-style.u-hover-orange-1[class*="u-border-"]:hover,
+a.u-button-style:hover > .u-hover-orange-1,
+a.u-button-style:hover > .u-hover-orange-1[class*="u-border-"],
+a.u-button-style.u-hover-orange-1:focus,
+a.u-button-style.u-hover-orange-1[class*="u-border-"]:focus,
+a.u-button-style.u-button-style.u-active-orange-1:active,
+a.u-button-style.u-button-style.u-active-orange-1[class*="u-border-"]:active,
+a.u-button-style.u-button-style.u-active-orange-1.active,
+a.u-button-style.u-button-style.u-active-orange-1[class*="u-border-"].active,
+a.u-button-style.u-button-style.active > .u-active-orange-1,
+a.u-button-style.u-button-style.active > .u-active-orange-1[class*="u-border-"],
+li.active > a.u-button-style.u-button-style.u-active-orange-1,
+li.active > a.u-button-style.u-button-style.u-active-orange-1[class*="u-border-"] {
+  color: #111111 !important;
+  background-color: rgb(255,135,0) !important;
+}
+a.u-link.u-hover-orange-1:hover {
+  color: rgb(255,135,0) !important;
+}
 
 
 .u-blue-1,
@@ -512,4 +564,48 @@ table.jerky {
   border-radius: 10px;
   border: 1px solid gainsboro;
   border-collapse: collapse;
+}
+
+.fixed-menu{
+  position: fixed;
+  z-index: 99;
+  background-color: rgb(27,161,218);
+}
+
+
+a.u-button-style:hover > .u-text-hover-palette-B-base,
+a.u-button-style:hover > .u-text-hover-palette-B-base[class*="u-border-"],
+a.u-button-style.u-button-style.u-text-hover-palette-B-base:hover,
+a.u-button-style.u-button-style.u-text-hover-palette-B-base[class*="u-border-"]:hover,
+a.u-button-style.u-button-style.u-button-style.u-text-hover-palette-B-base.active,
+a.u-button-style.u-button-style.u-button-style.u-text-hover-palette-B-base[class*="u-border-"].active,
+a.u-button-style.u-button-style.u-button-style.u-text-hover-palette-B-base:active,
+a.u-button-style.u-button-style.u-button-style.u-text-hover-palette-B-base[class*="u-border-"]:active,
+a.u-button-style.u-button-style.u-text-hover-palette-b-base:focus,
+a.u-button-style.u-button-style.u-text-hover-palette-B-base[class*="u-border-"]:focus,
+a.u-button-style.u-button-style.u-button-style.u-button-style.u-text-active-palette-2-base:active,
+a.u-button-style.u-button-style.u-button-style.u-button-style.u-text-active-palette-2-base[class*="u-border-"]:active,
+a.u-button-style.u-button-style.u-button-style.u-button-style.u-text-active-palette-2-base.active,
+a.u-button-style.u-button-style.u-button-style.u-button-style.u-text-active-palette-2-base[class*="u-border-"].active,
+a.u-button-style.u-button-style.active > .u-text-active-palette-2-base,
+a.u-button-style.u-button-style.active > .u-text-active-palette-2-base[class*="u-border-"],
+:not(.level-2) > .u-nav > .u-nav-item > a.u-nav-link.u-text-hover-palette-B-base:hover,
+:not(.level-2) > .u-nav > .u-nav-item > a.u-nav-link.u-nav-link.u-text-active-palette-2-base.active,
+.u-popupmenu-items.u-text-hover-palette-B-base .u-nav-link:hover,
+.u-popupmenu-items.u-popupmenu-items.u-text-active-palette-2-base .u-nav-link.active {
+  color: rgb(255,135,0) !important;
+}
+.u-text-palette-2-base .u-svg-link,
+.u-text-hover-palette-B-base:hover .u-svg-link,
+.u-button-style:hover > .u-text-hover-palette-B-base .u-svg-link,
+.u-button-style.u-button-style.active > .u-text-active-palette-2-base .u-svg-link,
+.u-text-hover-palette-B-base:focus .u-svg-link {
+  fill: rgb(255,135,0);
+}
+
+.u-link.u-text-palette-B-base:hover {
+  color: rgb(255,135,0) !important;
+}
+a.u-link.u-text-hover-palette-B-base:hover {
+  color: rgb(255,135,0) !important;
 }
