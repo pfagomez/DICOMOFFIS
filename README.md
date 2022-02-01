@@ -1,2 +1,0 @@
-# DICOMOFFIS
-DICOM OFFIS Website
