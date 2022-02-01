@@ -25,7 +25,10 @@ SECRET_KEY = 'django-insecure-iei5&vmmg)-40_ul(*9l%!8a#gqg-%zh)-h-q6q0=v8t+5878l
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+'caesar',
+'caesar.offis.uni-oldenburg.de'
+]
 
 
 # Application definition
