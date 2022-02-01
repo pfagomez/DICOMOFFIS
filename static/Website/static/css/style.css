@@ -96,7 +96,9 @@ img {
 
   @media (max-width: 575px){
     .wrapper4{
-      display: block;
+      display: inline-block;
+      margin-bottom: 50px;
+
     }
     }  
 
@@ -608,4 +610,18 @@ a.u-button-style.u-button-style.active > .u-text-active-palette-2-base[class*="u
 }
 a.u-link.u-text-hover-palette-B-base:hover {
   color: rgb(255,135,0) !important;
+}
+
+.frame{
+  padding-left: 10px;
+  padding-right: 20px;
+  text-align: centerks;
+}
+.u-menu-dropdown .u-nav-container .u-nav-item .u-nav-item .u-nav-popup-1 {
+  top: 0;
+  left: auto;
+}
+.u-menu-dropdown .u-nav-container .u-nav-item .u-nav-item .u-nav-popup-1.u-popup-left {
+  right: 100%;
+  left: auto;
 }
