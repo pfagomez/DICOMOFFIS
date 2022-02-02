@@ -28,6 +28,9 @@
   left: 300px;
   position: absolute;
 }
+.icon2{
+  position: absolute;
+}
 
 .selektor {
   text-decoration: underline rgb(255,135,0);
@@ -72,12 +75,23 @@ img {
   }
 }
 
-@media(max-width:575px){
+@media(max-width:500px){
   .icon{
     display:flex
   }
 }
 
+@media(max-width:10000px){
+  .icon2{
+    display:flex
+  }
+}
+
+@media(max-width:500px){
+  .icon2{
+    display:none
+  }
+}
 .container {
     grid-template-columns: repeat(4, 200px);
     grid-auto-rows: 20px;
@@ -612,10 +626,11 @@ a.u-link.u-text-hover-palette-B-base:hover {
   color: rgb(255,135,0) !important;
 }
 
-.frame{
+header.frame2{
+  width:500px;
   padding-left: 10px;
   padding-right: 20px;
-  text-align: centerks;
+  text-align: center;
 }
 .u-menu-dropdown .u-nav-container-2 .u-nav-item .u-nav-item .u-nav-popup-1 {
   top: 0;
