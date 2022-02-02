@@ -27,7 +27,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
 'caesar',
-'caesar.offis.uni-oldenburg.de'
+'caesar.offis.uni-oldenburg.de',
+'localhost'
 ]
 
 
