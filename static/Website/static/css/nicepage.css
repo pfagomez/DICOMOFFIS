@@ -15722,12 +15722,12 @@ div.u-video,
   white-space: normal;
 }
 .u-menu-mega .u-nav-container .u-mega-popup .u-nav {
-  display: block;
+  display: flex;
 }
 .u-menu-mega .u-nav-container .level-2 > .u-nav {
   display: flex;
   flex-flow: column wrap;
-  align-content: flex-start;
+  align-content: flex-end;
 }
 .u-menu-mega .u-nav-container .u-mega-popup .level-3 {
   position: relative;
@@ -17740,7 +17740,7 @@ div.u-video,
   display: block;
 }
 .u-nav-container-collapse {
-  display: none;
+  display: flex;
   z-index: 1001;
   left: 0 !important;
   top: 0 !important;

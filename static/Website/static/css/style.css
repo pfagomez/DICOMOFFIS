@@ -1,3 +1,45 @@
+
+ p1 { 
+  width: 50px;
+  padding: 0 20px; 
+  margin: 0;
+  word-break: break-word;
+  text-align: center;
+}
+.before::before, .after::after {
+  content: "\A";
+  white-space: pre;
+}
+.scrollmenu {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.scrollmenu a:hover {
+  background-color: #777;
+} 
+
+@media screen and (max-width:1190px) {
+  .u-nav-container{
+    display: none;
+  }
+}
+
+@media screen and (min-width:1190px) {
+  .u-nav-container-collapse{
+    display: flex;
+  }
+}
+
 .wrapper2{
     display: flex;
     left: 10px;
