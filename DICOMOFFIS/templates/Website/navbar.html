@@ -1,5 +1,5 @@
   {% load static %}
-<header class=" u-clearfix u-header u-header" id="sec-0efc" data-animation-name="" data-animation-duration="0"
+<header style="max-width: inherit;" class=" u-clearfix u-header u-header" id="sec-0efc" data-animation-name="" data-animation-duration="0"
   data-animation-delay="0" data-animation-direction="">
   <!-- <div class="wrapper3">
     <div class="wrapper2">
@@ -15,7 +15,7 @@
     </div>
     <a href="/Home"><img class="icon2" src="{% static 'images/Flagge_englisch.png' %}" height="25px"></img></a>
   </div>
-  <!--  </a><h1 class="u-text u-text-default u-text-1">DCMTK - OFFIS DICOM Toolkit</h1></div>-->
+  </a><h1 class="u-text u-text-default u-text-1">DCMTK - OFFIS DICOM Toolkit</h1></div>-->
   <nav class=" u-menu u-menu-dropdown u-offcanvas u-menu-1" data-position="right">
     <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px;">
       <a class="u-button-style u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base"
@@ -36,22 +36,21 @@
     </div>
 
     <!-- <a href="/Home"><img class="icon" src="{% static 'images/Flagge_englisch.png' %}" height="25px"></img></a> -->
-    <div class="u-align-right">
-      <div class="u-custom-menu u-nav-container">
-        <ul class="u-nav u-unstyled u-nav-1">
-          <li class="u-nav-item">
+    <div style="max-width: inherit;" class="">
+      <div style="max-width: inherit;" class="u-nav-container">
+        <ul style="background-color: rgb(43, 183, 226); max-width: device-width;" class="u-nav">
+          <li style="max-width: 10%" class="u-nav-item">
             <a href="https://www.offis.de/"><img class="shadow brand-logo" src="{% static 'images/OFFIS_Whitebackground.png' %}" height="100px"></a>
           </li>
-          <li class="u-nav-item">
+          <li style="max-width: 10%" class="u-nav-item">
             <a href="/Home"><img class="shadow brand-logo" src="{% static 'images/DCMTK_ohne_Rand.png' %}" height="100px"></a>
           </li>
-          <li class="u-nav-item"><a
+          <li style="background-color: pink; max-width: 10%; text-align: left" class="u-nav-item u-align-left"><a
               class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-B-base" href="/Home"
               style="padding: 10px 44px;">Home</a>
           </li>
-          <li class="u-nav-item"><a
-              class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-B-base"
-              href="/Allgemeines" style="padding: 10px 44px;">Allgemeines</a>
+          <li style="background-color: pink; max-width: 10%;" class="u-nav-item u-align-left"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-B-base" href="/Allgemeines" style="padding: 10px 44px;">
+            Allgemeines</a>
             <div class="u-nav-popup">
               <ul class="u-h-spacing-45 u-nav u-unstyled u-v-spacing-12 u-nav-2">
                 <li class="u-nav-item">
@@ -61,31 +60,29 @@
                 </li>
 
                 <li class="u-nav-item">
-                  <div class="styled-button4"><a
-                      class="u-button-style u-white-0 u-nav-link" href="/Allgemeines/DICOM-Einführung" >DICOM-Einführung</a>
+                  <div class="styled-button4">
+                    <a class="u-button-style u-white-0 u-nav-link" href="/Allgemeines/DICOM-Einführung" >DICOM-Einführung</a>
                   </div>
                 </li>
               </ul>
             </div>
           </li>
-          <li class="u-nav-item"><a
-              class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-B-base" href="/DCMTK"
-              style="padding: 10px 44px;">DCMTK</a>
+
+          <li style="background-color: pink; max-width: 10%;" class="u-nav-item">
+            <a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-B-base" href="/DCMTK" style="padding: 10px 44px;">
+              DCMTK</a>
             <div class="u-nav-popup">
               <ul class="u-h-spacing-45 u-nav u-unstyled u-v-spacing-12 u-nav-3">
                 <li class="u-nav-item">
-                  <div class="styled-button4"><a
-                      class="u-button-style u-white-0 u-nav-link" href="/DCMTK/DCMTK-Einführung" >DCMTK-Einführung</a>
+                  <div class="styled-button4"><a class="u-button-style u-white-0 u-nav-link" href="/DCMTK/DCMTK-Einführung" >DCMTK-Einführung</a>
                   </div>
                 </li>
                 <li class="u-nav-item">
-                  <div class="styled-button4"><a
-                      class="u-button-style u-white-0 u-nav-link" href="/DCMTK/DCMTK-Tools" >DCMTK-Tools</a>
+                  <div class="styled-button4"><a class="u-button-style u-white-0 u-nav-link" href="/DCMTK/DCMTK-Tools" >DCMTK-Tools</a>
                   </div>
                 </li>
                 <li class="u-nav-item">
-                  <div class="styled-button4"><a
-                      class="u-button-style u-white-0 u-nav-link" href="/DCMTK/Softwareentwicklung_mit_DCMTK" >Softwareentwicklung mit DCMTK</a>
+                  <div class="styled-button4"><a class="u-button-style u-white-0 u-nav-link" href="/DCMTK/Softwareentwicklung_mit_DCMTK" >Softwareentwicklung mit DCMTK</a>
                   </div>
                 </li>
                 <li class="u-nav-item">
@@ -100,9 +97,9 @@
             </div>
           </li>
 
-          <li class="u-nav-item"><a
-              class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-B-base"
-              href="/DCMTK-Erweiterungsmodule" style="padding: 10px 44px;">DCMTK-Erweiterungsmodule</a>
+          <li style="background-color: pink; max-width: 10%;" class="u-nav-item  hidden-md hidden-lg">
+            <a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-B-base" href="/DCMTK-Erweiterungsmodule" style="padding: 10px 44px;">
+              DCMTK Erweiterungsmodule</a>
             <div class="u-nav-popup">
               <ul class="u-h-spacing-45 u-nav u-unstyled u-v-spacing-12 u-nav-4">
                 <li class="u-nav-item"><div class="styled-button4"><a class="u-button-style u-white-0 u-nav-link" href="/DCMTK-Erweiterungsmodule/DCMPRINT" >DCMPRINT</a></div>
@@ -122,13 +119,15 @@
               </ul>
             </div>
           </li>
-          <li class="u-nav-item"><a
-              class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-B-base"
-              href="/DICOMscope" style="padding: 10px 44px;">DICOMscope</a>
+
+          <li style="background-color: pink; max-width: 10%;" class="u-nav-item">
+            <a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-B-base" href="/DICOMscope" style="padding: 10px 44px;">
+              DICOMscope</a>
           </li>
-          <li class="u-nav-item"><a
-              class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-B-base"
-              href="/Dienstleistungen" style="padding: 10px 44px;">Dienstleistungen</a>
+
+          <li style="background-color: pink; max-width: 10%;" class="u-nav-item">
+            <a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-B-base" href="/Dienstleistungen" style="padding: 10px 44px;">
+            Dienstleistungen</a>
             <div class="u-nav-popup">
               <ul class="u-h-spacing-45 u-nav u-unstyled u-v-spacing-12 u-nav-5">
                 <li class="u-nav-item"><div class="styled-button4"><a class="u-button-style u-white-0 u-nav-link" href="/Dienstleistungen/DICOM-Beratung" >DICOM-Beratung</a></div>
@@ -142,21 +141,25 @@
               </ul>
             </div>
           </li>
-          <li class="u-nav-item"><a
-              class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-B-base" href="/Kontakt"
-              style="padding: 10px 44px;">Kontakt</a>
+
+          <li style="background-color: pink; max-width: 10%;" class="u-nav-item">
+            <a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-B-base" href="/Kontakt" style="padding: 10px 44px;">
+              Kontakt</a>
             <div class="u-nav-popup">
               <ul class="u-h-spacing-45 u-nav u-unstyled u-v-spacing-12 u-nav-6">
+                <li class="u-nav-item">
+                  <div class="styled-button4"><a class="u-button-style u-white-0 u-nav-link" href="/Kontakt/Ansprechpartner" >
+                  Ansprechpartner</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
           </li>
-          <li class="u-nav-item"><div class="styled-button4"><a class="u-button-style u-white-0 u-nav-link" href="/Kontakt/Ansprechpartner" >Ansprechpartner</a></div>
-          </li>
+          <!-- <li class="u-nav-item">
+            <a href="/Home"><img src="{% static 'images/Flagge_englisch.png' %}" height="50px"></img></a>
+          </li> -->
         </ul>
       </div>
-      </li>
-      <li class="u-nav-item">
-        <a href="/Home"><img src="{% static 'images/Flagge_englisch.png' %}" height="50px"></img></a>
-      </li>
-      </ul>
     </div>
     
     <div class="u-custom-menu u-nav-container-collapse">
