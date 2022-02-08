@@ -916,7 +916,7 @@ body
   position: absolute;
   width: 350px;
   margin: -100px 0 0 -50px;
-  padding: 50px;
+  padding: 30px;
   padding-top: 125px;
   
   background: rgb(27,161,218);
@@ -932,8 +932,8 @@ body
 
 #menu li
 {
-  padding: 10px 0;
-  font-size: 22px;
+  padding: 3px 50px 0 0;
+  font-size: 18px;
 
 }
 
@@ -958,7 +958,7 @@ body
  }
 
  /*Ausklappen*/
- nav > ul, #nav > ul > li {
+ /* nav > ul, #nav > ul > li {
   float: none;
 }
 nav > ul > li > ul, nav > ul > li:hover > ul {
@@ -980,6 +980,25 @@ nav li > a:after {
 }
 nav li > a:only-child:after {
   content: "";
+} */
+
+ /*Ausklappen2*/
+ .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
 /* weißer Balken*/
@@ -989,3 +1008,4 @@ width: 15px;
 position:relative;
 background-color:white;
 }
+
