@@ -1,7 +1,9 @@
 {% load static %}
-<header style="max-width: inherit;" class=" u-clearfix u-header u-header" id="sec-0efc" data-animation-name=""
+<header style="max-width: inherit;  left: 50%;
+transform: translate(-50%, -0%);" class=" u-clearfix u-header u-header" id="sec-0efc" data-animation-name=""
   data-animation-duration="10" data-animation-delay="0" data-animation-direction="">
-  <nav id="nav" role="navigation" class="invisible">
+  <nav style="max-width: inherit;  left: 50%;
+  transform: translate(-50%, -0%);" id="nav" role="navigation" class="invisible">
     <div id="menuToggle">
       <input type="checkbox" />
       <!-- These spans generate the hamburger menu icon -->
@@ -127,44 +129,17 @@
     </ul>
     </div>
   </nav>
-  <!-- <div class="wrapper3">
-    <div class="wrapper2">
 
-      <a href="https://www.offis.de/"><img class="shadow brand-logo" src="{% static 'images/OFFIS_Whitebackground.png' %}"
-          height="100px"></a>
-      <a href="/Home"><img class="shadow brand-logo" src="{% static 'images/DCMTK_ohne_Rand.png' %}" height="100px"></a>
-    </div>
-    <div class="wrapper1">
-      <div>
-      </div>
-      <span class="brand-title">DCMTK<span class="brand-subtitle"> - OFFIS DICOM Toolkit</span></span>
-    </div>
-    <a href="/Home"><img class="icon2" src="{% static 'images/Flagge_englisch.png' %}" height="25px"></img></a>
-  </div>
-  </a><h1 class="u-text u-text-default u-text-1">DCMTK - OFFIS DICOM Toolkit</h1></div>-->
-  <nav class=" u-menu u-menu-dropdown u-offcanvas u-menu-1" data-position="right">
-    <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px;">
+  <nav id="top-menu" style="max-width: inherit;  left: 50%;
+  transform: translate(-50%, -0%);"class=" u-menu u-menu-dropdown u-offcanvas u-menu-1" data-position="right">
+    <div id="collapsed-top-menu" class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px;">
       <a class="u-button-style u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base"
         href="#">
-        <!-- <svg viewBox="0 0 24 24">
-          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use>
-        </svg>
-        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-          <defs class="wrapper5">
-            <symbol class="u-menu-close" id="menu-hamburger" viewBox="-10 0 30 1" style="background-color: rgb(163, 22, 22); width: 30px; height: 50px; display: flex;">
-              <rect y="1" width="25" height="2"></rect>
-              <rect y="7" width="25" height="2"></rect>
-              <rect y="13" width="25" height="2"></rect>
-            </symbol>
-          </defs>
-        </svg> -->
       </a>
     </div>
-
-    <!-- <a href="/Home"><img class="icon" src="{% static 'images/Flagge_englisch.png' %}" height="25px"></img></a> -->
-    <!-- <div style="max-width: inherit;" class=""> -->
-    <div style="max-width: inherit;" class="u-nav-container">
-      <ul class="u-nav u-tabs.u-tab-links-align-right u-tab-list">
+    <div id="uncollapsed-top-menu" style="max-width: inherit;" class="u-nav-container">
+      <ul id="top-menu-unordered-list" style="max-width: inherit;  left: 50%;
+      transform: translate(-50%, -0%);" class="u-nav u-tabs.u-tab-links-align-right u-tab-list">
         <li style="max-width: 20%" class="u-nav-item">
           <a href="https://www.offis.de/"><img class="shadow brand-logo"
               src="{% static 'images/OFFIS_Whitebackground.png' %}" height="100px"></a>
