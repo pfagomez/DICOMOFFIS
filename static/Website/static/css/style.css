@@ -934,7 +934,7 @@ body
 {
   padding: 3px 50px 0 0;
   font-size: 18px;
-  
+  border: 2px none white;
 
 }
 
@@ -1002,11 +1002,9 @@ nav li > a:only-child:after {
   display: block;
 } */
 
-/* weißer Balken*/
-.weißerBalken{
-height:15px;
-width: 15px;
-position:relative;
-background-color:white;
+#show1{
+  z-index: 950;
 }
-
+#show2{
+  z-index: 900;
+}
