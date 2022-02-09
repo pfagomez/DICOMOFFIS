@@ -1,3 +1,46 @@
+
+
+ p1 { 
+  width: 50px;
+  padding: 0 20px; 
+  margin: 0;
+  word-break: break-word;
+  text-align: center;
+}
+.before::before, .after::after {
+  content: "\A";
+  white-space: pre;
+}
+.scrollmenu {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.scrollmenu a:hover {
+  background-color: #777;
+} 
+
+@media screen and (max-width:1441px) {
+  .u-nav-container{
+    display: none;
+  }
+}
+
+@media screen and (max-width:1190px) {
+  .u-nav-container-collapse{
+    display: flex;
+  }
+}
+
 .wrapper2{
     display: flex;
     left: 10px;
@@ -26,6 +69,9 @@
 
 .icon{
   left: 300px;
+  position: absolute;
+}
+.icon2{
   position: absolute;
 }
 
@@ -72,12 +118,23 @@ img {
   }
 }
 
-@media(max-width:575px){
+@media(max-width:500px){
   .icon{
     display:flex
   }
 }
 
+@media(max-width:10000px){
+  .icon2{
+    display:flex
+  }
+}
+
+@media(max-width:500px){
+  .icon2{
+    display:none
+  }
+}
 .container {
     grid-template-columns: repeat(4, 200px);
     grid-auto-rows: 20px;
@@ -612,10 +669,11 @@ a.u-link.u-text-hover-palette-B-base:hover {
   color: rgb(255,135,0) !important;
 }
 
-.frame{
+header.frame2{
+  width:500px;
   padding-left: 10px;
   padding-right: 20px;
-  text-align: centerks;
+  text-align: center;
 }
 .u-menu-dropdown .u-nav-container-2 .u-nav-item .u-nav-item .u-nav-popup-1 {
   top: 0;
@@ -725,4 +783,228 @@ a.u-link.u-text-hover-palette-B-base:hover {
 }
 .u-enable-responsive .u-nav-container-2 {
   display: none;
+}
+@media (min-width:1441px){
+  .u-menu-close{
+      display: fixed;
+}
+}
+
+/* hamburger-memu */
+body
+{
+  margin: 0;
+  padding: 0;
+  
+  /* make it look decent enough */
+  background: #232323;
+  color: rgb(27,161,218);
+  font-family: "Avenir Next", "Avenir", sans-serif;
+}
+
+#menuToggle
+{
+  display: block;
+  position: relative;
+  top: 50px;
+  left: 50px;
+  
+  z-index: 1;
+  
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#menuToggle a
+{
+  text-decoration: none;
+  color: #232323;
+  
+  transition: color 0.3s ease;
+}
+
+#menuToggle a:hover
+{
+  color: rgb(255,135,0);
+}
+
+
+#menuToggle input
+{
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  
+  cursor: pointer;
+  
+  opacity: 0; /* hide this */
+  z-index: 2; /* and place it over the hamburger */
+  
+  -webkit-touch-callout: none;
+}
+
+/*
+ * Just a quick hamburger
+ */
+#menuToggle span
+{
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  
+  background: rgb(27,161,218);
+  border-radius: 3px;
+  
+  z-index: 1;
+  
+  transform-origin: 4px 0px;
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+#menuToggle span:first-child
+{
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+
+/* 
+ * Transform all the slices of hamburger
+ * into a crossmark.
+ */
+#menuToggle input:checked ~ span
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #232323;
+}
+
+/*
+ * But let's hide the middle one.
+ */
+#menuToggle input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+/*
+ * Ohyeah and the last one should go the other direction
+ */
+#menuToggle input:checked ~ span:nth-last-child(2)
+{
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+/*
+ * Make this absolute positioned
+ * at the top left of the screen
+ */
+#menu
+{
+  position: absolute;
+  width: 350px;
+  margin: -100px 0 0 -50px;
+  padding: 30px;
+  padding-top: 125px;
+  
+  background: rgb(27,161,218);
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  /* to stop flickering of text in safari */
+  
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu li
+{
+  padding: 3px 50px 0 0;
+  font-size: 18px;
+  border: 2px none white;
+
+}
+
+/*
+ * And let's slide it in from the left
+ */
+#menuToggle input:checked ~ ul
+{
+  transform: none;
+}
+
+@media (min-width: 1441px){
+ .invisible{
+    display: flex;
+  }
+}
+
+@media (min-width: 1442px){
+  .invisible{
+     display: none;
+   }
+ }
+
+ /*Ausklappen*/
+ nav > ul, #nav > ul > li {
+  float: none;
+}
+nav > ul > li > ul, nav > ul > li:hover > ul {
+  position: relative;
+}
+nav > ul > li {
+  display: none;
+}
+nav > ul:hover li {
+  display: block;
+}
+nav > ul::before {
+  display: block;
+  content: "Menü";
+  padding: 10px;
+}
+nav li > a:after {
+  content: " ↓";
+}
+nav li > a:only-child:after {
+  content: "";
+}
+
+ /*Ausklappen2*/
+ /* .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+} */
+
+#show1{
+  z-index: 950;
+}
+#show2{
+  z-index: 900;
 }

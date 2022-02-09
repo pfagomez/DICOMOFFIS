@@ -33,5 +33,4 @@ urlpatterns =[
    path('Dienstleistungen/HL7-Schulung', views.hl7Schulung, name = ("HL7-Schulung")),
    path('Datenschutz/', views.datenschutz, name = ("Datenschutz")),
    path('Impressum/', views.impressum, name = ("Impressum")),
-
 ]
