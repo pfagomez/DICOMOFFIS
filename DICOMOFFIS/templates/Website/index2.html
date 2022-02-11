@@ -10,6 +10,7 @@
   <meta name="page_type" content="np-template-header-footer-from-plugin">
   <link rel="stylesheet" href="{% static 'Website/static/css/nicepage.css' %}" media="screen">
   <link rel="stylesheet" href="{% static 'Website/static/css/style.css' %}" media="screen">
+  <link rel="stylesheet" href="{% static 'Website/static/css/example.scss' %}" media="screen">
   <script class="u-script" type="text/javascript" src="{% static 'Website/static/js/vendor/jquery/jquery.js' %}"
     defer=""></script>
   <script class="u-script" type="text/javascript" src="{% static 'Website/static/js/nicepage.js' %}" defer=""></script>
@@ -32,10 +33,10 @@
 {% include "Website/navbar.html" %}
 
 <body data-home-page="Home.html" data-home-page-title="Home" class="u-body">
-  <section class="u-clearfix u-blue-0 u-section-1" id="sec-b8cd">
+  <div class="u-clearfix u-blue-0 u-section-1" id="sec-b8cd">
     <div class="wrapper4">
       <div class="frame">
-        <h2 style="text-align: justify;">Was ist der DICOM-Standard?</h2>
+        <h2 style="text-align: center;">Was ist der DICOM-Standard?</h2>
         <p style="text-align: justify;">DICOM steht für Digital Imaging and Communications in Medicine. Der weltweit
           akzeptierte Standard befasst sich damit, die Speicherung und den Austausch medizinischer Bildinformationen und
           assoziierter Daten zu standardisieren.
@@ -45,7 +46,7 @@
         </p>
       </div>
       <div class="frame">
-        <h2 style="text-align: justify;">Was macht das OFFIS-DICOM Team?</h2>
+        <h2 style="text-align: center;">Was macht das OFFIS-DICOM Team?</h2>
         <p style="text-align: justify;">OFFIS beschäftigt sich seit 1993 mit dem DICOM Standard. Wir machen Beratung
           rund um den DICOM-Standard und um die OFFIS DICOM-Software <a class="selektor u-text-white"
             href="DCMTK/">DCMTK</a>. Außerdem bieten wir
@@ -61,7 +62,7 @@
     <div class="u-expanded-width u-table u-table-responsive u-table-1 table-border jerky">
       <table class="u-table-entity">
         <caption
-          class="u-align-center u-grey-m u-border-1 u-border-grey-m u-border-no-left u-border-no-right u-table-cell u-text-black">
+          class="u-align-center u-grey-m u-border-1 u-border-grey-m u-border-no-left u-border-no-right u-table-cell u-text-black" style="border-radius:10px 10px 0px 0px;">
           <h5>DICOM-Schulungen</h5>
         </caption>
         <colgroup>
@@ -93,10 +94,10 @@
                 DICOM-Intensivkurs, je nach Pandemielage online oder in Präsenz</td>
             </tr>
             <tr style="height: 76px;">
-              <td class="u-align-center u-white u-border-1 u-border-black u-border-no-left u-border-no-right u-table-cell"
-                style="text-indent: 20px;">21.-22. September 2022</td>
-              <td class="u-align-center u-white u-border-1 u-border-black u-border-no-left u-border-no-right u-table-cell"
-                style="text-indent: 20px;"><img src="{% static 'images/197571.png' %}" height="14px"></img>
+              <td class="u-align-center u-white u-border-1 u-border-no-left u-border-no-right u-table-cell"
+                style="text-indent: 20px; border-radius:0px 0px 0px 10px;">21.-22. September 2022</td>
+              <td class="u-align-center u-white u-border-1 u-border-no-left u-border-no-right u-table-cell"
+                style="text-indent: 20px; border-radius:0px 0px 10px 0px;"><img src="{% static 'images/197571.png' %}" height="14px"></img>
                 DICOM-Advanced, je nach Pandemielage online oder in Präsenz</td>
             </tr>
           </tbody>
@@ -105,7 +106,7 @@
       <div class="u-expanded-width u-table u-table-responsive u-table-1 table-border">
       <table class="u-table-entity">
         <caption
-          class="u-align-center u-grey-m u-border-1 u-border-grey-m u-border-no-left u-border-no-right u-table-cell u-text-black">
+          class="u-align-center u-grey-m u-border-1 u-border-grey-m u-border-no-left u-border-no-right u-table-cell u-text-black" style="border-radius:10px 10px 0px 0px;">
           <h5>HL7-Schulungen</h5>
         </caption>
         <colgroup>
@@ -124,10 +125,10 @@
             </td>
           </tr>
           <tr style="height: 76px;">
-            <td class="u-align-center u-white u-border-1 u-border-black u-border-no-left u-border-no-right u-table-cell"
-              style="text-indent: 20px;">16.-17. November 2022</td>
-            <td class="u-align-center u-white u-border-1 u-border-black u-border-no-left u-border-no-right u-table-cell"
-              style="text-indent: 20px;"><img src="{% static 'images/197571.png' %}" height="14px"></img>
+            <td class="u-align-center u-white u-border-1 u-border-no-left u-border-no-right u-table-cell"
+              style="text-indent: 20px; border-radius:0px 0px 0px 10px;">16.-17. November 2022</td>
+            <td class="u-align-center u-white u-border-1 u-border-no-left u-border-no-right u-table-cell"
+              style="text-indent: 20px; border-radius:0px 0px 10px 0px;"><img src="{% static 'images/197571.png' %}" height="14px"></img>
               HL7v2-Intensivkurs und -Troubleshooting, je nach Pandemielage online oder in Präsenz</td>
           </tr>
         </tbody>
@@ -136,7 +137,7 @@
     <div class="u-expanded-width u-table u-table-responsive u-table-1 table-border">
       <table class="u-table-entity">
         <caption
-          class="u-align-center u-grey-m u-border-1 u-border-grey-m u-border-no-left u-border-no-right u-table-cell u-text-black">
+          class="u-align-center u-grey-m u-border-1 u-border-grey-m u-border-no-left u-border-no-right u-table-cell u-text-black" style="border-radius:10px 10px 0px 0px;"">
           <h5>IHE-Schulungen</h5>
         </caption>
         <colgroup>
@@ -147,17 +148,17 @@
         </thead>
         <tbody class="u-table-body">
           <tr style="height: 76px;">
-            <td class="u-align-center u-white u-border-1 u-border-black u-border-no-left u-border-no-right u-table-cell"
-              style="text-indent: 20px;">11.-12. Mai 2022</td>
-            <td class="u-align-center u-white u-border-1 u-border-black u-border-no-left u-border-no-right u-table-cell"
-              style="text-indent: 20px;"><img src="{% static 'images/197571.png' %}" height="14px"></img> Patientenakten
+            <td class="u-align-center u-white u-border-1  u-border-no-left u-border-no-right u-table-cell"
+              style="text-indent: 20px; border-radius:0px 0px 0px 10px;">11.-12. Mai 2022</td>
+            <td class="u-align-center u-white u-border-1 u-border-no-left u-border-no-right u-table-cell"
+              style="text-indent: 20px; border-radius:0px 0px 10px 0px;"><img src="{% static 'images/197571.png' %}" height="14px"></img> Patientenakten
               mit IHE, je nach Pandemielage online oder in Präsenz
             </td>
         </tbody>
       </table>
     </div>
     <div class="u-clearfix u-sheet u-sheet-1"></div>
-  </section>
+  </div>
 </body>
 
 {% include "Website/footer.html" %}
