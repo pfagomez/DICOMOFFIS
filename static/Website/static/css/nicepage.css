@@ -20486,6 +20486,7 @@ a.u-button-style.u-border-9 {
 .u-text.u-border-10,
 a.u-button-style.u-border-10 {
   border-width: 10px;
+  border-color:rgb(31, 144, 192);
 }
 .u-shape-svg.u-border-10 {
   stroke-width: 10px;
