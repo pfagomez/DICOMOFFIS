@@ -8,12 +8,12 @@
   <meta name="keywords" content="DCMTK - OFFIS DICOM Toolkit">
   <meta name="description" content="">
   <meta name="page_type" content="np-template-header-footer-from-plugin">
-  <link rel="stylesheet" href="{% static 'Website/static/css/nicepage.css' %}" media="screen">
-  <link rel="stylesheet" href="{% static 'Website/static/css/style.css' %}" media="screen">
-  <link rel="stylesheet" href="{% static 'Website/static/css/example.scss' %}" media="screen">
-  <script class="u-script" type="text/javascript" src="{% static 'Website/static/js/vendor/jquery/jquery.js' %}"
+  <link rel="stylesheet" href="{% static 'website/static/css/nicepage.css' %}" media="screen">
+  <link rel="stylesheet" href="{% static 'website/static/css/style.css' %}" media="screen">
+  <link rel="stylesheet" href="{% static 'website/static/css/example.scss' %}" media="screen">
+  <script class="u-script" type="text/javascript" src="{% static 'website/static/js/vendor/jquery/jquery.js' %}"
     defer=""></script>
-  <script class="u-script" type="text/javascript" src="{% static 'Website/static/js/nicepage.js' %}" defer=""></script>
+  <script class="u-script" type="text/javascript" src="{% static 'website/static/js/nicepage.js' %}" defer=""></script>
   <link id="u-theme-google-font" rel="stylesheet"
     href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
   <script type="application/ld+json">{
@@ -26,14 +26,12 @@
   <meta property="og:type" content="website">
 
   <title>Home</title>
-  <!-- <link rel="stylesheet" href="{% static 'Website/static/css/Home.css' %}" media="screen"> -->
+  <!-- <link rel="stylesheet" href="{% static 'website/static/css/Home.css' %}" media="screen"> -->
   <meta property="og:title" content="Home">
 </head>
-
-{% include "Website/navbar.html" %}
-
+{% include "website/navbar.html" %}
 <body data-home-page="Home.html" data-home-page-title="Home" class="u-body">
-  <div class="u-clearfix u-blue-0 u-section-1" id="sec-b8cd">
+  <div class="u-clearfix u-blue-0 u-section-1" id="sec-b8cd" style="max-width: 1200px; margin-left: auto; margin-right: auto;">
     <div class="wrapper4">
       <div class="frame">
         <h2 style="text-align: center;">Was ist der DICOM-Standard?</h2>
@@ -161,6 +159,6 @@
   </div>
 </body>
 
-{% include "Website/footer.html" %}
+{% include "website/footer.html" %}
 
 </html>
