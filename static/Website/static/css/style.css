@@ -913,7 +913,7 @@ body
  * Make this absolute positioned
  * at the top left of the screen
  */
-#menu
+#side-menu
 {
   position: absolute;
   width: 350px;
@@ -932,7 +932,7 @@ body
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 }
 
-#menu li
+#side-menu li
 {
   padding: 3px 50px 0 0;
   font-size: 18px;
