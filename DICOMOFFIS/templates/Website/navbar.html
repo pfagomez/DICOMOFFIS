@@ -11,7 +11,7 @@ transform: translate(-50%, -0%);" class=" u-clearfix u-header u-header" id="sec-
       <span></span>
       <span></span>
 
-      <ul id="menu" class="u-opacity u-opacity-95" ::before>
+      <ul id="side-menu" class="u-opacity u-opacity-95" ::before>
         <li class="u-nav-item">
           <a class="  u-nav-link u-text-white u-text-hover-palette-B-base" href="/Home">Home</a>
         </li>
@@ -115,7 +115,7 @@ transform: translate(-50%, -0%);" class=" u-clearfix u-header u-header" id="sec-
               href="/Dienstleistungen/DICOM-Schulung">DICOM-Schulung</a>
           </li>
           <li class="u-nav-item">
-            <a class="u-text-white" style="margin-left: 25px;" href="/Dienstleistungen/IHE-Schulung<">IHE-Schulung</a>
+            <a class="u-text-white" style="margin-left: 25px;" href="/Dienstleistungen/IHE-Schulung">IHE-Schulung</a>
           </li>
           <li class="u-nav-item">
             <a class="u-text-white" style="margin-left: 25px;" href="/Dienstleistungen/HL7-Schulung">HL7-Schulung</a>
@@ -151,6 +151,7 @@ transform: translate(-50%, -0%);" class=" u-clearfix u-header u-header" id="sec-
     <div id="uncollapsed-top-menu" style="max-width: inherit;" class="u-nav-container">
       <ul id="top-menu-unordered-list" style="max-width: inherit;  left: 50%; z-index: 950;
       transform: translate(-50%, -0%);" class="u-nav u-tabs.u-tab-links-align-right u-tab-list">
+        <!-- <li style="max-width: 20%" class="u-nav-item"> -->
         <li style="max-width: 20%" class="u-nav-item">
           <a href="https://www.offis.de/"><img class="shadow brand-logo"
               src="{% static 'images/OFFIS_Whitebackground.png' %}" height="100px"></a>
@@ -159,13 +160,15 @@ transform: translate(-50%, -0%);" class=" u-clearfix u-header u-header" id="sec-
           <a href="/Home"><img class="shadow brand-logo" src="{% static 'images/DCMTK_ohne_Rand.png' %}"
               height="100px"></a>
         </li>
-        <li style=" min-width:10%; max-width: 15%; text-align: left; margin-left: -25px;"
-          class="u-nav-item u-align-left">
+        <li style="min-width: fit-content" class="u-nav-item">
+        <!-- <li style=" min-width:10%; max-width: 15%; text-align: left; margin-left: -25px;"
+          class="u-nav-item u-align-left"> -->
           <a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-B-base"
             href="/Home">Home</a>
         </li>
-        <li style=" min-width:13%; max-width: 10%; margin-left: -25px;" class="u-nav-item u-align-left">
-          <a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-B-base"
+        <!-- <li style=" min-width:13%; max-width: 10%; margin-left: -25px;" class="u-nav-item u-align-left"> -->
+          <li style="min-width: fit-content" class="u-nav-item">
+            <a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-B-base"
             href="/Allgemeines">
             Allgemeines</a>
           <div class="u-nav-popup">
@@ -187,8 +190,9 @@ transform: translate(-50%, -0%);" class=" u-clearfix u-header u-header" id="sec-
           </div>
         </li>
 
-        <li style=" min-width:5%; max-width: 10%; margin-left: -25px;" class="u-nav-item">
-          <a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-B-base" href="/DCMTK">
+        <!-- <li style=" min-width:5%; max-width: 10%; margin-left: -25px;" class="u-nav-item"> -->
+          <li style="min-width: fit-content" class="u-nav-item">
+            <a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-B-base" href="/DCMTK">
             DCMTK</a>
           <div class="u-nav-popup">
             <ul class="u-h-spacing-45 u-nav u-unstyled u-v-spacing-12 " style="margin-left:-20%;">
@@ -222,9 +226,10 @@ transform: translate(-50%, -0%);" class=" u-clearfix u-header u-header" id="sec-
           </div>
         </li>
 
-        <li style=" min-width:17%; max-width: 10%; margin-left: -25px;" class="u-nav-item  ">
-          <a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-B-base u-align-center"
-            href="/DCMTK-Erweiterungsmodule" style="padding: 10px 44px;">
+        <!-- <li style=" min-width:17%; max-width: 10%; margin-left: -25px;" class="u-nav-item  "> -->
+          <li style="min-width: fit-content" class="u-nav-item">
+            <a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-B-base u-align-center"
+            href="/DCMTK-Erweiterungsmodule" style="padding: 10px 0px;">
             <br>DCMTK</br> Erweiterungsmodule</a>
           <div class="u-nav-popup">
             <ul class="u-h-spacing-45 u-nav u-unstyled u-v-spacing-12 u-nav-4">
