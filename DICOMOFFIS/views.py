@@ -1,99 +1,99 @@
 from django.shortcuts import render
 from django.template import loader
-from .models import Eintrag
+from .models import eintrag
 
-# Create your views here.
-def index2 (request):
-    letzer_Eintrag = Eintrag.objects.order_by('datum')
-    loader.get_template('Website/index2.html')
+# create your views here.
+def home (request):
+    letzer_eintrag = eintrag.objects.order_by('datum')
+    loader.get_template('website/home.html')
     context = {
-        'latest_question_list': letzer_Eintrag,
+        'latest_question_list': letzer_eintrag,
     }
-    return render (request,'Website/index2.html',);
+    return render (request,'website/home.html',context)
 
 def allgemeines (request):
-    return render (request,'Website/Allgemeines/Allgemeines.html')
+    return render (request,'website/allgemeines/allgemeines.html')
 
 def dcmtk (request):
-    return render (request, 'Website/DCMTK/DCMTK.html')
+    return render (request, 'website/dcmtk/dcmtk.html')
 
 def home (request):
-    return render (request, 'Website/Home.html')
+    return render (request, 'website/home.html')
 
-def dcmtkErweiterungsmodule (request):
-    return render (request, 'Website/DCMTK-Erweiterungsmodule/DCMTK-Erweiterungsmodule.html')
+def dcmtk_erweiterungsmodule (request):
+    return render (request, 'website/dcmtk-erweiterungsmodule/dcmtk-erweiterungsmodule.html')
 
 def dicomscope (request):
-    return render(request, 'Website/DICOMscope.html')
+    return render(request, 'website/dicomscope.html')
 
 def kontakt (request):
-    return render(request, 'Website/Kontakt/Kontakt.html')
+    return render(request, 'website/kontakt/kontakt.html')
 
 def ansprechpartner (request):
-    return render(request, 'Website/Kontakt/Ansprechpartner.html')
+    return render(request, 'website/kontakt/ansprechpartner.html')
 
 def dienstleistungen (request):
-    return render(request, 'Website/Dienstleistungen/Dienstleistungen.html')
+    return render(request, 'website/dienstleistungen/dienstleistungen.html')
 
 def datenschutz (request):
-    return render(request, 'Website/Datenschutz.html')
+    return render(request, 'website/datenschutz.html')
 
 def impressum (request):
-    return render(request, 'Website/Impressum.html')
+    return render(request, 'website/impressum.html')
 
 def offis (request):
     return render(request, 'https://www.offis.de')
 
 def standardisierung (request):
-    return render(request, 'Website/Allgemeines/Standardisierung.html')
+    return render(request, 'website/allgemeines/standardisierung.html')
 
-def dicomEinführung (request):
-    return render(request, 'Website/Allgemeines/DICOM-Einführung.html')
+def dicom_einfuehrung (request):
+    return render(request, 'website/allgemeines/dicom-einfuehrung.html')
 
-def dcmtkEinführung (request):
-    return render (request, 'Website/DCMTK/DCMTK-Einführung.html')
+def dcmtk_einfuehrung (request):
+    return render (request, 'website/dcmtk/dcmtk-einführung.html')
 
-def dcmtkTools (request):
-    return render (request, 'Website/DCMTK/DCMTK-Tools.html')
+def dcmtk_tools (request):
+    return render (request, 'website/dcmtk/dcmtk-tools.html')
 
-def softwareentwicklungMitDcmtk (request):
-    return render (request, 'Website/DCMTK/Softwareentwicklung_mit_DCMTK.html')
+def softwareentwicklung_mit_dcmtk (request):
+    return render (request, 'website/dcmtk/softwareentwicklung-mit-dcmtk.html')
 
 def spenden (request):
-    return render (request, 'Website/DCMTK/Spenden.html')
+    return render (request, 'website/dcmtk/spenden.html')
 
 def support (request):
-    return render (request, 'Website/DCMTK/Support.html')
+    return render (request, 'website/dcmtk/support.html')
 
 def dcmjp2k (request):
-    return render (request, 'Website/DCMTK-Erweiterungsmodule/DCMJP2K.html')
+    return render (request, 'website/dcmtk-erweiterungsmodule/dcmjp2k.html')
 
 def dcmppscu (request):
-    return render (request, 'Website/DCMTK-Erweiterungsmodule/DCMPPSCU.html')
+    return render (request, 'website/dcmtk-erweiterungsmodule/dcmppscu.html')
 
 def dcmprint (request):
-    return render (request, 'Website/DCMTK-Erweiterungsmodule/DCMPRINT.html')
+    return render (request, 'website/dcmtk-erweiterungsmodule/dcmprint.html')
 
 def ppsmgr (request):
-    return render (request, 'Website/DCMTK-Erweiterungsmodule/PPSMGR.html')
+    return render (request, 'website/dcmtk-erweiterungsmodule/ppsmgr.html')
 
-def testversionen (request):
-    return render (request, 'Website/DCMTK-Erweiterungsmodule/Testversionen.html')
+def test_versionen (request):
+    return render (request, 'website/dcmtk-erweiterungsmodule/testversionen.html')
 
 def dcmpps (request):
-    return render (request, 'Website/DCMTK-Erweiterungsmodule/DCMPPS.html')
+    return render (request, 'website/dcmtk-erweiterungsmodule/dcmpps.html')
 
 def dcmstcom (request):
-    return render (request, 'Website/DCMTK-Erweiterungsmodule/DCMSTCOM.html')
+    return render (request, 'website/dcmtk-erweiterungsmodule/dcmstcom.html')
 
-def dicomBeratung (request):
-    return render(request, 'Website/Dienstleistungen/DICOM-Beratung.html')
+def dicom_beratung (request):
+    return render(request, 'website/dienstleistungen/dicom-beratung.html')
 
-def dicomSchulung (request):
-    return render(request, 'Website/Dienstleistungen/DICOM-Schulung.html')
+def dicom_schulung (request):
+    return render(request, 'website/dienstleistungen/dicom-schulung.html')
 
-def hl7Schulung (request):
-    return render(request, 'Website/Dienstleistungen/HL7-Schulung.html')
+def hl7_schulung (request):
+    return render(request, 'website/dienstleistungen/hl7-schulung.html')
 
-def iheSchulung (request):
-    return render(request, 'Website/Dienstleistungen/IHE-Schulung.html')
+def ihe_schulung (request):
+    return render(request, 'website/dienstleistungen/ihe-schulung.html')
